@@ -1,0 +1,32 @@
+# Structural example only: fill your own fields and design DNS/rules for your network.
+mixed-port: 7890
+allow-lan: false
+mode: rule
+log-level: warning
+proxies:
+  - name: My VPS
+    type: vless
+    server: vps.example.invalid
+    port: 443
+    uuid: REPLACE_WITH_YOUR_UUID
+    network: tcp
+    udp: true
+    flow: xtls-rprx-vision
+    tls: true
+    servername: REPLACE_WITH_MATCHING_SERVER_NAME
+    client-fingerprint: chrome
+    reality-opts:
+      public-key: REPLACE_WITH_YOUR_PUBLIC_KEY
+      short-id: REPLACE_WITH_YOUR_SHORT_ID
+proxy-groups:
+  - name: VPS
+    type: select
+    proxies:
+      - My VPS
+rules:
+  - DOMAIN-SUFFIX,local,DIRECT
+  - IP-CIDR,192.168.0.0/16,DIRECT,no-resolve
+  - IP-CIDR,10.0.0.0/8,DIRECT,no-resolve
+  - DOMAIN-SUFFIX,chatgpt.com,VPS
+  - DOMAIN-SUFFIX,github.com,VPS
+  - MATCH,VPS

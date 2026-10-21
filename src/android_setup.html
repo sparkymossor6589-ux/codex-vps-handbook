@@ -1,0 +1,112 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="referrer" content="no-referrer">
+  <meta name="theme-color" content="#f5f7fb">
+  <title>安卓接入</title>
+  <style>
+    :root{color-scheme:light;--ink:#17263c;--muted:#647188;--blue:#2563df;--line:#e2e7f0;--paper:#fff}
+    *{box-sizing:border-box}html{scroll-behavior:smooth;scroll-padding-top:24px}
+    body{margin:0;background:#f5f7fb;color:var(--ink);font:15px/1.75 -apple-system,BlinkMacSystemFont,"Segoe UI","PingFang SC","Microsoft YaHei",sans-serif;-webkit-font-smoothing:antialiased}
+    main{width:min(100% - 40px,720px);margin:0 auto;padding:30px 0 54px}
+    .topbar{display:flex;align-items:center;justify-content:space-between;gap:16px;margin-bottom:38px;font-size:12px}
+    .brand{font-weight:750;letter-spacing:.14em;color:#53647c}.topbar a{color:var(--muted);text-decoration:none}
+    .hero{margin-bottom:30px}.hero-head{display:flex;gap:18px;align-items:center}
+    .icon{width:58px;height:58px;flex:none;display:grid;place-items:center;background:#e6eeff;border:1px solid #d7e3ff;border-radius:18px;color:var(--blue)}
+    .eyebrow{margin:0 0 1px;font-size:12px;color:var(--muted);letter-spacing:.08em}
+    h1{margin:0;font-size:34px;line-height:1.4;letter-spacing:-.04em;font-weight:760}
+    .lead{font-size:16px;margin:18px 0 14px;color:#4f6078}.routing{display:flex;flex-wrap:wrap;gap:8px}
+    .routing span{background:#edf1f7;border:1px solid #e3e9f1;color:#52627b;border-radius:7px;padding:3px 9px;font-size:12px}
+    .card{background:var(--paper);border:1px solid var(--line);border-radius:20px;padding:25px 26px;margin:14px 0;box-shadow:0 4px 18px #172b4d03}
+    .card-title{display:flex;align-items:center;gap:12px;margin-bottom:12px}.step{display:grid;place-items:center;width:29px;height:29px;flex:none;border-radius:9px;background:#edf2fc;color:var(--blue);font-size:12px;font-weight:750;font-variant-numeric:tabular-nums}
+    h2{margin:0;font-size:19px;line-height:1.5;font-weight:720;letter-spacing:-.02em}p{margin:10px 0}.sub{color:var(--muted);font-size:14px}
+    .button{min-height:49px;display:flex;align-items:center;justify-content:center;gap:8px;padding:11px 16px;border:1px solid transparent;border-radius:11px;background:var(--blue);color:white;text-decoration:none;font-size:15px;font-weight:650;line-height:1.7;font-family:inherit;cursor:pointer;transition:background .15s,box-shadow .15s}
+    .button:hover{background:#1d53c4}.button:active{transform:translateY(1px)}.button:focus-visible,summary:focus-visible,a:focus-visible,textarea:focus-visible{outline:3px solid #a7c2ff;outline-offset:4px}
+    .button.secondary{border-color:#d7e2f7;background:#f0f5ff;color:#2459b8}.button.secondary:hover{background:#e6eeff}.button svg{flex:none}
+    .action{margin-top:18px}.metadata{display:flex;flex-wrap:wrap;gap:8px 16px;font-size:12px;color:var(--muted);margin-top:10px}.metadata span+span{position:relative}.metadata span+span:before{content:"";position:absolute;left:-9px;top:10px;width:2px;height:2px;border-radius:50%;background:#a6b0c0}
+    .hint{font-size:12px;color:var(--muted);margin-top:12px}.emphasis{border-color:#cbdbfb;box-shadow:0 4px 18px #2563df06}
+    .settings{margin:15px 0 16px;background:#f7f9fc;border:1px solid #e9edf4;border-radius:12px;padding:4px 15px}
+    .settings div{display:flex;align-items:center;justify-content:space-between;gap:20px;padding:10px 0}.settings div+div{border-top:1px solid #e7ecf4}.settings dt{color:var(--muted);font-size:13px}.settings dd{margin:0;text-align:right;font-weight:600;font-size:14px}.arrow{padding:0 5px;color:#8a98af}
+    .help{margin-top:30px}.help>h2{font-size:17px;margin:0 0 12px 2px}.help-box{background:#fff;border:1px solid var(--line);border-radius:16px;padding:0 20px}
+    details+details{border-top:1px solid #e8edf4}summary{padding:16px 23px 16px 0;cursor:pointer;list-style:none;position:relative;font-size:14px;font-weight:600}summary::-webkit-details-marker{display:none}summary:after{content:"+";position:absolute;right:0;top:14px;color:#7a8ba4;font-size:19px;font-weight:400}details[open] summary:after{content:"−"}details[open] summary{padding-bottom:6px}.answer{padding-bottom:18px;color:#52627b;font-size:13px}.answer p{margin:8px 0}.answer a{color:#245dc5;text-underline-offset:3px}
+    .url-label{display:block;font-size:12px;margin:14px 0 7px;color:var(--muted)}textarea{display:block;width:100%;resize:none;min-height:80px;padding:10px 12px;border:1px solid #dce3ef;border-radius:9px;background:#f8faff;color:#4f6180;font:12px/1.65 ui-monospace,SFMono-Regular,Consolas,monospace;overflow-wrap:anywhere;word-break:break-all}
+    .copy-row{display:flex;gap:12px;align-items:center;margin-top:10px}.copy-row .button{min-height:38px;padding:6px 14px;font-size:13px}.copy-status{font-size:12px;color:#497a62;min-height:1.5em}
+    .note{font-size:12px;color:#7b879a;text-align:center;margin:22px 0 0}
+    @media(max-width:480px){main{width:calc(100% - 32px);padding-top:22px;padding-bottom:32px}.topbar{margin-bottom:27px}.hero-head{gap:14px}.icon{width:52px;height:52px;border-radius:16px}h1{font-size:30px}.lead{font-size:15px;margin-top:16px}.hero{margin-bottom:23px}.card{padding:21px 19px;border-radius:17px}.settings{padding:4px 12px}.settings div{gap:12px}.settings dd{font-size:13px}.help-box{padding:0 17px}.button{min-height:48px}.hint{line-height:1.8}}
+    @media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}.button{transition:none}}
+  </style>
+</head>
+<body>
+<main>
+  <nav class="topbar" aria-label="页面导航"><span class="brand">CLASH META</span><a href="#help">使用帮助 ↘</a></nav>
+  <header class="hero">
+    <div class="hero-head"><div class="icon" aria-hidden="true"><svg width="27" height="34" viewBox="0 0 27 34" fill="none"><rect x="3.5" y="1.5" width="20" height="31" rx="5" stroke="currentColor" stroke-width="2"/><path d="M10 5h7M11 28h5" stroke="currentColor" stroke-width="2" stroke-linecap="round"/><path d="m9 16 3 3 6-6" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></div><div><p class="eyebrow">CLASH META FOR ANDROID</p><h1>安卓接入</h1></div></div>
+    <p class="lead">按以下三步完成设置，节点与分流规则一次导入。</p>
+    <div class="routing" aria-label="分流方式"><span>国内与局域网直连</span><span>其他流量经东京</span></div>
+  </header>
+
+  <section class="card" aria-labelledby="install-title">
+    <div class="card-title"><span class="step" aria-hidden="true">01</span><h2 id="install-title">安装客户端</h2></div>
+    <p class="sub">已安装兼容的 Clash Meta，可直接进行下一步。</p>
+    <a class="button secondary action" href="{{BASE}}/client.apk"><svg width="17" height="18" viewBox="0 0 18 18" fill="none" aria-hidden="true"><path d="M9 1v10m-4-4 4 4 4-4M2 12v4h14v-4" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"/></svg>下载 Clash Meta</a>
+    <div class="metadata"><span>版本 2.11.35</span><span>通用安装包</span><span>约 119 MB</span></div>
+    <p class="hint">下载后打开安装包，按系统提示允许本次安装。安装完成后回到此页。</p>
+  </section>
+
+  <section class="card emphasis" aria-labelledby="import-title">
+    <div class="card-title"><span class="step" aria-hidden="true">02</span><h2 id="import-title">导入配置</h2></div>
+    <p class="sub">点击下方按钮，在 Clash Meta 中确认并保存。</p>
+    <a class="button action" href="{{IMPORT}}">导入配置 <span aria-hidden="true">↗</span></a>
+    <p class="hint">名称：Tokyo-Android · 更新间隔：12 小时（720 分钟）。</p>
+  </section>
+
+  <section class="card" aria-labelledby="connect-title">
+    <div class="card-title"><span class="step" aria-hidden="true">03</span><h2 id="connect-title">开启连接</h2></div>
+    <p class="sub">选中导入的配置，并确认以下设置。</p>
+    <dl class="settings"><div><dt>配置</dt><dd>Tokyo-Android</dd></div><div><dt>模式</dt><dd>规则</dd></div><div><dt>策略组</dt><dd>TOKYO <span class="arrow">→</span> My VPS</dd></div></dl>
+    <p class="sub">返回首页开启连接，首次使用时确认系统 VPN 授权。</p>
+    <p class="hint">连接后，打开国内网站和 Google 检查访问，再切换 Wi-Fi／移动网络确认连接正常。</p>
+  </section>
+
+  <section class="help" id="help" aria-labelledby="help-title">
+    <h2 id="help-title">使用帮助</h2>
+    <div class="help-box">
+      <details><summary>导入按钮没有反应</summary><div class="answer">
+        <p>请在手机浏览器中打开此页。微信内打开时，点右上角菜单，选择“在浏览器打开”。</p>
+        <p>已安装 Clash Meta 时，可<a href="{{FALLBACK}}">尝试另一种导入方式</a>，或复制配置地址，在应用中选择“配置 → ＋ → 从 URL 导入”。</p>
+        <label class="url-label" for="profile-url">配置地址</label><textarea id="profile-url" readonly rows="3" spellcheck="false" autocapitalize="off">{{PROFILE}}</textarea>
+        <div class="copy-row"><button id="copy-url" type="button" class="button secondary">复制配置地址</button><span id="copy-status" class="copy-status" role="status" aria-live="polite"></span></div>
+      </div></details>
+      <details><summary>提示不支持节点或无法解析配置</summary><div class="answer"><p>请使用上方提供的 Clash Meta 客户端，安装后重新导入。旧版 Clash 可能无法识别当前节点。</p></div></details>
+      <details><summary>如何更新配置</summary><div class="answer"><p>通过上方按钮导入时，已预填 12 小时更新间隔。手动从 URL 添加时，请将更新间隔设为 12 小时（720 分钟）。</p><p>需要立即生效时，在配置列表手动更新。系统省电限制可能延后后台更新。</p></div></details>
+      <details><summary>需要从文件导入</summary><div class="answer"><p><a href="{{PROFILE}}">下载完整配置文件</a>，在 Clash Meta 中选择“配置 → ＋ → 从文件导入”。</p><p>文件已包含节点与规则。从文件导入不会自动绑定在线更新；需要自动更新时，请改用本页的在线导入方式。</p></div></details>
+      <details><summary>已连接，但仍无法访问</summary><div class="answer"><p>确认选中 Tokyo-Android 配置、模式为“规则”，并在 TOKYO 策略组选择 My VPS。重新开启连接后，切换 Wi-Fi／移动网络再试。</p></div></details>
+    </div>
+  </section>
+  <p class="note">保存此页，便于重新导入或更新配置。</p>
+</main>
+<script nonce="{{NONCE}}">
+  (() => {
+    const button = document.getElementById('copy-url');
+    const field = document.getElementById('profile-url');
+    const status = document.getElementById('copy-status');
+    button.addEventListener('click', async () => {
+      let copied = false;
+      try {
+        if (navigator.clipboard && window.isSecureContext) {
+          await navigator.clipboard.writeText(field.value);
+          copied = true;
+        }
+      } catch (_) {}
+      if (!copied) {
+        field.focus(); field.select(); field.setSelectionRange(0, field.value.length);
+        try { copied = document.execCommand('copy'); } catch (_) {}
+      }
+      status.textContent = copied ? '已复制' : '请长按地址复制';
+    });
+  })();
+</script>
+</body>
+</html>

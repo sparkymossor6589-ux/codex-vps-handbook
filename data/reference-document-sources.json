@@ -1,0 +1,53 @@
+{
+  "review_date": "2026-10-22",
+  "sources": [
+    {
+      "name": "OpenAI 官方 Codex 文档",
+      "credit": "OpenAI",
+      "url": "https://learn.chatgpt.com/docs/prompting#prompting-codex",
+      "usage": "协作方法参考；仅有本项目自己的概括与链接，不转载页面正文",
+      "redistributed": false,
+      "license_inferred_from_public_access": false
+    },
+    {
+      "name": "AWS 官方文档",
+      "credit": "Amazon Web Services",
+      "url": "https://docs.aws.amazon.com/lightsail/latest/userguide/what-is-amazon-lightsail.html",
+      "usage": "实例、计费与流量的事实参考；不分发官方文档副本",
+      "redistributed": false,
+      "license_inferred_from_public_access": false
+    },
+    {
+      "name": "Apple 支持文档",
+      "credit": "Apple",
+      "url": "https://support.apple.com/en-us/102390",
+      "usage": "证书信任设置的事实参考；无截图或正文转载",
+      "redistributed": false,
+      "license_inferred_from_public_access": false
+    },
+    {
+      "name": "GitHub 文档",
+      "credit": "GitHub",
+      "url": "https://docs.github.com/en/repositories/managing-your-repositorys-settings-and-features/customizing-your-repository/licensing-a-repository",
+      "usage": "许可与敏感信息处理参考；不将 GitHub 页面视为本项目 MIT 内容",
+      "redistributed": false,
+      "license_inferred_from_public_access": false
+    },
+    {
+      "name": "Python 运行时与标准库",
+      "credit": "Python Software Foundation / Python contributors",
+      "url": "https://docs.python.org/3/license.html",
+      "usage": "参考程序使用标准库接口；不打包 Python 运行时或库源码",
+      "redistributed": false,
+      "license_inferred_from_public_access": false
+    },
+    {
+      "name": "Shadowrocket 客户端",
+      "credit": "Shadow Launch Technology Limited",
+      "url": "https://apps.apple.com/app/shadowrocket/id932747118",
+      "usage": "外部客户端；不分发安装包、商标图像或声称为本项目开发；社区手册许可不等于客户端许可",
+      "redistributed": false,
+      "license_inferred_from_public_access": false
+    }
+  ]
+}

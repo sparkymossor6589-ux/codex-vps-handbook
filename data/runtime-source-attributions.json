@@ -1,0 +1,382 @@
+{
+  "review_date": "2026-10-22",
+  "files": [
+    {
+      "id": "runtime-01",
+      "source_url": "https://raw.githubusercontent.com/fmz200/wool_scripts/main/Scripts/zhihu/zhihu.js",
+      "pinned_source_url": "https://raw.githubusercontent.com/fmz200/wool_scripts/5d5f63fcf98bc69d5f8f1b1bae6f86a01ee4bb97/Scripts/zhihu/zhihu.js",
+      "source_sha256": "544fd88207b9d7005bb5cf427a1994028f91a95a65fde3db72a501983bff99f4",
+      "original_local_sha256_verified": true,
+      "repository": "fmz200/wool_scripts",
+      "credited_authors": [
+        "奶思 / fmz200 及原文件列出的作者"
+      ],
+      "reviewed_license": "GPL v3 许可文本；仓库明确包含其他作者内容，逐文件继续区分",
+      "distribution_decision": "reference_only_mixed_authors",
+      "source_was_changed_in_private_integration": false,
+      "historical_change_note": "原项目保留原源码字节。",
+      "runtime_body_shipped_in_public_preview": false,
+      "embedded_libraries_clearance": "not independently cleared for redistribution; no runtime bundle shipped"
+    },
+    {
+      "id": "runtime-02",
+      "source_url": "https://github.com/fmz200/wool_scripts/raw/main/Scripts/xiaohongshu/xiaohongshu.js",
+      "pinned_source_url": "https://raw.githubusercontent.com/fmz200/wool_scripts/5d5f63fcf98bc69d5f8f1b1bae6f86a01ee4bb97/Scripts/xiaohongshu/xiaohongshu.js",
+      "source_sha256": "318d89bce1117edb26a93b383804e195649ec4674a04efa9e3ddb4ef7f34b498",
+      "original_local_sha256_verified": true,
+      "repository": "fmz200/wool_scripts",
+      "credited_authors": [
+        "奶思 / fmz200 及原文件列出的作者"
+      ],
+      "reviewed_license": "GPL v3 许可文本；仓库明确包含其他作者内容，逐文件继续区分",
+      "distribution_decision": "reference_only_mixed_authors",
+      "source_was_changed_in_private_integration": false,
+      "historical_change_note": "原项目保留原源码字节。",
+      "runtime_body_shipped_in_public_preview": false,
+      "embedded_libraries_clearance": "not independently cleared for redistribution; no runtime bundle shipped"
+    },
+    {
+      "id": "runtime-03",
+      "source_url": "https://github.com/Biliverse/ADBlock/releases/download/v0.7.5/config.bundle.js",
+      "pinned_source_url": "https://github.com/Biliverse/ADBlock/releases/download/v0.7.5/config.bundle.js",
+      "source_sha256": "c347cebab974702b49c1ee1905f90b72fd97f33ede5bee40138d1f9a11168e1d",
+      "original_local_sha256_verified": true,
+      "repository": "Biliverse/ADBlock",
+      "credited_authors": [
+        "Biliverse / ADBlock contributors及其依赖作者"
+      ],
+      "reviewed_license": "Apache-2.0；核对版本仓库树未见独立 NOTICE",
+      "distribution_decision": "reference_only",
+      "source_was_changed_in_private_integration": false,
+      "historical_change_note": "原项目保留原源码字节。",
+      "runtime_body_shipped_in_public_preview": false,
+      "embedded_libraries_clearance": "not independently cleared for redistribution; no runtime bundle shipped"
+    },
+    {
+      "id": "runtime-04",
+      "source_url": "https://github.com/Biliverse/ADBlock/releases/download/v0.7.5/request.bundle.js",
+      "pinned_source_url": "https://github.com/Biliverse/ADBlock/releases/download/v0.7.5/request.bundle.js",
+      "source_sha256": "47d002c07da40357110c8ae5406f117bc608812d075eb54a54b2cbd768ea5b1a",
+      "original_local_sha256_verified": true,
+      "repository": "Biliverse/ADBlock",
+      "credited_authors": [
+        "Biliverse / ADBlock contributors及其依赖作者"
+      ],
+      "reviewed_license": "Apache-2.0；核对版本仓库树未见独立 NOTICE",
+      "distribution_decision": "reference_only",
+      "source_was_changed_in_private_integration": false,
+      "historical_change_note": "原项目保留原源码字节。",
+      "runtime_body_shipped_in_public_preview": false,
+      "embedded_libraries_clearance": "not independently cleared for redistribution; no runtime bundle shipped"
+    },
+    {
+      "id": "runtime-05",
+      "source_url": "https://github.com/Biliverse/ADBlock/releases/download/v0.7.5/response.bundle.js",
+      "pinned_source_url": "https://github.com/Biliverse/ADBlock/releases/download/v0.7.5/response.bundle.js",
+      "source_sha256": "e8768eb5c75bbfaea78f5798ac7827c431f81a61416a7877753f36dd36b9cb60",
+      "original_local_sha256_verified": true,
+      "repository": "Biliverse/ADBlock",
+      "credited_authors": [
+        "Biliverse / ADBlock contributors及其依赖作者"
+      ],
+      "reviewed_license": "Apache-2.0；核对版本仓库树未见独立 NOTICE",
+      "distribution_decision": "reference_only",
+      "source_was_changed_in_private_integration": false,
+      "historical_change_note": "原项目保留原源码字节。",
+      "runtime_body_shipped_in_public_preview": false,
+      "embedded_libraries_clearance": "not independently cleared for redistribution; no runtime bundle shipped"
+    },
+    {
+      "id": "runtime-06",
+      "source_url": "https://raw.githubusercontent.com/app2smile/rules/master/rule/tieba-ad.list",
+      "pinned_source_url": "https://raw.githubusercontent.com/app2smile/rules/df6366a7024e0b3f0aa3510c5b791eea6f3cba89/rule/tieba-ad.list",
+      "source_sha256": "93599502d9498d4977f007d89511b2918afc6398dad5b8cece25057b2fbff7a3",
+      "original_local_sha256_verified": true,
+      "repository": "app2smile/rules",
+      "credited_authors": [
+        "app2smile 及原文件列出的作者"
+      ],
+      "reviewed_license": "MIT",
+      "distribution_decision": "reference_only",
+      "source_was_changed_in_private_integration": false,
+      "historical_change_note": "原项目保留原源码字节。",
+      "runtime_body_shipped_in_public_preview": false,
+      "embedded_libraries_clearance": "not independently cleared for redistribution; no runtime bundle shipped"
+    },
+    {
+      "id": "runtime-07",
+      "source_url": "https://raw.githubusercontent.com/app2smile/rules/master/js/tieba-json.js",
+      "pinned_source_url": "https://raw.githubusercontent.com/app2smile/rules/df6366a7024e0b3f0aa3510c5b791eea6f3cba89/js/tieba-json.js",
+      "source_sha256": "91040c0d5bf906357829d8df344a3bdce00b59e6c24f255e54a2ef7a46d04c69",
+      "original_local_sha256_verified": true,
+      "repository": "app2smile/rules",
+      "credited_authors": [
+        "app2smile 及原文件列出的作者"
+      ],
+      "reviewed_license": "MIT",
+      "distribution_decision": "reference_only",
+      "source_was_changed_in_private_integration": false,
+      "historical_change_note": "原项目保留原源码字节。",
+      "runtime_body_shipped_in_public_preview": false,
+      "embedded_libraries_clearance": "not independently cleared for redistribution; no runtime bundle shipped"
+    },
+    {
+      "id": "runtime-08",
+      "source_url": "https://raw.githubusercontent.com/app2smile/rules/master/js/tieba-proto.js",
+      "pinned_source_url": "https://raw.githubusercontent.com/app2smile/rules/df6366a7024e0b3f0aa3510c5b791eea6f3cba89/js/tieba-proto.js",
+      "source_sha256": "6015d737870b6d89c38a0181479ed715e07d11b5a2c3746f96f95e25835e8610",
+      "original_local_sha256_verified": true,
+      "repository": "app2smile/rules",
+      "credited_authors": [
+        "app2smile 及原文件列出的作者"
+      ],
+      "reviewed_license": "MIT",
+      "distribution_decision": "reference_only",
+      "source_was_changed_in_private_integration": false,
+      "historical_change_note": "原项目保留原源码字节。",
+      "runtime_body_shipped_in_public_preview": false,
+      "embedded_libraries_clearance": "not independently cleared for redistribution; no runtime bundle shipped"
+    },
+    {
+      "id": "runtime-09",
+      "source_url": "https://raw.githubusercontent.com/fmz200/wool_scripts/main/Scripts/weibo/weibo_ads.js",
+      "pinned_source_url": "https://raw.githubusercontent.com/fmz200/wool_scripts/5d5f63fcf98bc69d5f8f1b1bae6f86a01ee4bb97/Scripts/weibo/weibo_ads.js",
+      "source_sha256": "0f1f3eba5b2c96f4f089525ad033b578b6a18a2fd99eb95409e5b0816f4a4b34",
+      "original_local_sha256_verified": true,
+      "repository": "fmz200/wool_scripts",
+      "credited_authors": [
+        "奶思 / fmz200 及原文件列出的作者"
+      ],
+      "reviewed_license": "GPL v3 许可文本；仓库明确包含其他作者内容，逐文件继续区分",
+      "distribution_decision": "reference_only_mixed_authors",
+      "source_was_changed_in_private_integration": false,
+      "historical_change_note": "原项目保留原源码字节。",
+      "runtime_body_shipped_in_public_preview": false,
+      "embedded_libraries_clearance": "not independently cleared for redistribution; no runtime bundle shipped"
+    },
+    {
+      "id": "runtime-10",
+      "source_url": "https://raw.githubusercontent.com/fmz200/wool_scripts/main/Scripts/weibo/weibo_main.js",
+      "pinned_source_url": "https://raw.githubusercontent.com/fmz200/wool_scripts/5d5f63fcf98bc69d5f8f1b1bae6f86a01ee4bb97/Scripts/weibo/weibo_main.js",
+      "source_sha256": "b5e6312938588ccdc6fe50a77fd9db75c002a027dbfcebb4337d7353000a3b52",
+      "original_local_sha256_verified": true,
+      "repository": "fmz200/wool_scripts",
+      "credited_authors": [
+        "fmz200",
+        "zmqcherish（另有同名来源；不可仅按仓库根许可归属）"
+      ],
+      "reviewed_license": "GPL v3 许可文本；仓库明确包含其他作者内容，逐文件继续区分",
+      "distribution_decision": "reference_only_mixed_authors",
+      "source_was_changed_in_private_integration": false,
+      "historical_change_note": "原项目保留原源码字节。",
+      "runtime_body_shipped_in_public_preview": false,
+      "embedded_libraries_clearance": "not independently cleared for redistribution; no runtime bundle shipped"
+    },
+    {
+      "id": "runtime-11",
+      "source_url": "https://raw.githubusercontent.com/zmqcherish/proxy-script/main/weibo_launch.js",
+      "pinned_source_url": "https://raw.githubusercontent.com/zmqcherish/proxy-script/1d9f51bc9a0077d81998bb503ee6158ca83faa73/weibo_launch.js",
+      "source_sha256": "1ebea73aa974503abf72371cd32bdda86975dbad9beaf4c6f648db6debb75fa6",
+      "original_local_sha256_verified": true,
+      "repository": "zmqcherish/proxy-script",
+      "credited_authors": [
+        "甄星cherish / zmqcherish"
+      ],
+      "reviewed_license": "未见标准许可；README 有非商业用途声明",
+      "distribution_decision": "reference_only_unclear",
+      "source_was_changed_in_private_integration": false,
+      "historical_change_note": "原项目保留原源码字节。",
+      "runtime_body_shipped_in_public_preview": false,
+      "embedded_libraries_clearance": "not independently cleared for redistribution; no runtime bundle shipped"
+    },
+    {
+      "id": "runtime-12",
+      "source_url": "https://raw.githubusercontent.com/zmqcherish/proxy-script/main/weibo_main.js",
+      "pinned_source_url": "https://raw.githubusercontent.com/zmqcherish/proxy-script/1d9f51bc9a0077d81998bb503ee6158ca83faa73/weibo_main.js",
+      "source_sha256": "8c9fd6cf844ce25fedcd71591c090c614a5e8aed7429f8f38e31b24e46b5a887",
+      "original_local_sha256_verified": true,
+      "repository": "zmqcherish/proxy-script",
+      "credited_authors": [
+        "甄星cherish / zmqcherish"
+      ],
+      "reviewed_license": "未见标准许可；README 有非商业用途声明",
+      "distribution_decision": "reference_only_unclear",
+      "source_was_changed_in_private_integration": false,
+      "historical_change_note": "原项目保留原源码字节。",
+      "runtime_body_shipped_in_public_preview": false,
+      "embedded_libraries_clearance": "not independently cleared for redistribution; no runtime bundle shipped"
+    },
+    {
+      "id": "runtime-13",
+      "source_url": "https://github.com/fmz200/wool_scripts/raw/main/Scripts/weibo/weibo_vip.js",
+      "pinned_source_url": "https://raw.githubusercontent.com/fmz200/wool_scripts/5d5f63fcf98bc69d5f8f1b1bae6f86a01ee4bb97/Scripts/weibo/weibo_vip.js",
+      "source_sha256": "046afd2d7b053295a6b36d2492b2dedb3d57f2a9476232a070f81b7536e7d799",
+      "original_local_sha256_verified": true,
+      "repository": "fmz200/wool_scripts",
+      "credited_authors": [
+        "奶思 / fmz200 及原文件列出的作者"
+      ],
+      "reviewed_license": "GPL v3 许可文本；仓库明确包含其他作者内容，逐文件继续区分",
+      "distribution_decision": "reference_only_mixed_authors",
+      "source_was_changed_in_private_integration": false,
+      "historical_change_note": "原项目保留原源码字节。",
+      "runtime_body_shipped_in_public_preview": false,
+      "embedded_libraries_clearance": "not independently cleared for redistribution; no runtime bundle shipped"
+    },
+    {
+      "id": "runtime-14",
+      "source_url": "https://raw.githubusercontent.com/ddgksf2013/Scripts/refs/heads/master/keepStyle.js",
+      "pinned_source_url": "https://raw.githubusercontent.com/ddgksf2013/Scripts/0cddbb6bc31344315afba773ebb4e7ce29f7fd8f/keepStyle.js",
+      "source_sha256": "199783afcdd891bfd5fa298638e5806263521c14fd561ab6fda84efe5fe1e332",
+      "original_local_sha256_verified": true,
+      "repository": "ddgksf2013/Scripts",
+      "credited_authors": [
+        "ddgksf2013；部分脚本另列 blackmatrix7 等作者"
+      ],
+      "reviewed_license": "完整仓库树未见标准许可；文件头要求转载注明出处",
+      "distribution_decision": "reference_only_unclear",
+      "source_was_changed_in_private_integration": false,
+      "historical_change_note": "原项目保留原源码字节。",
+      "runtime_body_shipped_in_public_preview": false,
+      "embedded_libraries_clearance": "not independently cleared for redistribution; no runtime bundle shipped"
+    },
+    {
+      "id": "runtime-15",
+      "source_url": "https://raw.githubusercontent.com/ddgksf2013/Scripts/refs/heads/master/amdc.js",
+      "pinned_source_url": "https://raw.githubusercontent.com/ddgksf2013/Scripts/0cddbb6bc31344315afba773ebb4e7ce29f7fd8f/amdc.js",
+      "source_sha256": "8217f2150f8d12ae04d2c49b5da0a838e83f4de68b34df71c2da16cc1267898f",
+      "original_local_sha256_verified": true,
+      "repository": "ddgksf2013/Scripts",
+      "credited_authors": [
+        "ddgksf2013；部分脚本另列 blackmatrix7 等作者"
+      ],
+      "reviewed_license": "完整仓库树未见标准许可；文件头要求转载注明出处",
+      "distribution_decision": "reference_only_unclear",
+      "source_was_changed_in_private_integration": false,
+      "historical_change_note": "原项目保留原源码字节。",
+      "runtime_body_shipped_in_public_preview": false,
+      "embedded_libraries_clearance": "not independently cleared for redistribution; no runtime bundle shipped"
+    },
+    {
+      "id": "runtime-16",
+      "source_url": "https://raw.githubusercontent.com/ddgksf2013/Scripts/refs/heads/master/amap.js",
+      "pinned_source_url": "https://raw.githubusercontent.com/ddgksf2013/Scripts/0cddbb6bc31344315afba773ebb4e7ce29f7fd8f/amap.js",
+      "source_sha256": "936aaaf97cf69b8a5a25ba49303c0470a16ac48851e8bf58080ff9f129ff7c48",
+      "original_local_sha256_verified": true,
+      "repository": "ddgksf2013/Scripts",
+      "credited_authors": [
+        "ddgksf2013；部分脚本另列 blackmatrix7 等作者"
+      ],
+      "reviewed_license": "完整仓库树未见标准许可；文件头要求转载注明出处",
+      "distribution_decision": "reference_only_unclear",
+      "source_was_changed_in_private_integration": false,
+      "historical_change_note": "原项目保留原源码字节。",
+      "runtime_body_shipped_in_public_preview": false,
+      "embedded_libraries_clearance": "not independently cleared for redistribution; no runtime bundle shipped"
+    },
+    {
+      "id": "runtime-17",
+      "source_url": "https://raw.githubusercontent.com/ddgksf2013/Scripts/refs/heads/master/cainiao_json.js",
+      "pinned_source_url": "https://raw.githubusercontent.com/ddgksf2013/Scripts/0cddbb6bc31344315afba773ebb4e7ce29f7fd8f/cainiao_json.js",
+      "source_sha256": "508701b04e3289d37d9baa649dce8a317329b21ebd4433872dc7906866bcdd5c",
+      "original_local_sha256_verified": true,
+      "repository": "ddgksf2013/Scripts",
+      "credited_authors": [
+        "ddgksf2013；部分脚本另列 blackmatrix7 等作者"
+      ],
+      "reviewed_license": "完整仓库树未见标准许可；文件头要求转载注明出处",
+      "distribution_decision": "reference_only_unclear",
+      "source_was_changed_in_private_integration": false,
+      "historical_change_note": "原项目保留原源码字节。",
+      "runtime_body_shipped_in_public_preview": false,
+      "embedded_libraries_clearance": "not independently cleared for redistribution; no runtime bundle shipped"
+    },
+    {
+      "id": "runtime-18",
+      "source_url": "https://gist.githubusercontent.com/ddgksf2013/4f53b7c6083678df25fecc8ff68b52c4/raw/netease.adblock.js",
+      "pinned_source_url": "https://gist.githubusercontent.com/ddgksf2013/4f53b7c6083678df25fecc8ff68b52c4/raw/dbbc85975ab0e2d4b7494b594fa0d85e69709248/netease.adblock.js",
+      "source_sha256": "6ba468eb994e3843d69563f8f3b31c2d63a62a68d60fc3a1fd61947c1546936f",
+      "original_local_sha256_verified": true,
+      "repository": null,
+      "credited_authors": [
+        "ddgksf2013"
+      ],
+      "reviewed_license": "未发现标准许可",
+      "distribution_decision": "reference_only_unclear",
+      "source_was_changed_in_private_integration": true,
+      "historical_change_note": "原项目为容纳顶层 return 增加函数包裹；源码功能归上游作者。",
+      "runtime_body_shipped_in_public_preview": false,
+      "embedded_libraries_clearance": "not independently cleared for redistribution; no runtime bundle shipped"
+    },
+    {
+      "id": "runtime-19",
+      "source_url": "https://raw.githubusercontent.com/ddgksf2013/Scripts/refs/heads/master/smzdm_json.js",
+      "pinned_source_url": "https://raw.githubusercontent.com/ddgksf2013/Scripts/0cddbb6bc31344315afba773ebb4e7ce29f7fd8f/smzdm_json.js",
+      "source_sha256": "cbcabf770447117a66358314950a4233448eeb86274ccfb96d148294d327eece",
+      "original_local_sha256_verified": true,
+      "repository": "ddgksf2013/Scripts",
+      "credited_authors": [
+        "blackmatrix7",
+        "ddgksf2013"
+      ],
+      "reviewed_license": "完整仓库树未见标准许可；文件头要求转载注明出处",
+      "distribution_decision": "reference_only_unclear",
+      "source_was_changed_in_private_integration": false,
+      "historical_change_note": "原项目保留原源码字节。",
+      "runtime_body_shipped_in_public_preview": false,
+      "embedded_libraries_clearance": "not independently cleared for redistribution; no runtime bundle shipped"
+    },
+    {
+      "id": "runtime-20",
+      "source_url": "https://raw.githubusercontent.com/ddgksf2013/Scripts/refs/heads/master/ximalaya_json.js",
+      "pinned_source_url": "https://raw.githubusercontent.com/ddgksf2013/Scripts/0cddbb6bc31344315afba773ebb4e7ce29f7fd8f/ximalaya_json.js",
+      "source_sha256": "2b0cb0abf3cf9eaf16e45591c947d2ab1905c2fa5aa8c1ca56ac1f3b4cf19533",
+      "original_local_sha256_verified": true,
+      "repository": "ddgksf2013/Scripts",
+      "credited_authors": [
+        "ddgksf2013；部分脚本另列 blackmatrix7 等作者"
+      ],
+      "reviewed_license": "完整仓库树未见标准许可；文件头要求转载注明出处",
+      "distribution_decision": "reference_only_unclear",
+      "source_was_changed_in_private_integration": false,
+      "historical_change_note": "原项目保留原源码字节。",
+      "runtime_body_shipped_in_public_preview": false,
+      "embedded_libraries_clearance": "not independently cleared for redistribution; no runtime bundle shipped"
+    },
+    {
+      "id": "runtime-21",
+      "source_url": "https://github.com/ddgksf2013/Scripts/raw/master/12306.js",
+      "pinned_source_url": "https://raw.githubusercontent.com/ddgksf2013/Scripts/0cddbb6bc31344315afba773ebb4e7ce29f7fd8f/12306.js",
+      "source_sha256": "4723bc2236835eea0a8b79529c832a9af1cfd37fa1b160becb3a4b51f9067cd5",
+      "original_local_sha256_verified": true,
+      "repository": "ddgksf2013/Scripts",
+      "credited_authors": [
+        "ddgksf2013；部分脚本另列 blackmatrix7 等作者"
+      ],
+      "reviewed_license": "完整仓库树未见标准许可；文件头要求转载注明出处",
+      "distribution_decision": "reference_only_unclear",
+      "source_was_changed_in_private_integration": false,
+      "historical_change_note": "原项目保留原源码字节。",
+      "runtime_body_shipped_in_public_preview": false,
+      "embedded_libraries_clearance": "not independently cleared for redistribution; no runtime bundle shipped"
+    },
+    {
+      "id": "runtime-22",
+      "source_url": "https://raw.githubusercontent.com/app2smile/rules/master/js/qidian.js",
+      "pinned_source_url": "https://raw.githubusercontent.com/app2smile/rules/df6366a7024e0b3f0aa3510c5b791eea6f3cba89/js/qidian.js",
+      "source_sha256": "e599a063040ecb222ad5d4f8666157ef1ee31495aef6d87fb13453dce46f5c19",
+      "original_local_sha256_verified": true,
+      "repository": "app2smile/rules",
+      "credited_authors": [
+        "app2smile 及原文件列出的作者"
+      ],
+      "reviewed_license": "MIT",
+      "distribution_decision": "reference_only",
+      "source_was_changed_in_private_integration": false,
+      "historical_change_note": "原项目保留原源码字节。",
+      "runtime_body_shipped_in_public_preview": false,
+      "embedded_libraries_clearance": "not independently cleared for redistribution; no runtime bundle shipped"
+    }
+  ],
+  "scope": "21 JavaScript sources and one rule-list source from retained original integration; source bodies excluded"
+}

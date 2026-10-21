@@ -1,0 +1,9 @@
+{
+  "token": "REPLACE_WITH_RANDOM_ACCESS_TOKEN",
+  "interface": "REPLACE_WITH_ACTUAL_INTERFACE",
+  "total_bytes": 1099511627776,
+  "title": "My VPS",
+  "node_uri": "REPLACE_WITH_YOUR_PRIVATE_NODE_URI",
+  "public_origin": "https://setup.example.invalid:18444",
+  "routing_profile": "/etc/vps-access/profile.conf"
+}

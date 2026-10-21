@@ -1,0 +1,12 @@
+{
+  "origin": "https://setup.example.invalid:18444",
+  "root": "/etc/vps-access/android",
+  "installer": "client.apk",
+  "friends": [{
+    "id": "shared",
+    "label": "My Android",
+    "token": "REPLACE_WITH_RANDOM_ANDROID_TOKEN",
+    "aliases": [],
+    "enabled": true
+  }]
+}

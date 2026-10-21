@@ -1,0 +1,86 @@
+{
+  "as_of": "2026-10-22",
+  "basis": "retained local project records and explicit user feedback; no new live acceptance",
+  "checks": [
+    {
+      "id": "server_deployment",
+      "status": "historical_technical_record",
+      "scope": "Original deployment and subsequent client records; not rechecked live for this preview"
+    },
+    {
+      "id": "mac_basic_use",
+      "status": "historical_technical_record",
+      "scope": "Selected sites, text and attachments; not all app functions"
+    },
+    {
+      "id": "iphone_chatgpt_text_wifi_cellular",
+      "status": "user_confirmed",
+      "scope": "Text responses on both networks"
+    },
+    {
+      "id": "iphone_upload_voice_background",
+      "status": "not_verified",
+      "scope": "No completed device acceptance in retained records"
+    },
+    {
+      "id": "android_entry_and_parser",
+      "status": "historical_technical_record",
+      "scope": "Entry, delivery and parser checks only"
+    },
+    {
+      "id": "android_real_device",
+      "status": "not_verified",
+      "scope": "No real Android acceptance"
+    },
+    {
+      "id": "ipad_other_mac_windows",
+      "status": "not_verified",
+      "scope": "No completed device acceptance"
+    },
+    {
+      "id": "mobile_music_fix",
+      "status": "partial_technical_record",
+      "scope": "Rules and publication checked; phone playback not confirmed"
+    },
+    {
+      "id": "ride_return_failure_cause",
+      "status": "unresolved",
+      "scope": "Single failure cannot establish proxy causation"
+    },
+    {
+      "id": "steam_rules",
+      "status": "historical_technical_record",
+      "scope": "Rules, selected hits and web/update manifest checks"
+    },
+    {
+      "id": "steam_real_download",
+      "status": "not_verified",
+      "scope": "No sustained real game download test"
+    },
+    {
+      "id": "adblock_resource_delivery",
+      "status": "historical_technical_record",
+      "scope": "37 resources matched; not effect acceptance"
+    },
+    {
+      "id": "iphone_zhihu_splash",
+      "status": "partially_user_confirmed",
+      "scope": "Cold start after full exit has no splash; resume after screen off/on still shows ads. Not fully resolved."
+    },
+    {
+      "id": "mac_adblock_chain",
+      "status": "historical_technical_record",
+      "scope": "Independent CA and selected endpoint A/B handling"
+    },
+    {
+      "id": "all_14_apps_effect",
+      "status": "not_verified",
+      "scope": "No per-app complete functional regression"
+    },
+    {
+      "id": "long_term_recovery",
+      "status": "not_verified",
+      "scope": "No complete reboot/sleep/long-term acceptance"
+    }
+  ]
+}

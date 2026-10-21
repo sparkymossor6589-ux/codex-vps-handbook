@@ -1,0 +1,59 @@
+# 第三方署名与许可总表
+
+核对日期：**2026-10-22**。本表区分实际随包内容、历史运行来源、文档链接和排版结构参考。
+
+本项目的贡献是实践适配与整理；连接核心、客户端以及应用规则和脚本分别由相应作者开发。根目录 MIT 许可不能替代他们的许可。
+
+## 逐项来源
+
+| 来源与作者 | 本项目使用范围 | 核对许可与当前处理 |
+|---|---|---|
+| [XTLS/Xray-core](https://github.com/XTLS/Xray-core/tree/1b1647cd9ddf0abc34b981d4611fc03bcac1ca74) · XTLS / Xray-core contributors | 连接核心；部署程序仅下载上游版本，不分发二进制或核心源码 | MPL-2.0；[LICENSE](third_party/licenses/XTLS__Xray-core/LICENSE.txt) |
+| [XTLS/Xray-install](https://github.com/XTLS/Xray-install/tree/05aa47266c94e6fb5ca48cad96afdb4becb5891f) · XTLS / Xray-install contributors | 替代安装方式的文档链接；未复制其安装脚本 | GPL v3 许可文本；[LICENSE](third_party/licenses/XTLS__Xray-install/LICENSE.txt) |
+| [XTLS/Xray-examples](https://github.com/XTLS/Xray-examples/tree/167cded1a33ac7b0ce76fcf00ea2d8fb0604e927) · XTLS / Xray-examples contributors | 服务端配置样例的字段结构参考；本地样例按 CC BY-SA 4.0 分发 | CC-BY-SA-4.0；[LICENSE](third_party/licenses/XTLS__Xray-examples/LICENSE.txt) |
+| [LOWERTOP/Shadowrocket](https://github.com/LOWERTOP/Shadowrocket/tree/9ff0cc1564d528b9e77a863b39fc443b08cf98ae) · LOWERTOP 及手册列出的贡献者 | 非官方社区手册；规则与模块语法参考；不等于客户端授权 | 未在完整仓库树找到标准许可 |
+| [blackmatrix7/ios_rule_script](https://github.com/blackmatrix7/ios_rule_script/tree/f9e403a75bbc4bee939c6d8dd766cf78f1b512f3) · blackmatrix7 及原文件列出的作者 | 分流与研究来源；公开副本不含其规则、脚本正文 | GPL v2 许可文本；README 另有转载及使用声明，需分别核对；[LICENSE](third_party/licenses/blackmatrix7__ios_rule_script/LICENSE.txt) |
+| [v2fly/domain-list-community](https://github.com/v2fly/domain-list-community/tree/e8f6d1e5c4a01cda943c0784ffa834340eeab5ae) · V2Ray / v2fly contributors | 音乐、Steam 域名分类参考；未打包列表 | MIT；[LICENSE](third_party/licenses/v2fly__domain-list-community/LICENSE.txt) |
+| [ACL4SSR/ACL4SSR](https://github.com/ACL4SSR/ACL4SSR/tree/575637df38884575bfa523e95c17d0ee3be1676c) · ACL4SSR contributors | Steam 国内域名参考；未打包列表 | CC-BY-SA-4.0；[LICENCE](third_party/licenses/ACL4SSR__ACL4SSR/LICENCE.txt) |
+| [fmz200/wool_scripts](https://github.com/fmz200/wool_scripts/tree/5d5f63fcf98bc69d5f8f1b1bae6f86a01ee4bb97) · 奶思 / fmz200 及原文件列出的作者 | 知乎、小红书、微博等选定模块与依赖；仅列来源 | GPL v3 许可文本；仓库明确包含其他作者内容，逐文件继续区分；[LICENSE](third_party/licenses/fmz200__wool_scripts/LICENSE.txt) |
+| [ddgksf2013/Rewrite](https://github.com/ddgksf2013/Rewrite/tree/dc3ea2c1fb2db870676b26da24006083eb1d44d3) · ddgksf2013 及原文件列出的作者 | Keep、高德、菜鸟等规则入口；未打包正文 | 完整仓库树未见标准许可；部分文件有署名要求 |
+| [ddgksf2013/Scripts](https://github.com/ddgksf2013/Scripts/tree/0cddbb6bc31344315afba773ebb4e7ce29f7fd8f) · ddgksf2013；部分脚本另列 blackmatrix7 等作者 | 多款应用的运行依赖；未打包脚本 | 完整仓库树未见标准许可；文件头要求转载注明出处 |
+| [app2smile/rules](https://github.com/app2smile/rules/tree/df6366a7024e0b3f0aa3510c5b791eea6f3cba89) · app2smile 及原文件列出的作者 | 贴吧、起点等模块与依赖；仅列来源 | MIT；[LICENSE.md](third_party/licenses/app2smile__rules/LICENSE.md.txt) |
+| [Biliverse/ADBlock](https://github.com/Biliverse/ADBlock/tree/b0051916843f269d4b377aaf177f0d9e7b12e393) · Biliverse / ADBlock contributors及其依赖作者 | 哔哩哔哩 v0.7.5 模块与三个 bundle 来源；不打包 | Apache-2.0；核对版本仓库树未见独立 NOTICE；[LICENSE](third_party/licenses/Biliverse__ADBlock/LICENSE.txt) |
+| [zmqcherish/proxy-script](https://github.com/zmqcherish/proxy-script/tree/1d9f51bc9a0077d81998bb503ee6158ca83faa73) · 甄星cherish / zmqcherish | 微博脚本依赖来源；不打包正文 | 未见标准许可；README 有非商业用途声明 |
+| [kokoryh/Sparkle](https://github.com/kokoryh/Sparkle/tree/290bcbdd2f158cdd8f7db9c996e90fe63490e16f) · kokoryh / Sparkle contributors | 哔哩哔哩研究来源；未进入当前随包运行内容 | GPL v3 许可文本；[LICENSE](third_party/licenses/kokoryh__Sparkle/LICENSE.txt) |
+| [AdguardTeam/AdGuardHome](https://github.com/AdguardTeam/AdGuardHome/tree/b13042b071790a3eeb28c73feeb88034801ee1d1) · AdGuard Software Ltd. / AdGuard Home contributors | README 信息组织参考；未复制正文、图像或代码 | GPL v3 许可文本；[LICENSE.txt](third_party/licenses/AdguardTeam__AdGuardHome/LICENSE.txt) |
+| [chubin/cheat.sh](https://github.com/chubin/cheat.sh/tree/06af0000259bde1a347da368225c5962d7ffed3e) · Igor Chubin / cheat.sh contributors | README 目录和示例组织参考；未复制正文或代码 | MIT；[LICENSE](third_party/licenses/chubin__cheat.sh/LICENSE.txt) |
+| [XTLS/Xray-docs-next](https://github.com/XTLS/Xray-docs-next/tree/59ab79c7e09112475e7907bf745913ded7ca89a5) · XTLS documentation contributors | REALITY 字段说明参考；未转载文档正文 | CC-BY-SA-4.0；[LICENSE](third_party/licenses/XTLS__Xray-docs-next/LICENSE.txt) |
+| [MetaCubeX/Meta-Docs](https://github.com/MetaCubeX/Meta-Docs/tree/c47fd7212afc3f0e6afe9c7cb18591ba55e5e79b) · MetaCubeX / Meta-Docs contributors | Mihomo VLESS 字段文档链接；未复制整块上游示例或正文 | 未在已查仓库树及页面文件中找到标准许可 |
+| [MetaCubeX/ClashMetaForAndroid](https://github.com/MetaCubeX/ClashMetaForAndroid/tree/a55827bfdd79f69ded8cf75c90293d2b7cb7e5a1) · MetaCubeX / ClashMetaForAndroid contributors | 历史安卓安装包 v2.11.35；公开副本不含 APK | GPL v3 许可文本；附 NOTICE；[LICENSE](third_party/licenses/MetaCubeX__ClashMetaForAndroid/LICENSE.txt)、[NOTICE](third_party/licenses/MetaCubeX__ClashMetaForAndroid/NOTICE.txt) |
+| [MetaCubeX/meta-rules-dat](https://github.com/MetaCubeX/meta-rules-dat/tree/d13b14cc2288dd4c61adcc77a90dc2f82ac5316f) · MetaCubeX / meta-rules-dat contributors及各数据来源作者 | 历史安卓 CN 地址数据来源；不分发规则快照 | 所核对 revision 的根目录未见标准许可；不推断数据再分发权 |
+| [MetaCubeX/mihomo](https://github.com/MetaCubeX/mihomo/tree/88dcbf7f1614a67c3b36b848ee3592dfa92ada36) · MetaCubeX / Mihomo kernel contributors | 实际网络内核版本 v1.19.32；不分发内核 | GPL v3 许可文本；README 另有下游命名声明；[LICENSE](third_party/licenses/MetaCubeX__mihomo/LICENSE.txt) |
+
+## Gist 与脚本作者
+
+- [ddgksf2013 的网易云脚本 Gist](https://gist.github.com/ddgksf2013/4f53b7c6083678df25fecc8ff68b52c4)：核对文件清单和当前修订，未发现标准许可声明；仅保留链接与哈希，不分发脚本。
+- 什么值得买运行脚本的文件头同时署名 **blackmatrix7、ddgksf2013**；微博部分脚本还需保留 **zmqcherish** 的来源，不能只以收录仓库作者代替。
+- 14 款应用入口见 [逐应用来源](data/upstream-apps.json)；历史运行来源是 21 份 JavaScript 加 1 份规则文件，逐项见 [运行依赖署名](data/runtime-source-attributions.json)。它们的正文均未随公开包分发。
+
+## 官方文档、运行时与客户端
+
+| 来源 | 署名及使用方式 |
+|---|---|
+| [OpenAI 官方 Codex 文档](https://learn.chatgpt.com/docs/prompting#prompting-codex) | OpenAI；协作方法参考；仅有本项目自己的概括与链接，不转载页面正文 |
+| [AWS 官方文档](https://docs.aws.amazon.com/lightsail/latest/userguide/what-is-amazon-lightsail.html) | Amazon Web Services；实例、计费与流量的事实参考；不分发官方文档副本 |
+| [Apple 支持文档](https://support.apple.com/en-us/102390) | Apple；证书信任设置的事实参考；无截图或正文转载 |
+| [GitHub 文档](https://docs.github.com/en/repositories/managing-your-repositorys-settings-and-features/customizing-your-repository/licensing-a-repository) | GitHub；许可与敏感信息处理参考；不将 GitHub 页面视为本项目 MIT 内容 |
+| [Python 运行时与标准库](https://docs.python.org/3/license.html) | Python Software Foundation / Python contributors；参考程序使用标准库接口；不打包 Python 运行时或库源码 |
+| [Shadowrocket 客户端](https://apps.apple.com/app/shadowrocket/id932747118) | Shadow Launch Technology Limited；外部客户端；不分发安装包、商标图像或声称为本项目开发；社区手册许可不等于客户端许可 |
+
+## 需要保留的边界
+
+1. **许可不明**：ddgksf2013 两个仓库及 Gist、LOWERTOP 手册、Meta-Docs、zmqcherish 和 meta-rules-dat 不标成“已获自由再分发许可”。核对范围与结果分别记录在机器清单；meta-rules-dat 的判断限定为所查 revision 根目录和来源文件。
+2. **额外声明**：blackmatrix7 的 GPL 文本与 README 转载 / 使用声明、Mihomo README 的下游命名声明分别保留观察，不在这里裁定它们的法律兼容性，也不把它们变成对全部仓库内容的无条件授权。
+3. **混合来源**：fmz200 明确收录其他作者内容，逐脚本版权与许可不能仅凭仓库根许可证覆盖。压缩 bundle 内更深层依赖也未获得再分发核准；当前包不含这些 bundle。
+4. **实际版本**：Mihomo 按网络内核 v1.19.32 核对为 GPL v3；排除了默认分支返回的同名 Python SDK 的 MIT 文本，避免对象混淆。Xray 的历史 26.3.27 也另核对了许可文本。
+5. **Apache NOTICE**：Biliverse 所核对版本完整树未见单独 NOTICE，不编造原文件；ClashMetaForAndroid 实际提供的 NOTICE 已完整保留。以后打包二进制或 bundle 时仍要复查其内嵌第三方材料。
+6. **改编样例**：Xray JSON 样例作为参照上游的精简样例，保留署名、来源、改动及 CC BY-SA 4.0 同许可；其余具体文件的范围见 [LICENSE_SCOPE.md](LICENSE_SCOPE.md)。
+
+完整 commit、Git blob、原文哈希与决策见 [审计数据](data/third-party-license-audit.json)。本表完成的是当前公开副本的检查，不是对私有运行包或未来所有分发方式的法律保证。

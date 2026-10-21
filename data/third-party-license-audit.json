@@ -1,0 +1,807 @@
+{
+  "review_date": "2026-10-22",
+  "scope": "21 repositories, one Gist, 14 selected application entries and 22 historically used runtime source files; only the isolated public preview",
+  "not_a_clearance_for_private_runtime_bundles": true,
+  "repositories": [
+    {
+      "repo": "XTLS/Xray-core",
+      "commit": "1b1647cd9ddf0abc34b981d4611fc03bcac1ca74",
+      "default_branch": "main",
+      "metadata_spdx": "MPL-2.0",
+      "credit": "XTLS / Xray-core contributors",
+      "usage_in_public_preview": "连接核心；部署程序仅下载上游版本，不分发二进制或核心源码",
+      "reviewed_license": "MPL-2.0",
+      "distribution_decision": "reference_only",
+      "upstream_program_or_rule_body_bundled": false,
+      "review_date": "2026-10-22",
+      "evidence_documents": [
+        {
+          "path": "LICENSE",
+          "git_blob_sha": "a612ad9813b006ce81d1ee438dd784da99a54007",
+          "url": "https://github.com/XTLS/Xray-core/blob/1b1647cd9ddf0abc34b981d4611fc03bcac1ca74/LICENSE",
+          "bytes": 16725,
+          "sha256": "1f256ecad192880510e84ad60474eab7589218784b9a50bc7ceee34c2b91f1d5",
+          "public_license_copy": "third_party/licenses/XTLS__Xray-core/LICENSE.txt"
+        },
+        {
+          "path": "README.md",
+          "git_blob_sha": "d52ca9bb34716dcbb39f0e656758fd98ab9c15ef",
+          "url": "https://github.com/XTLS/Xray-core/blob/1b1647cd9ddf0abc34b981d4611fc03bcac1ca74/README.md",
+          "bytes": 12659,
+          "sha256": "0d098928cf19c756a8c956c0b5ca736b75f9eaff0765fd71c26a3dcb413a3dde"
+        }
+      ],
+      "license_reference_release": {
+        "version": "26.3.27",
+        "commit": "d2758a023cd7f4174a5a5fa4ff66e487d4342ba0",
+        "license_git_blob_sha": "a612ad9813b006ce81d1ee438dd784da99a54007",
+        "license_matches_retained_snapshot": true,
+        "scope": "upstream license reference only; no claim about a current private deployment"
+      }
+    },
+    {
+      "repo": "XTLS/Xray-install",
+      "commit": "05aa47266c94e6fb5ca48cad96afdb4becb5891f",
+      "default_branch": "main",
+      "metadata_spdx": "GPL-3.0",
+      "credit": "XTLS / Xray-install contributors",
+      "usage_in_public_preview": "替代安装方式的文档链接；未复制其安装脚本",
+      "reviewed_license": "GPL v3 许可文本",
+      "distribution_decision": "reference_only",
+      "upstream_program_or_rule_body_bundled": false,
+      "review_date": "2026-10-22",
+      "evidence_documents": [
+        {
+          "path": "LICENSE",
+          "git_blob_sha": "94a9ed024d3859793618152ea559a168bbcbb5e2",
+          "url": "https://github.com/XTLS/Xray-install/blob/05aa47266c94e6fb5ca48cad96afdb4becb5891f/LICENSE",
+          "bytes": 35147,
+          "sha256": "8ceb4b9ee5adedde47b31e975c1d90c73ad27b6b165a1dcd80c7c545eb65b903",
+          "public_license_copy": "third_party/licenses/XTLS__Xray-install/LICENSE.txt"
+        },
+        {
+          "path": "README.md",
+          "git_blob_sha": "a24421c4836ea1f4c75102ffc72214e4a85d9724",
+          "url": "https://github.com/XTLS/Xray-install/blob/05aa47266c94e6fb5ca48cad96afdb4becb5891f/README.md",
+          "bytes": 4306,
+          "sha256": "bd53de426ec9cf8de7506c287a919cea8ce3acc4385d2521b18f7f314a1ac152"
+        }
+      ]
+    },
+    {
+      "repo": "XTLS/Xray-examples",
+      "commit": "167cded1a33ac7b0ce76fcf00ea2d8fb0604e927",
+      "default_branch": "main",
+      "metadata_spdx": "CC-BY-SA-4.0",
+      "credit": "XTLS / Xray-examples contributors",
+      "usage_in_public_preview": "服务端配置样例的字段结构参考；本地样例按 CC BY-SA 4.0 分发",
+      "reviewed_license": "CC-BY-SA-4.0",
+      "distribution_decision": "adapted_configuration",
+      "upstream_program_or_rule_body_bundled": false,
+      "review_date": "2026-10-22",
+      "evidence_documents": [
+        {
+          "path": "LICENSE",
+          "git_blob_sha": "a73481c4be14b761eddf04cb18317cbc63416dc6",
+          "url": "https://github.com/XTLS/Xray-examples/blob/167cded1a33ac7b0ce76fcf00ea2d8fb0604e927/LICENSE",
+          "bytes": 20134,
+          "sha256": "3b2890eacd851373001c4a14623458e3adaf1b1967939aa9c38a318e28d61c00",
+          "public_license_copy": "third_party/licenses/XTLS__Xray-examples/LICENSE.txt"
+        },
+        {
+          "path": "README.md",
+          "git_blob_sha": "5f4ce5b5d2a8f2ca1de592a1766d50c37162d502",
+          "url": "https://github.com/XTLS/Xray-examples/blob/167cded1a33ac7b0ce76fcf00ea2d8fb0604e927/README.md",
+          "bytes": 90,
+          "sha256": "1a2dfcc7158961c43a16e62f04b9586cab72fad044f84fe6f30f38273a6884cb"
+        }
+      ]
+    },
+    {
+      "repo": "LOWERTOP/Shadowrocket",
+      "commit": "9ff0cc1564d528b9e77a863b39fc443b08cf98ae",
+      "default_branch": "main",
+      "metadata_spdx": null,
+      "tree_license_search": {
+        "truncated": false,
+        "entry_count": 4,
+        "matching": []
+      },
+      "credit": "LOWERTOP 及手册列出的贡献者",
+      "usage_in_public_preview": "非官方社区手册；规则与模块语法参考；不等于客户端授权",
+      "reviewed_license": "未在完整仓库树找到标准许可",
+      "distribution_decision": "reference_only_unclear",
+      "upstream_program_or_rule_body_bundled": false,
+      "review_date": "2026-10-22",
+      "evidence_documents": [
+        {
+          "path": "README.md",
+          "git_blob_sha": "eeab58d98d60c060eccae68350a1ede168fddb32",
+          "url": "https://github.com/LOWERTOP/Shadowrocket/blob/9ff0cc1564d528b9e77a863b39fc443b08cf98ae/README.md",
+          "bytes": 53946,
+          "sha256": "6d640120800a9c1d1544541ed4fb58d04b0b6bf1494f94552e435a1053754ef6"
+        }
+      ]
+    },
+    {
+      "repo": "blackmatrix7/ios_rule_script",
+      "commit": "f9e403a75bbc4bee939c6d8dd766cf78f1b512f3",
+      "default_branch": "master",
+      "metadata_spdx": "GPL-2.0",
+      "credit": "blackmatrix7 及原文件列出的作者",
+      "usage_in_public_preview": "分流与研究来源；公开副本不含其规则、脚本正文",
+      "reviewed_license": "GPL v2 许可文本；README 另有转载及使用声明，需分别核对",
+      "distribution_decision": "reference_only_extra_terms",
+      "upstream_program_or_rule_body_bundled": false,
+      "review_date": "2026-10-22",
+      "extra_declaration": "README includes restrictions on public/self-media reposting and a study/deletion statement alongside the root GPL v2 text. No blanket redistribution clearance inferred.",
+      "evidence_documents": [
+        {
+          "path": "LICENSE",
+          "git_blob_sha": "d159169d1050894d3ea3b98e1c965c4058208fe1",
+          "url": "https://github.com/blackmatrix7/ios_rule_script/blob/f9e403a75bbc4bee939c6d8dd766cf78f1b512f3/LICENSE",
+          "bytes": 18092,
+          "sha256": "8177f97513213526df2cf6184d8ff986c675afb514d4e68a404010521b880643",
+          "public_license_copy": "third_party/licenses/blackmatrix7__ios_rule_script/LICENSE.txt"
+        },
+        {
+          "path": "README.md",
+          "git_blob_sha": "ca61b7558a2d500716265e0c3ae076e77ed82524",
+          "url": "https://github.com/blackmatrix7/ios_rule_script/blob/f9e403a75bbc4bee939c6d8dd766cf78f1b512f3/README.md",
+          "bytes": 3401,
+          "sha256": "22cf4c930b6341d747a5de1896367091421e64b43cc6ef4585075dd9a86e8ba7"
+        }
+      ]
+    },
+    {
+      "repo": "v2fly/domain-list-community",
+      "commit": "e8f6d1e5c4a01cda943c0784ffa834340eeab5ae",
+      "default_branch": "master",
+      "metadata_spdx": "MIT",
+      "credit": "V2Ray / v2fly contributors",
+      "usage_in_public_preview": "音乐、Steam 域名分类参考；未打包列表",
+      "reviewed_license": "MIT",
+      "distribution_decision": "reference_only",
+      "upstream_program_or_rule_body_bundled": false,
+      "review_date": "2026-10-22",
+      "evidence_documents": [
+        {
+          "path": "LICENSE",
+          "git_blob_sha": "1f086538ba3a1d26f46ec44cfda12c2a0c4753a6",
+          "url": "https://github.com/v2fly/domain-list-community/blob/e8f6d1e5c4a01cda943c0784ffa834340eeab5ae/LICENSE",
+          "bytes": 1067,
+          "sha256": "b9d84a22870d3f21c91a4c6e410c9cc51d00902f5233ad0c84011479244bf7d2",
+          "public_license_copy": "third_party/licenses/v2fly__domain-list-community/LICENSE.txt"
+        },
+        {
+          "path": "README.md",
+          "git_blob_sha": "85b93f1c8c596958d7aef60b8d7ee4b9b2c53381",
+          "url": "https://github.com/v2fly/domain-list-community/blob/e8f6d1e5c4a01cda943c0784ffa834340eeab5ae/README.md",
+          "bytes": 8413,
+          "sha256": "fa5828bb946f23742bff971ed44057f9556eb0437fd38277e19314ff7d155197"
+        }
+      ]
+    },
+    {
+      "repo": "ACL4SSR/ACL4SSR",
+      "commit": "575637df38884575bfa523e95c17d0ee3be1676c",
+      "default_branch": "master",
+      "metadata_spdx": "CC-BY-SA-4.0",
+      "credit": "ACL4SSR contributors",
+      "usage_in_public_preview": "Steam 国内域名参考；未打包列表",
+      "reviewed_license": "CC-BY-SA-4.0",
+      "distribution_decision": "reference_only",
+      "upstream_program_or_rule_body_bundled": false,
+      "review_date": "2026-10-22",
+      "evidence_documents": [
+        {
+          "path": "LICENCE",
+          "git_blob_sha": "3b7b82d0da2db857eda1a798dbd908ea136f07b5",
+          "url": "https://github.com/ACL4SSR/ACL4SSR/blob/575637df38884575bfa523e95c17d0ee3be1676c/LICENCE",
+          "bytes": 20127,
+          "sha256": "7abe19ec9bb73b36141b999b861d24ad855e808bafe0f81e84cce28556f6c297",
+          "public_license_copy": "third_party/licenses/ACL4SSR__ACL4SSR/LICENCE.txt"
+        },
+        {
+          "path": "README.md",
+          "git_blob_sha": "1a4d7cbff2347f2ebc8133cc941791beff005eaf",
+          "url": "https://github.com/ACL4SSR/ACL4SSR/blob/575637df38884575bfa523e95c17d0ee3be1676c/README.md",
+          "bytes": 6924,
+          "sha256": "67026f98f57b2f7d332dcfb3cf0fa7bb018f01db6b05ea468411a2a7bec70b7a"
+        }
+      ]
+    },
+    {
+      "repo": "fmz200/wool_scripts",
+      "commit": "5d5f63fcf98bc69d5f8f1b1bae6f86a01ee4bb97",
+      "default_branch": "main",
+      "metadata_spdx": "GPL-3.0",
+      "credit": "奶思 / fmz200 及原文件列出的作者",
+      "usage_in_public_preview": "知乎、小红书、微博等选定模块与依赖；仅列来源",
+      "reviewed_license": "GPL v3 许可文本；仓库明确包含其他作者内容，逐文件继续区分",
+      "distribution_decision": "reference_only_mixed_authors",
+      "upstream_program_or_rule_body_bundled": false,
+      "review_date": "2026-10-22",
+      "extra_declaration": "README says some content is collected from other projects. Its root GPL text is not treated as sole authorization for every embedded third-party script.",
+      "evidence_documents": [
+        {
+          "path": "LICENSE",
+          "git_blob_sha": "f288702d2fa16d3cdf0035b15a9fcbc552cd88e7",
+          "url": "https://github.com/fmz200/wool_scripts/blob/5d5f63fcf98bc69d5f8f1b1bae6f86a01ee4bb97/LICENSE",
+          "bytes": 35149,
+          "sha256": "3972dc9744f6499f0f9b2dbf76696f2ae7ad8af9b23dde66d6af86c9dfb36986",
+          "public_license_copy": "third_party/licenses/fmz200__wool_scripts/LICENSE.txt"
+        },
+        {
+          "path": "README.md",
+          "git_blob_sha": "1b9e0c5fde172061795e43db1403862f218e7f99",
+          "url": "https://github.com/fmz200/wool_scripts/blob/5d5f63fcf98bc69d5f8f1b1bae6f86a01ee4bb97/README.md",
+          "bytes": 11230,
+          "sha256": "326397aef384df338ad03cd7c342de645ad628b140a73d29a5d12484c1d4eb12"
+        }
+      ]
+    },
+    {
+      "repo": "ddgksf2013/Rewrite",
+      "commit": "dc3ea2c1fb2db870676b26da24006083eb1d44d3",
+      "default_branch": "master",
+      "metadata_spdx": null,
+      "tree_license_search": {
+        "truncated": false,
+        "entry_count": 38,
+        "matching": []
+      },
+      "credit": "ddgksf2013 及原文件列出的作者",
+      "usage_in_public_preview": "Keep、高德、菜鸟等规则入口；未打包正文",
+      "reviewed_license": "完整仓库树未见标准许可；部分文件有署名要求",
+      "distribution_decision": "reference_only_unclear",
+      "upstream_program_or_rule_body_bundled": false,
+      "review_date": "2026-10-22",
+      "evidence_documents": [
+        {
+          "path": "README.md",
+          "git_blob_sha": "1a5016d8d472e384c6ff064b8162316ceeeb1105",
+          "url": "https://github.com/ddgksf2013/Rewrite/blob/dc3ea2c1fb2db870676b26da24006083eb1d44d3/README.md",
+          "bytes": 154,
+          "sha256": "c61c588bc06ec9008af0f77bcb55461a221553435d029baa311abf267322af9d"
+        }
+      ]
+    },
+    {
+      "repo": "ddgksf2013/Scripts",
+      "commit": "0cddbb6bc31344315afba773ebb4e7ce29f7fd8f",
+      "default_branch": "master",
+      "metadata_spdx": null,
+      "tree_license_search": {
+        "truncated": false,
+        "entry_count": 112,
+        "matching": []
+      },
+      "credit": "ddgksf2013；部分脚本另列 blackmatrix7 等作者",
+      "usage_in_public_preview": "多款应用的运行依赖；未打包脚本",
+      "reviewed_license": "完整仓库树未见标准许可；文件头要求转载注明出处",
+      "distribution_decision": "reference_only_unclear",
+      "upstream_program_or_rule_body_bundled": false,
+      "review_date": "2026-10-22",
+      "evidence_documents": [
+        {
+          "path": "README.md",
+          "git_blob_sha": "421d88a07288a5bb5a209d54a59e3422f3e1a8b6",
+          "url": "https://github.com/ddgksf2013/Scripts/blob/0cddbb6bc31344315afba773ebb4e7ce29f7fd8f/README.md",
+          "bytes": 136,
+          "sha256": "16524daebe853e222ff30fdb8e0004224328fcaa46e72044dc227819fec32b66"
+        }
+      ]
+    },
+    {
+      "repo": "app2smile/rules",
+      "commit": "df6366a7024e0b3f0aa3510c5b791eea6f3cba89",
+      "default_branch": "master",
+      "metadata_spdx": "MIT",
+      "credit": "app2smile 及原文件列出的作者",
+      "usage_in_public_preview": "贴吧、起点等模块与依赖；仅列来源",
+      "reviewed_license": "MIT",
+      "distribution_decision": "reference_only",
+      "upstream_program_or_rule_body_bundled": false,
+      "review_date": "2026-10-22",
+      "evidence_documents": [
+        {
+          "path": "LICENSE.md",
+          "git_blob_sha": "d448042e50096ce6482b86199249f543951e051b",
+          "url": "https://github.com/app2smile/rules/blob/df6366a7024e0b3f0aa3510c5b791eea6f3cba89/LICENSE.md",
+          "bytes": 1066,
+          "sha256": "f833786adb858e82204ed85c604f844ec59d268d65485f8e6aa66ebcb69ebe5d",
+          "public_license_copy": "third_party/licenses/app2smile__rules/LICENSE.md.txt"
+        },
+        {
+          "path": "README.md",
+          "git_blob_sha": "8b13ffabff9b9956faa191fff0642ef95178c6d1",
+          "url": "https://github.com/app2smile/rules/blob/df6366a7024e0b3f0aa3510c5b791eea6f3cba89/README.md",
+          "bytes": 1845,
+          "sha256": "b1523f04cdab094180f7d54c9fb13123510ab8ad104e8167a737f962e0db6fc3"
+        }
+      ]
+    },
+    {
+      "repo": "Biliverse/ADBlock",
+      "commit": "b0051916843f269d4b377aaf177f0d9e7b12e393",
+      "default_branch": "main",
+      "metadata_spdx": "Apache-2.0",
+      "tree_notice_search": {
+        "truncated": false,
+        "matches": [
+          "LICENSE"
+        ]
+      },
+      "credit": "Biliverse / ADBlock contributors及其依赖作者",
+      "usage_in_public_preview": "哔哩哔哩 v0.7.5 模块与三个 bundle 来源；不打包",
+      "reviewed_license": "Apache-2.0；核对版本仓库树未见独立 NOTICE",
+      "distribution_decision": "reference_only",
+      "upstream_program_or_rule_body_bundled": false,
+      "review_date": "2026-10-22",
+      "evidence_documents": [
+        {
+          "path": "LICENSE",
+          "git_blob_sha": "261eeb9e9f8b2b4b0d119366dda99c6fd7d35c64",
+          "url": "https://github.com/Biliverse/ADBlock/blob/b0051916843f269d4b377aaf177f0d9e7b12e393/LICENSE",
+          "bytes": 11357,
+          "sha256": "c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4",
+          "public_license_copy": "third_party/licenses/Biliverse__ADBlock/LICENSE.txt"
+        },
+        {
+          "path": "README.md",
+          "git_blob_sha": "fbd2b8d026079d642e6a73d80e5f3599294c2c29",
+          "url": "https://github.com/Biliverse/ADBlock/blob/b0051916843f269d4b377aaf177f0d9e7b12e393/README.md",
+          "bytes": 1969,
+          "sha256": "08539380be655137aa41737e65af82cdf04646d65a4d3781abf88b7259930ea4"
+        }
+      ]
+    },
+    {
+      "repo": "zmqcherish/proxy-script",
+      "commit": "1d9f51bc9a0077d81998bb503ee6158ca83faa73",
+      "default_branch": "main",
+      "metadata_spdx": null,
+      "tree_license_search": {
+        "truncated": false,
+        "entry_count": 117,
+        "matching": []
+      },
+      "credit": "甄星cherish / zmqcherish",
+      "usage_in_public_preview": "微博脚本依赖来源；不打包正文",
+      "reviewed_license": "未见标准许可；README 有非商业用途声明",
+      "distribution_decision": "reference_only_unclear",
+      "upstream_program_or_rule_body_bundled": false,
+      "review_date": "2026-10-22",
+      "extra_declaration": "README says learning/research and no commercial or illegal purposes. This is not classified as a standard open-source grant.",
+      "evidence_documents": [
+        {
+          "path": "README.md",
+          "git_blob_sha": "d86f7c2feeaffa6c21be1df21e5b507b34cd84da",
+          "url": "https://github.com/zmqcherish/proxy-script/blob/1d9f51bc9a0077d81998bb503ee6158ca83faa73/README.md",
+          "bytes": 6266,
+          "sha256": "b22201bf14ab36ea1c6bc3e7f6f4d516408e5151b8c071f898ba731f491abbab"
+        }
+      ]
+    },
+    {
+      "repo": "kokoryh/Sparkle",
+      "commit": "290bcbdd2f158cdd8f7db9c996e90fe63490e16f",
+      "default_branch": "master",
+      "metadata_spdx": "GPL-3.0",
+      "credit": "kokoryh / Sparkle contributors",
+      "usage_in_public_preview": "哔哩哔哩研究来源；未进入当前随包运行内容",
+      "reviewed_license": "GPL v3 许可文本",
+      "distribution_decision": "research_reference_only",
+      "upstream_program_or_rule_body_bundled": false,
+      "review_date": "2026-10-22",
+      "evidence_documents": [
+        {
+          "path": "LICENSE",
+          "git_blob_sha": "e72bfddabc15be5718a7cc061ac10e47741d8219",
+          "url": "https://github.com/kokoryh/Sparkle/blob/290bcbdd2f158cdd8f7db9c996e90fe63490e16f/LICENSE",
+          "bytes": 35148,
+          "sha256": "8b1ba204bb69a0ade2bfcf65ef294a920f6bb361b317dba43c7ef29d96332b9b",
+          "public_license_copy": "third_party/licenses/kokoryh__Sparkle/LICENSE.txt"
+        }
+      ]
+    },
+    {
+      "repo": "AdguardTeam/AdGuardHome",
+      "commit": "b13042b071790a3eeb28c73feeb88034801ee1d1",
+      "default_branch": "master",
+      "metadata_spdx": "GPL-3.0",
+      "credit": "AdGuard Software Ltd. / AdGuard Home contributors",
+      "usage_in_public_preview": "README 信息组织参考；未复制正文、图像或代码",
+      "reviewed_license": "GPL v3 许可文本",
+      "distribution_decision": "editorial_structure_only",
+      "upstream_program_or_rule_body_bundled": false,
+      "review_date": "2026-10-22",
+      "evidence_documents": [
+        {
+          "path": "LICENSE.txt",
+          "git_blob_sha": "f288702d2fa16d3cdf0035b15a9fcbc552cd88e7",
+          "url": "https://github.com/AdguardTeam/AdGuardHome/blob/b13042b071790a3eeb28c73feeb88034801ee1d1/LICENSE.txt",
+          "bytes": 35149,
+          "sha256": "3972dc9744f6499f0f9b2dbf76696f2ae7ad8af9b23dde66d6af86c9dfb36986",
+          "public_license_copy": "third_party/licenses/AdguardTeam__AdGuardHome/LICENSE.txt"
+        },
+        {
+          "path": "README.md",
+          "git_blob_sha": "1cc08d285d91d6e7c3c9993376a1051b015f6314",
+          "url": "https://github.com/AdguardTeam/AdGuardHome/blob/b13042b071790a3eeb28c73feeb88034801ee1d1/README.md",
+          "bytes": 22681,
+          "sha256": "380a60a15069611a45a97f770c1441de8db71446cdb85f17bdd8c56df3dcb10a"
+        }
+      ]
+    },
+    {
+      "repo": "chubin/cheat.sh",
+      "commit": "06af0000259bde1a347da368225c5962d7ffed3e",
+      "default_branch": "master",
+      "metadata_spdx": "MIT",
+      "credit": "Igor Chubin / cheat.sh contributors",
+      "usage_in_public_preview": "README 目录和示例组织参考；未复制正文或代码",
+      "reviewed_license": "MIT",
+      "distribution_decision": "editorial_structure_only",
+      "upstream_program_or_rule_body_bundled": false,
+      "review_date": "2026-10-22",
+      "evidence_documents": [
+        {
+          "path": "LICENSE",
+          "git_blob_sha": "4edf9114799732cd7b2c66efcaf0b42f5369414f",
+          "url": "https://github.com/chubin/cheat.sh/blob/06af0000259bde1a347da368225c5962d7ffed3e/LICENSE",
+          "bytes": 1068,
+          "sha256": "b64f146bf2c6cd03c6ba610678e8a0b6e1c639cb10114e8ba444dc00ebd83c98",
+          "public_license_copy": "third_party/licenses/chubin__cheat.sh/LICENSE.txt"
+        },
+        {
+          "path": "README.md",
+          "git_blob_sha": "b28777f36ffc5517212041f900cedfcb01b275dd",
+          "url": "https://github.com/chubin/cheat.sh/blob/06af0000259bde1a347da368225c5962d7ffed3e/README.md",
+          "bytes": 37438,
+          "sha256": "e067dfdf2d1244677d320fa706fe68d62213421b25af76ca335a208c2e779d91"
+        }
+      ]
+    },
+    {
+      "repo": "XTLS/Xray-docs-next",
+      "commit": "59ab79c7e09112475e7907bf745913ded7ca89a5",
+      "default_branch": "main",
+      "metadata_spdx": "CC-BY-SA-4.0",
+      "credit": "XTLS documentation contributors",
+      "usage_in_public_preview": "REALITY 字段说明参考；未转载文档正文",
+      "reviewed_license": "CC-BY-SA-4.0",
+      "distribution_decision": "reference_only",
+      "upstream_program_or_rule_body_bundled": false,
+      "review_date": "2026-10-22",
+      "evidence_documents": [
+        {
+          "path": "LICENSE",
+          "git_blob_sha": "a73481c4be14b761eddf04cb18317cbc63416dc6",
+          "url": "https://github.com/XTLS/Xray-docs-next/blob/59ab79c7e09112475e7907bf745913ded7ca89a5/LICENSE",
+          "bytes": 20134,
+          "sha256": "3b2890eacd851373001c4a14623458e3adaf1b1967939aa9c38a318e28d61c00",
+          "public_license_copy": "third_party/licenses/XTLS__Xray-docs-next/LICENSE.txt"
+        },
+        {
+          "path": "README.md",
+          "git_blob_sha": "dcc1004b70876120a50eae6adcc4c84bd79106c2",
+          "url": "https://github.com/XTLS/Xray-docs-next/blob/59ab79c7e09112475e7907bf745913ded7ca89a5/README.md",
+          "bytes": 227,
+          "sha256": "678c2d83647fd0210e81b7477f4e592d5f6997c606f2ea9e4bfaeffc5c87f727"
+        }
+      ]
+    },
+    {
+      "repo": "MetaCubeX/Meta-Docs",
+      "commit": "c47fd7212afc3f0e6afe9c7cb18591ba55e5e79b",
+      "default_branch": "main",
+      "metadata_spdx": null,
+      "tree_license_search": {
+        "truncated": false,
+        "entry_count": 314,
+        "matching": []
+      },
+      "credit": "MetaCubeX / Meta-Docs contributors",
+      "usage_in_public_preview": "Mihomo VLESS 字段文档链接；未复制整块上游示例或正文",
+      "reviewed_license": "未在已查仓库树及页面文件中找到标准许可",
+      "distribution_decision": "reference_only_unclear",
+      "upstream_program_or_rule_body_bundled": false,
+      "review_date": "2026-10-22",
+      "evidence_documents": [
+        {
+          "path": "README.md",
+          "git_blob_sha": "62085dd29f61ad1bba4b0d1ec8619cafdf80e2d2",
+          "url": "https://github.com/MetaCubeX/Meta-Docs/blob/c47fd7212afc3f0e6afe9c7cb18591ba55e5e79b/README.md",
+          "bytes": 979,
+          "sha256": "c153f6680342deaa411cc491f2dbf04209b80271c304e3283ddcc9c66558e743"
+        },
+        {
+          "path": "mkdocs.yml",
+          "git_blob_sha": "5dd9c7b488932f0491ebccf87eb53c6b76bbd46e",
+          "url": "https://github.com/MetaCubeX/Meta-Docs/blob/c47fd7212afc3f0e6afe9c7cb18591ba55e5e79b/mkdocs.yml",
+          "bytes": 10462,
+          "sha256": "a473d892284b882dbf7ba068f1257f7d533c909e7748c9cac60918b8cd9aa0b9"
+        }
+      ]
+    },
+    {
+      "repo": "MetaCubeX/ClashMetaForAndroid",
+      "ref": "v2.11.35",
+      "commit": "a55827bfdd79f69ded8cf75c90293d2b7cb7e5a1",
+      "metadata_spdx": "GPL-3.0",
+      "credit": "MetaCubeX / ClashMetaForAndroid contributors",
+      "usage_in_public_preview": "历史安卓安装包 v2.11.35；公开副本不含 APK",
+      "reviewed_license": "GPL v3 许可文本；附 NOTICE",
+      "distribution_decision": "reference_only",
+      "upstream_program_or_rule_body_bundled": false,
+      "review_date": "2026-10-22",
+      "evidence_documents": [
+        {
+          "path": "LICENSE",
+          "git_blob_sha": "f288702d2fa16d3cdf0035b15a9fcbc552cd88e7",
+          "url": "https://github.com/MetaCubeX/ClashMetaForAndroid/blob/a55827bfdd79f69ded8cf75c90293d2b7cb7e5a1/LICENSE",
+          "sha256": "3972dc9744f6499f0f9b2dbf76696f2ae7ad8af9b23dde66d6af86c9dfb36986",
+          "public_license_copy": "third_party/licenses/MetaCubeX__ClashMetaForAndroid/LICENSE.txt"
+        },
+        {
+          "path": "NOTICE",
+          "git_blob_sha": "6853d8820c90108154a18fd573e0947d728a9e35",
+          "url": "https://github.com/MetaCubeX/ClashMetaForAndroid/blob/a55827bfdd79f69ded8cf75c90293d2b7cb7e5a1/NOTICE",
+          "sha256": "074e67bb6184dc6b09245b999ab16a1e0dd1306e044908fde30879dbba5c46fb",
+          "public_license_copy": "third_party/licenses/MetaCubeX__ClashMetaForAndroid/NOTICE.txt"
+        },
+        {
+          "path": "README.md",
+          "git_blob_sha": "03757eca763021270c850dc68095c9b0a9ce6d2d",
+          "url": "https://github.com/MetaCubeX/ClashMetaForAndroid/blob/a55827bfdd79f69ded8cf75c90293d2b7cb7e5a1/README.md",
+          "sha256": "a2fd688193620279326858557f3429924813c6842a022f0ec88dfd9d8db9472a"
+        }
+      ]
+    },
+    {
+      "repo": "MetaCubeX/meta-rules-dat",
+      "ref": "d13b14cc2288dd4c61adcc77a90dc2f82ac5316f",
+      "commit": "d13b14cc2288dd4c61adcc77a90dc2f82ac5316f",
+      "metadata_spdx": "GPL-3.0",
+      "tree_license_search": {},
+      "credit": "MetaCubeX / meta-rules-dat contributors及各数据来源作者",
+      "usage_in_public_preview": "历史安卓 CN 地址数据来源；不分发规则快照",
+      "reviewed_license": "所核对 revision 的根目录未见标准许可；不推断数据再分发权",
+      "distribution_decision": "reference_only_unclear",
+      "upstream_program_or_rule_body_bundled": false,
+      "review_date": "2026-10-22",
+      "license_search_scope": "Pinned revision root listing and retained cn.list; no confirmed complete recursive-tree result; no general redistribution grant inferred.",
+      "evidence_documents": []
+    },
+    {
+      "repo": "MetaCubeX/mihomo",
+      "ref": "v1.19.32",
+      "commit": "88dcbf7f1614a67c3b36b848ee3592dfa92ada36",
+      "credit": "MetaCubeX / Mihomo kernel contributors",
+      "usage_in_public_preview": "实际网络内核版本 v1.19.32；不分发内核",
+      "reviewed_license": "GPL v3 许可文本；README 另有下游命名声明",
+      "distribution_decision": "reference_only",
+      "upstream_program_or_rule_body_bundled": false,
+      "review_date": "2026-10-22",
+      "identity_resolution": "Use the network-kernel release v1.19.32 and Meta branch evidence. A default-branch response described an unrelated Python game-data SDK; its MIT text was excluded.",
+      "excluded_default_branch_metadata_spdx": "MIT",
+      "license_determined_from": "GPL v3 full text and README at the actual v1.19.32 kernel revision; not default-branch license metadata",
+      "extra_declaration": "README states unaffiliated downstream project names must not contain mihomo. This handbook is named codex-vps-handbook; no legal compatibility ruling is made.",
+      "evidence_documents": [
+        {
+          "path": "LICENSE",
+          "git_blob_sha": "f288702d2fa16d3cdf0035b15a9fcbc552cd88e7",
+          "url": "https://github.com/MetaCubeX/mihomo/blob/88dcbf7f1614a67c3b36b848ee3592dfa92ada36/LICENSE",
+          "sha256": "3972dc9744f6499f0f9b2dbf76696f2ae7ad8af9b23dde66d6af86c9dfb36986",
+          "public_license_copy": "third_party/licenses/MetaCubeX__mihomo/LICENSE.txt"
+        },
+        {
+          "path": "README.md",
+          "git_blob_sha": "05f03799ebb9e97b06f8eba96089f8f1606c1623",
+          "url": "https://github.com/MetaCubeX/mihomo/blob/88dcbf7f1614a67c3b36b848ee3592dfa92ada36/README.md",
+          "sha256": "cdea6c96d33d0ae80e5f990461efdce0bf3de9a8de3f1fd0b116b024c8b59a7b"
+        }
+      ]
+    }
+  ],
+  "gist": {
+    "source_url": "https://gist.github.com/ddgksf2013/4f53b7c6083678df25fecc8ff68b52c4",
+    "owner": "ddgksf2013",
+    "version": "dbbc85975ab0e2d4b7494b594fa0d85e69709248",
+    "files": [
+      {
+        "filename": "netease.adblock.js",
+        "sha256": "6ba468eb994e3843d69563f8f3b31c2d63a62a68d60fc3a1fd61947c1546936f",
+        "truncated": false,
+        "has_explicit_license_in_initial_text": false
+      }
+    ],
+    "license_grant": "No standard license detected in listed files/initial text; no redistribution permission inferred",
+    "raw_api_url": "https://api.github.com/gists/4f53b7c6083678df25fecc8ff68b52c4",
+    "id": "ddgksf2013-netease-gist",
+    "review_date": "2026-10-22",
+    "credit": "ddgksf2013",
+    "distribution_decision": "reference_only_unclear",
+    "runtime_body_bundled": false
+  },
+  "retained_license_snapshots": [
+    {
+      "repository": "XTLS/Xray-core",
+      "upstream_path": "LICENSE",
+      "reviewed_commit": "1b1647cd9ddf0abc34b981d4611fc03bcac1ca74",
+      "upstream_url": "https://github.com/XTLS/Xray-core/blob/1b1647cd9ddf0abc34b981d4611fc03bcac1ca74/LICENSE",
+      "git_blob_sha": "a612ad9813b006ce81d1ee438dd784da99a54007",
+      "sha256": "1f256ecad192880510e84ad60474eab7589218784b9a50bc7ceee34c2b91f1d5",
+      "local_path": "third_party/licenses/XTLS__Xray-core/LICENSE.txt",
+      "verbatim": true,
+      "purpose": "license/NOTICE reference snapshot; does not include upstream program"
+    },
+    {
+      "repository": "XTLS/Xray-install",
+      "upstream_path": "LICENSE",
+      "reviewed_commit": "05aa47266c94e6fb5ca48cad96afdb4becb5891f",
+      "upstream_url": "https://github.com/XTLS/Xray-install/blob/05aa47266c94e6fb5ca48cad96afdb4becb5891f/LICENSE",
+      "git_blob_sha": "94a9ed024d3859793618152ea559a168bbcbb5e2",
+      "sha256": "8ceb4b9ee5adedde47b31e975c1d90c73ad27b6b165a1dcd80c7c545eb65b903",
+      "local_path": "third_party/licenses/XTLS__Xray-install/LICENSE.txt",
+      "verbatim": true,
+      "purpose": "license/NOTICE reference snapshot; does not include upstream program"
+    },
+    {
+      "repository": "XTLS/Xray-examples",
+      "upstream_path": "LICENSE",
+      "reviewed_commit": "167cded1a33ac7b0ce76fcf00ea2d8fb0604e927",
+      "upstream_url": "https://github.com/XTLS/Xray-examples/blob/167cded1a33ac7b0ce76fcf00ea2d8fb0604e927/LICENSE",
+      "git_blob_sha": "a73481c4be14b761eddf04cb18317cbc63416dc6",
+      "sha256": "3b2890eacd851373001c4a14623458e3adaf1b1967939aa9c38a318e28d61c00",
+      "local_path": "third_party/licenses/XTLS__Xray-examples/LICENSE.txt",
+      "verbatim": true,
+      "purpose": "license/NOTICE reference snapshot; does not include upstream program"
+    },
+    {
+      "repository": "blackmatrix7/ios_rule_script",
+      "upstream_path": "LICENSE",
+      "reviewed_commit": "f9e403a75bbc4bee939c6d8dd766cf78f1b512f3",
+      "upstream_url": "https://github.com/blackmatrix7/ios_rule_script/blob/f9e403a75bbc4bee939c6d8dd766cf78f1b512f3/LICENSE",
+      "git_blob_sha": "d159169d1050894d3ea3b98e1c965c4058208fe1",
+      "sha256": "8177f97513213526df2cf6184d8ff986c675afb514d4e68a404010521b880643",
+      "local_path": "third_party/licenses/blackmatrix7__ios_rule_script/LICENSE.txt",
+      "verbatim": true,
+      "purpose": "license/NOTICE reference snapshot; does not include upstream program"
+    },
+    {
+      "repository": "v2fly/domain-list-community",
+      "upstream_path": "LICENSE",
+      "reviewed_commit": "e8f6d1e5c4a01cda943c0784ffa834340eeab5ae",
+      "upstream_url": "https://github.com/v2fly/domain-list-community/blob/e8f6d1e5c4a01cda943c0784ffa834340eeab5ae/LICENSE",
+      "git_blob_sha": "1f086538ba3a1d26f46ec44cfda12c2a0c4753a6",
+      "sha256": "b9d84a22870d3f21c91a4c6e410c9cc51d00902f5233ad0c84011479244bf7d2",
+      "local_path": "third_party/licenses/v2fly__domain-list-community/LICENSE.txt",
+      "verbatim": true,
+      "purpose": "license/NOTICE reference snapshot; does not include upstream program"
+    },
+    {
+      "repository": "ACL4SSR/ACL4SSR",
+      "upstream_path": "LICENCE",
+      "reviewed_commit": "575637df38884575bfa523e95c17d0ee3be1676c",
+      "upstream_url": "https://github.com/ACL4SSR/ACL4SSR/blob/575637df38884575bfa523e95c17d0ee3be1676c/LICENCE",
+      "git_blob_sha": "3b7b82d0da2db857eda1a798dbd908ea136f07b5",
+      "sha256": "7abe19ec9bb73b36141b999b861d24ad855e808bafe0f81e84cce28556f6c297",
+      "local_path": "third_party/licenses/ACL4SSR__ACL4SSR/LICENCE.txt",
+      "verbatim": true,
+      "purpose": "license/NOTICE reference snapshot; does not include upstream program"
+    },
+    {
+      "repository": "fmz200/wool_scripts",
+      "upstream_path": "LICENSE",
+      "reviewed_commit": "5d5f63fcf98bc69d5f8f1b1bae6f86a01ee4bb97",
+      "upstream_url": "https://github.com/fmz200/wool_scripts/blob/5d5f63fcf98bc69d5f8f1b1bae6f86a01ee4bb97/LICENSE",
+      "git_blob_sha": "f288702d2fa16d3cdf0035b15a9fcbc552cd88e7",
+      "sha256": "3972dc9744f6499f0f9b2dbf76696f2ae7ad8af9b23dde66d6af86c9dfb36986",
+      "local_path": "third_party/licenses/fmz200__wool_scripts/LICENSE.txt",
+      "verbatim": true,
+      "purpose": "license/NOTICE reference snapshot; does not include upstream program"
+    },
+    {
+      "repository": "app2smile/rules",
+      "upstream_path": "LICENSE.md",
+      "reviewed_commit": "df6366a7024e0b3f0aa3510c5b791eea6f3cba89",
+      "upstream_url": "https://github.com/app2smile/rules/blob/df6366a7024e0b3f0aa3510c5b791eea6f3cba89/LICENSE.md",
+      "git_blob_sha": "d448042e50096ce6482b86199249f543951e051b",
+      "sha256": "f833786adb858e82204ed85c604f844ec59d268d65485f8e6aa66ebcb69ebe5d",
+      "local_path": "third_party/licenses/app2smile__rules/LICENSE.md.txt",
+      "verbatim": true,
+      "purpose": "license/NOTICE reference snapshot; does not include upstream program"
+    },
+    {
+      "repository": "Biliverse/ADBlock",
+      "upstream_path": "LICENSE",
+      "reviewed_commit": "b0051916843f269d4b377aaf177f0d9e7b12e393",
+      "upstream_url": "https://github.com/Biliverse/ADBlock/blob/b0051916843f269d4b377aaf177f0d9e7b12e393/LICENSE",
+      "git_blob_sha": "261eeb9e9f8b2b4b0d119366dda99c6fd7d35c64",
+      "sha256": "c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4",
+      "local_path": "third_party/licenses/Biliverse__ADBlock/LICENSE.txt",
+      "verbatim": true,
+      "purpose": "license/NOTICE reference snapshot; does not include upstream program"
+    },
+    {
+      "repository": "kokoryh/Sparkle",
+      "upstream_path": "LICENSE",
+      "reviewed_commit": "290bcbdd2f158cdd8f7db9c996e90fe63490e16f",
+      "upstream_url": "https://github.com/kokoryh/Sparkle/blob/290bcbdd2f158cdd8f7db9c996e90fe63490e16f/LICENSE",
+      "git_blob_sha": "e72bfddabc15be5718a7cc061ac10e47741d8219",
+      "sha256": "8b1ba204bb69a0ade2bfcf65ef294a920f6bb361b317dba43c7ef29d96332b9b",
+      "local_path": "third_party/licenses/kokoryh__Sparkle/LICENSE.txt",
+      "verbatim": true,
+      "purpose": "license/NOTICE reference snapshot; does not include upstream program"
+    },
+    {
+      "repository": "AdguardTeam/AdGuardHome",
+      "upstream_path": "LICENSE.txt",
+      "reviewed_commit": "b13042b071790a3eeb28c73feeb88034801ee1d1",
+      "upstream_url": "https://github.com/AdguardTeam/AdGuardHome/blob/b13042b071790a3eeb28c73feeb88034801ee1d1/LICENSE.txt",
+      "git_blob_sha": "f288702d2fa16d3cdf0035b15a9fcbc552cd88e7",
+      "sha256": "3972dc9744f6499f0f9b2dbf76696f2ae7ad8af9b23dde66d6af86c9dfb36986",
+      "local_path": "third_party/licenses/AdguardTeam__AdGuardHome/LICENSE.txt",
+      "verbatim": true,
+      "purpose": "license/NOTICE reference snapshot; does not include upstream program"
+    },
+    {
+      "repository": "chubin/cheat.sh",
+      "upstream_path": "LICENSE",
+      "reviewed_commit": "06af0000259bde1a347da368225c5962d7ffed3e",
+      "upstream_url": "https://github.com/chubin/cheat.sh/blob/06af0000259bde1a347da368225c5962d7ffed3e/LICENSE",
+      "git_blob_sha": "4edf9114799732cd7b2c66efcaf0b42f5369414f",
+      "sha256": "b64f146bf2c6cd03c6ba610678e8a0b6e1c639cb10114e8ba444dc00ebd83c98",
+      "local_path": "third_party/licenses/chubin__cheat.sh/LICENSE.txt",
+      "verbatim": true,
+      "purpose": "license/NOTICE reference snapshot; does not include upstream program"
+    },
+    {
+      "repository": "XTLS/Xray-docs-next",
+      "upstream_path": "LICENSE",
+      "reviewed_commit": "59ab79c7e09112475e7907bf745913ded7ca89a5",
+      "upstream_url": "https://github.com/XTLS/Xray-docs-next/blob/59ab79c7e09112475e7907bf745913ded7ca89a5/LICENSE",
+      "git_blob_sha": "a73481c4be14b761eddf04cb18317cbc63416dc6",
+      "sha256": "3b2890eacd851373001c4a14623458e3adaf1b1967939aa9c38a318e28d61c00",
+      "local_path": "third_party/licenses/XTLS__Xray-docs-next/LICENSE.txt",
+      "verbatim": true,
+      "purpose": "license/NOTICE reference snapshot; does not include upstream program"
+    },
+    {
+      "repository": "MetaCubeX/ClashMetaForAndroid",
+      "upstream_path": "LICENSE",
+      "reviewed_commit": "a55827bfdd79f69ded8cf75c90293d2b7cb7e5a1",
+      "upstream_url": "https://github.com/MetaCubeX/ClashMetaForAndroid/blob/a55827bfdd79f69ded8cf75c90293d2b7cb7e5a1/LICENSE",
+      "git_blob_sha": "f288702d2fa16d3cdf0035b15a9fcbc552cd88e7",
+      "sha256": "3972dc9744f6499f0f9b2dbf76696f2ae7ad8af9b23dde66d6af86c9dfb36986",
+      "local_path": "third_party/licenses/MetaCubeX__ClashMetaForAndroid/LICENSE.txt",
+      "verbatim": true,
+      "purpose": "license/NOTICE reference snapshot; does not include upstream program"
+    },
+    {
+      "repository": "MetaCubeX/ClashMetaForAndroid",
+      "upstream_path": "NOTICE",
+      "reviewed_commit": "a55827bfdd79f69ded8cf75c90293d2b7cb7e5a1",
+      "upstream_url": "https://github.com/MetaCubeX/ClashMetaForAndroid/blob/a55827bfdd79f69ded8cf75c90293d2b7cb7e5a1/NOTICE",
+      "git_blob_sha": "6853d8820c90108154a18fd573e0947d728a9e35",
+      "sha256": "074e67bb6184dc6b09245b999ab16a1e0dd1306e044908fde30879dbba5c46fb",
+      "local_path": "third_party/licenses/MetaCubeX__ClashMetaForAndroid/NOTICE.txt",
+      "verbatim": true,
+      "purpose": "license/NOTICE reference snapshot; does not include upstream program"
+    },
+    {
+      "repository": "MetaCubeX/mihomo",
+      "upstream_path": "LICENSE",
+      "reviewed_commit": "88dcbf7f1614a67c3b36b848ee3592dfa92ada36",
+      "upstream_url": "https://github.com/MetaCubeX/mihomo/blob/88dcbf7f1614a67c3b36b848ee3592dfa92ada36/LICENSE",
+      "git_blob_sha": "f288702d2fa16d3cdf0035b15a9fcbc552cd88e7",
+      "sha256": "3972dc9744f6499f0f9b2dbf76696f2ae7ad8af9b23dde66d6af86c9dfb36986",
+      "local_path": "third_party/licenses/MetaCubeX__mihomo/LICENSE.txt",
+      "verbatim": true,
+      "purpose": "license/NOTICE reference snapshot; does not include upstream program"
+    }
+  ]
+}

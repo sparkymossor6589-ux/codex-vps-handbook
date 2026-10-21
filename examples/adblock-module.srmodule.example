@@ -1,0 +1,5 @@
+#!name=Example application module
+#!desc=Structure only; reserved domain; no third-party code or certificates.
+
+[Rule]
+DOMAIN,ads.example.invalid,REJECT

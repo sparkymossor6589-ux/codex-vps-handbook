@@ -1,0 +1,10 @@
+SPDX-License-Identifier: CC-BY-SA-4.0
+Attribution: XTLS / Xray-examples contributors; XTLS documentation contributors.
+Adaptation by: Codex VPS Handbook project contributors, with Codex assistance.
+Upstream example: https://github.com/XTLS/Xray-examples/blob/167cded1a33ac7b0ce76fcf00ea2d8fb0604e927/VLESS-TCP-XTLS-Vision-REALITY/config_server.jsonc
+Field reference: https://github.com/XTLS/Xray-docs-next/tree/59ab79c7e09112475e7907bf745913ded7ca89a5
+Changes (2026-10-22): simplified the server-only structure; removed sniffing and upstream explanatory comments; used explicit private placeholders; loglevel warning; raw transport and target field aligned with the project's selected Xray version.
+Scope: this example file only; it is not claimed as wholly independent original configuration design.
+License text: ../third_party/licenses/XTLS__Xray-examples/LICENSE.txt
+License URL: https://creativecommons.org/licenses/by-sa/4.0/
+No endorsement by upstream authors is implied.
