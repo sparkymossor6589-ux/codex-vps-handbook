@@ -25,7 +25,9 @@ PATTERNS = {
 
 def check(root):
     findings = []
-    files = sorted(p for p in root.rglob('*') if p.is_file() or p.is_symlink())
+    # Local Git metadata is not part of the source/export; untracked files still count.
+    files = sorted(p for p in root.rglob('*')
+                   if (p.is_file() or p.is_symlink()) and p.relative_to(root).parts[0] != '.git')
     for p in files:
         rel = p.relative_to(root)
         def add(kind):

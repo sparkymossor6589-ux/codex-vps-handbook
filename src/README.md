@@ -78,3 +78,19 @@ python3 tools/check_public.py .
 ## 来源和授权范围
 
 本目录提供外围部署和交付实现，不包含 Xray、Mihomo 或应用去广告引擎源码。项目贡献及本轮修改见 [CONTRIBUTIONS.md](../CONTRIBUTIONS.md)，逐文件来源见 [file-provenance.json](../data/file-provenance.json)。MIT 只覆盖项目贡献者有权授权的部分，不能覆盖上游程序或未来加入的外部片段。
+
+## r13 选定 JSON 同步过滤器
+
+[bili_feed_safe.js](bili_feed_safe.js) 是原项目 r13 的本地兼容性处理，公开副本仅添加来源说明头。它运行于提供 `$request`、`$response`、`$done` 的代理脚本环境，不是 Node 命令行应用；不含完整模块、MITM 配置、私人诊断接收器或上游 bundle。需要按自己的客户端和许可配置请求匹配，不能单凭这个文件宣称整套模块可直接使用。
+
+过滤器只处理选定首页 / 开屏 JSON，删除明确广告标记或指定字段，保留普通内容和分页；异常或不识别的数据放行，不发起补位网络请求。详细取舍与手机待验收状态见 [后续记录](../docs/14-adblock-followup.md)。其余 Python 接入服务仍是首次公开时选择的基础参考实现，不是私人诊断系统的全量镜像。
+
+安装有 Node.js 的环境可运行合成回归：
+
+```sh
+node tests/test_bili_feed_safe.js
+```
+
+它检查普通 / 竖屏 / 直播内容、三种推荐路径、分页、响应头、异常 / 超大 / 非文本放行、播放路径不处理与零联网；不访问真实账号或手机。
+
+`tools/check_public.py` 会忽略根目录 `.git` 元数据，继续检查其他源码和未跟踪文件。发布时仍需另外核对 Git 历史、文件清单及提交身份。

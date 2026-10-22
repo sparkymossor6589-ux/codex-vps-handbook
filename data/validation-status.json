@@ -1,5 +1,5 @@
 {
-  "as_of": "2026-10-22",
+  "as_of": "2026-10-22T15:42:37+08:00",
   "basis": "retained local project records and explicit user feedback; no new live acceptance",
   "checks": [
     {
@@ -60,12 +60,12 @@
     {
       "id": "adblock_resource_delivery",
       "status": "historical_technical_record",
-      "scope": "37 resources matched; not effect acceptance"
+      "scope": "Historical r2/r3: 37 matched resources; r13 retained record: 43 matched assets. Neither is effect acceptance."
     },
     {
       "id": "iphone_zhihu_splash",
-      "status": "partially_user_confirmed",
-      "scope": "Cold start after full exit has no splash; resume after screen off/on still shows ads. Not fully resolved."
+      "status": "unresolved",
+      "scope": "Historical cold-start improvement; later resume ads persist, including r12 feedback. r13 phone effect not verified."
     },
     {
       "id": "mac_adblock_chain",
@@ -81,6 +81,32 @@
       "id": "long_term_recovery",
       "status": "not_verified",
       "scope": "No complete reboot/sleep/long-term acceptance"
+    },
+    {
+      "id": "iphone_bilibili_r8_ads",
+      "status": "historically_user_confirmed",
+      "scope": "Only corresponding slots at r8; subsequent r12 feed/playback regression prevents carrying that acceptance into r13"
+    },
+    {
+      "id": "iphone_bilibili_r12_regression",
+      "status": "user_reported_failure",
+      "scope": "Feed refresh and playback unavailable; exact cause not isolated"
+    },
+    {
+      "id": "iphone_bilibili_r13_recovery_and_ads",
+      "status": "not_verified",
+      "scope": "Compatibility patch prepared and Mac probes checked; phone recovery and ad effects pending"
+    },
+    {
+      "id": "mac_r13_media_range",
+      "status": "partial_technical_record",
+      "scope": "206 and 1024 bytes from one HTTPS CDN range request; not full video or phone playback"
+    },
+    {
+      "id": "android_gkd",
+      "status": "not_verified",
+      "scope": "Official/community source review and guidance only; no real Android acceptance"
     }
-  ]
+  ],
+  "latest_local_delivery": "20261022-r13"
 }

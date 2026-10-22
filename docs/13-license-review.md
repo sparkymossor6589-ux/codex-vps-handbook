@@ -21,3 +21,11 @@ Mihomo 的核对按实际网络内核 v1.19.32，避免套用同名 Python SDK �
 公开目录与对应交付材料已随结果更新。本轮只写公开副本及本地审阅材料，不写原项目和运行设备。核对期间发现原项目两份状态说明新增了知乎回前台仍有广告的记录，已保留原更新并同步收窄公开表述。
 
 入口：[署名总表](../THIRD_PARTY_NOTICES.md) · [项目贡献](../CONTRIBUTIONS.md) · [文件许可范围](../LICENSE_SCOPE.md)。
+
+## r13 文档与选定源码更新的补充核对
+
+初次的 21 仓库 / 1 Gist 清单是当时的审计范围。后续新增四项参考：gkd-kit/gkd（GPL v3）、Lin-arm/GKD_subscription（所查完整树未见标准许可）、privacy-protection-tools/anti-AD（MIT）、AdguardTeam/AdguardFilters（GPL v3）。以上项目均只引用与说明，不新增其代码、规则、安装包或图片；记录见 [补充来源](../data/update-source-attributions.json)。
+
+程序许可与社区订阅许可分别检查。域名被某来源分类，不等于该来源保证本项目手机效果；链接也不授予复制权。已有完整许可 / NOTICE 存档原样保留。
+
+新增的 `src/bili_feed_safe.js` 来自本项目 r13 维护实现；只补公开说明头，功能正文保留。测试夹具重新构造，不含真实手机响应、账号或媒体链接。其项目与上游边界见 [CONTRIBUTIONS.md](../CONTRIBUTIONS.md)。

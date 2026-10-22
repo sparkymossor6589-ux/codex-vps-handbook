@@ -1,0 +1,63 @@
+{
+  "review_date": "2026-10-22",
+  "scope": "Additional reference-only sources for r9-r13 and Android guidance; initial license audit retained separately",
+  "sources": [
+    {
+      "name": "gkd-kit/gkd",
+      "repository": "https://github.com/gkd-kit/gkd",
+      "reviewed_ref": "fe6736fb083ba90d7bace124e30b61ff6e5701f2",
+      "license_observation": "GPL-3.0",
+      "distribution": "reference only; no upstream code, rule body, screenshot or package redistributed",
+      "license_applies_to": "upstream project, not a grant over linked content or other authors' rules"
+    },
+    {
+      "name": "Lin-arm/GKD_subscription",
+      "repository": "https://github.com/Lin-arm/GKD_subscription",
+      "reviewed_ref": "855162622049c28d1a4a9fd87580cc277da696b0",
+      "license_observation": "No standard LICENSE found in reviewed complete repository tree",
+      "distribution": "reference only; no upstream code, rule body, screenshot or package redistributed",
+      "license_applies_to": "upstream project, not a grant over linked content or other authors' rules"
+    },
+    {
+      "name": "privacy-protection-tools/anti-AD",
+      "repository": "https://github.com/privacy-protection-tools/anti-AD",
+      "reviewed_ref": "c70a5be00e1c5f7781a5e4faf744c08c75a0ce6a",
+      "license_observation": "MIT",
+      "distribution": "reference only; no upstream code, rule body, screenshot or package redistributed",
+      "license_applies_to": "upstream project, not a grant over linked content or other authors' rules"
+    },
+    {
+      "name": "AdguardTeam/AdguardFilters",
+      "repository": "https://github.com/AdguardTeam/AdguardFilters",
+      "reviewed_ref": "affe02c3f49977bd4adbb0663f5faf8f461df4b8",
+      "license_observation": "GPL-3.0",
+      "distribution": "reference only; no upstream code, rule body, screenshot or package redistributed",
+      "license_applies_to": "upstream project, not a grant over linked content or other authors' rules"
+    }
+  ],
+  "public_documentation": [
+    "https://gkd.li/guide/",
+    "https://gkd.li/guide/subscription",
+    "https://gkd.li/guide/faq"
+  ],
+  "historical_source_snapshots": [
+    {
+      "url": "https://raw.githubusercontent.com/privacy-protection-tools/anti-AD/master/anti-ad-domains.txt",
+      "sha256": "829b6e3145973be54c0e01c4263f55d94856161b04d550a2520189f9c42e015b",
+      "usage": "r12 domain-family cross-check; list body not distributed"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/v2ray/domain-list-community/master/data/bytedance-ads",
+      "sha256": "f0286aee70b49fdb598c2f4c8dd6015807c7ca3b81e9216e4a2a93f2eec7066a",
+      "usage": "ad category cross-check; existing domain-list-community attribution and MIT license retained; no list body"
+    }
+  ],
+  "selected_local_code": {
+    "path": "src/bili_feed_safe.js",
+    "origin": "Project-local Codex-assisted r13 synchronous JSON compatibility implementation",
+    "public_changes": "Attribution header only; functional body retained from project file",
+    "upstream_boundary": "Not a copied Biliverse bundle; upstream retained handlers are not redistributed",
+    "license": "MIT only for rights held by project contributors"
+  },
+  "limits": "License observation concerns the reviewed reference. No new third-party rule body, upstream implementation, APK, screenshot or documentation text is redistributed."
+}

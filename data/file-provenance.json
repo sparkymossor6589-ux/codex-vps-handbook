@@ -31,7 +31,9 @@
       "license_scope": "MIT only to the extent project contributors hold applicable rights",
       "changes": "see CONTRIBUTIONS.md and source-audit documents",
       "previous_public_preview_sha256": "ca9dc2fdc1a93fa5eb2343ee482c1479f6a138b7c06e5c68fdf293936c00c8a9",
-      "attribution_review_date": "2026-10-22"
+      "attribution_review_date": "2026-10-22",
+      "previous_published_blob": "bdbded83478d67cfbf99f9868574a842e6ae4e52",
+      "update_summary": "r13 follow-up facts, privacy review, attribution or synthetic regression; see CHANGELOG.md"
     },
     {
       "path": "CONTRIBUTING.md",
@@ -47,7 +49,9 @@
       "license_scope": "MIT only to the extent project contributors hold applicable rights",
       "changes": "see CONTRIBUTIONS.md and source-audit documents",
       "previous_public_preview_sha256": null,
-      "attribution_review_date": "2026-10-22"
+      "attribution_review_date": "2026-10-22",
+      "previous_published_blob": "95a0d85a08fd0289b07e5a42fb2653c2e47eed0d",
+      "update_summary": "r13 follow-up facts, privacy review, attribution or synthetic regression; see CHANGELOG.md"
     },
     {
       "path": "LICENSE",
@@ -63,7 +67,17 @@
       "license_scope": "MIT only to the extent project contributors hold applicable rights",
       "changes": "see CONTRIBUTIONS.md and source-audit documents",
       "previous_public_preview_sha256": null,
-      "attribution_review_date": "2026-10-22"
+      "attribution_review_date": "2026-10-22",
+      "previous_published_blob": "40af410697fdbf49a7b805db246339ec08c76895",
+      "update_summary": "r13 follow-up facts, privacy review, attribution or synthetic regression; see CHANGELOG.md"
+    },
+    {
+      "path": "PUBLICATION_CHECK.md",
+      "origin": "publication-scope summary from independent local review",
+      "license_scope": "MIT for project-held document rights",
+      "attribution_review_date": "2026-10-22",
+      "previous_published_blob": "b7741d58f5f56b2c629aa914c87d4ae7dd3614aa",
+      "update_summary": "r13 follow-up facts, privacy review, attribution or synthetic regression; see CHANGELOG.md"
     },
     {
       "path": "PUBLIC_REVIEW.md",
@@ -71,7 +85,9 @@
       "license_scope": "MIT only to the extent project contributors hold applicable rights",
       "changes": "see CONTRIBUTIONS.md and source-audit documents",
       "previous_public_preview_sha256": "c61e6e2cbb9ae25aecf9d7a28ead568e51e096d9ecdb8aad9219a010dea04687",
-      "attribution_review_date": "2026-10-22"
+      "attribution_review_date": "2026-10-22",
+      "previous_published_blob": "797f2e114b53223da6a9af0cdba1b1ecb47f72ca",
+      "update_summary": "r13 follow-up facts, privacy review, attribution or synthetic regression; see CHANGELOG.md"
     },
     {
       "path": "README.md",
@@ -79,7 +95,9 @@
       "license_scope": "MIT only to the extent project contributors hold applicable rights",
       "changes": "see CONTRIBUTIONS.md and source-audit documents",
       "previous_public_preview_sha256": "f37b92511045a9f17a5a7550fb12a6d57ff184d487d23c7d61aaef9b74ac2fd9",
-      "attribution_review_date": "2026-10-22"
+      "attribution_review_date": "2026-10-22",
+      "previous_published_blob": "03a19a536ef4ee7ccf0d002c43f31ecd84d04fd8",
+      "update_summary": "r13 follow-up facts, privacy review, attribution or synthetic regression; see CHANGELOG.md"
     },
     {
       "path": "SECURITY.md",
@@ -95,6 +113,21 @@
       "license_scope": "MIT only to the extent project contributors hold applicable rights",
       "changes": "see CONTRIBUTIONS.md and source-audit documents",
       "previous_public_preview_sha256": null,
+      "attribution_review_date": "2026-10-22",
+      "previous_published_blob": "63d3a18566cc94eae688296bf0b96225a7a4ef8a",
+      "update_summary": "r13 follow-up facts, privacy review, attribution or synthetic regression; see CHANGELOG.md"
+    },
+    {
+      "path": "data/file-provenance.json",
+      "origin": "generated source/rights scope inventory",
+      "license_scope": "MIT for project-held compilation rights; no grant over linked content",
+      "attribution_review_date": "2026-10-22"
+    },
+    {
+      "path": "data/latest-results.json",
+      "origin": "Codex-assisted project documentation, synthetic tests or source-facts compilation",
+      "license_scope": "MIT only to the extent project contributors hold applicable rights",
+      "changes": "see CONTRIBUTIONS.md and r13 follow-up documentation",
       "attribution_review_date": "2026-10-22"
     },
     {
@@ -122,6 +155,13 @@
       "attribution_review_date": "2026-10-22"
     },
     {
+      "path": "data/update-source-attributions.json",
+      "origin": "Codex-assisted project documentation, synthetic tests or source-facts compilation",
+      "license_scope": "MIT only to the extent project contributors hold applicable rights",
+      "changes": "see CONTRIBUTIONS.md and r13 follow-up documentation",
+      "attribution_review_date": "2026-10-22"
+    },
+    {
       "path": "data/upstream-apps.json",
       "origin": "Codex-assisted project documentation / source-facts organization",
       "license_scope": "MIT only to the extent project contributors hold applicable rights",
@@ -135,7 +175,9 @@
       "license_scope": "MIT only to the extent project contributors hold applicable rights",
       "changes": "see CONTRIBUTIONS.md and source-audit documents",
       "previous_public_preview_sha256": "c5a206e88847997e0f6492cb694b691f75cfc83e4f173e54e45f477e6e513639",
-      "attribution_review_date": "2026-10-22"
+      "attribution_review_date": "2026-10-22",
+      "previous_published_blob": "aa1a4b9aa42eda03dbb604aef870aa2ba706c40d",
+      "update_summary": "r13 follow-up facts, privacy review, attribution or synthetic regression; see CHANGELOG.md"
     },
     {
       "path": "docs/00-quickstart.md",
@@ -143,7 +185,9 @@
       "license_scope": "MIT only to the extent project contributors hold applicable rights",
       "changes": "see CONTRIBUTIONS.md and source-audit documents",
       "previous_public_preview_sha256": "69eccef4d0b5d796cba5fb1ea96287a777b06c7c61ee4da6400051891240c51a",
-      "attribution_review_date": "2026-10-22"
+      "attribution_review_date": "2026-10-22",
+      "previous_published_blob": "7f1f37d7c9a2316d2ef8efd06d72a65c2d4eb68c",
+      "update_summary": "r13 follow-up facts, privacy review, attribution or synthetic regression; see CHANGELOG.md"
     },
     {
       "path": "docs/01-start-with-codex.md",
@@ -191,7 +235,9 @@
       "license_scope": "MIT only to the extent project contributors hold applicable rights",
       "changes": "see CONTRIBUTIONS.md and source-audit documents",
       "previous_public_preview_sha256": "e3ff431712eafef16471b2dddf799f5ddd3b5be9dd66d14011d24e1dbd140943",
-      "attribution_review_date": "2026-10-22"
+      "attribution_review_date": "2026-10-22",
+      "previous_published_blob": "cf7d8e4b589e7ccb955067ca50a7fffa60bf8572",
+      "update_summary": "r13 follow-up facts, privacy review, attribution or synthetic regression; see CHANGELOG.md"
     },
     {
       "path": "docs/07-maintenance-and-rollback.md",
@@ -215,7 +261,9 @@
       "license_scope": "MIT only to the extent project contributors hold applicable rights",
       "changes": "see CONTRIBUTIONS.md and source-audit documents",
       "previous_public_preview_sha256": "b7cfb0dfd47e27ae0119e1a0692bcb1249795c65bb6b7979310582607b675d0d",
-      "attribution_review_date": "2026-10-22"
+      "attribution_review_date": "2026-10-22",
+      "previous_published_blob": "a4bd3b1d10114a4869fb1f6cedb037195833e60e",
+      "update_summary": "r13 follow-up facts, privacy review, attribution or synthetic regression; see CHANGELOG.md"
     },
     {
       "path": "docs/10-project-story.md",
@@ -223,7 +271,9 @@
       "license_scope": "MIT only to the extent project contributors hold applicable rights",
       "changes": "see CONTRIBUTIONS.md and source-audit documents",
       "previous_public_preview_sha256": "ac8364df831ee9ecf38cdb7977fdd389a289335e378f67a5405ce558903bbe6f",
-      "attribution_review_date": "2026-10-22"
+      "attribution_review_date": "2026-10-22",
+      "previous_published_blob": "1c9999e9ee0e091bf89efe3ce591f52a072fa7aa",
+      "update_summary": "r13 follow-up facts, privacy review, attribution or synthetic regression; see CHANGELOG.md"
     },
     {
       "path": "docs/11-sources-and-licenses.md",
@@ -231,7 +281,9 @@
       "license_scope": "MIT only to the extent project contributors hold applicable rights",
       "changes": "see CONTRIBUTIONS.md and source-audit documents",
       "previous_public_preview_sha256": "d191b64d46ca9e5f9343c081536b7f21bb7df91a13f33108163f13433f71988d",
-      "attribution_review_date": "2026-10-22"
+      "attribution_review_date": "2026-10-22",
+      "previous_published_blob": "992f142e683c93196f31242e2482a6752c9d86e3",
+      "update_summary": "r13 follow-up facts, privacy review, attribution or synthetic regression; see CHANGELOG.md"
     },
     {
       "path": "docs/12-editorial-references.md",
@@ -247,6 +299,22 @@
       "license_scope": "MIT only to the extent project contributors hold applicable rights",
       "changes": "see CONTRIBUTIONS.md and source-audit documents",
       "previous_public_preview_sha256": null,
+      "attribution_review_date": "2026-10-22",
+      "previous_published_blob": "a4cd0b4080a8e25e5c6a1843c3cf163da01a28ba",
+      "update_summary": "r13 follow-up facts, privacy review, attribution or synthetic regression; see CHANGELOG.md"
+    },
+    {
+      "path": "docs/14-adblock-followup.md",
+      "origin": "Codex-assisted project documentation, synthetic tests or source-facts compilation",
+      "license_scope": "MIT only to the extent project contributors hold applicable rights",
+      "changes": "see CONTRIBUTIONS.md and r13 follow-up documentation",
+      "attribution_review_date": "2026-10-22"
+    },
+    {
+      "path": "docs/15-android-gkd.md",
+      "origin": "Codex-assisted project documentation, synthetic tests or source-facts compilation",
+      "license_scope": "MIT only to the extent project contributors hold applicable rights",
+      "changes": "see CONTRIBUTIONS.md and r13 follow-up documentation",
       "attribution_review_date": "2026-10-22"
     },
     {
@@ -327,7 +395,9 @@
       "license_scope": "MIT only to the extent project contributors hold applicable rights",
       "changes": "see CONTRIBUTIONS.md and source-audit documents",
       "previous_public_preview_sha256": "c7a41fdd09d37e94e895999c1775dd26c3c6bb569c2121973409f9596e2ab53b",
-      "attribution_review_date": "2026-10-22"
+      "attribution_review_date": "2026-10-22",
+      "previous_published_blob": "f94b5d47a7ad89c34dafaa88f560c6302bdad5ce",
+      "update_summary": "r13 follow-up facts, privacy review, attribution or synthetic regression; see CHANGELOG.md"
     },
     {
       "path": "src/adblock_access.py",
@@ -351,6 +421,13 @@
       "license_scope": "MIT only to the extent project contributors hold applicable rights",
       "changes": "see CONTRIBUTIONS.md and source-audit documents",
       "previous_public_preview_sha256": "59c91d355a188dd11bb3ff302159c8a27951b2160f027446b9f0f9c2eedcc4bf",
+      "attribution_review_date": "2026-10-22"
+    },
+    {
+      "path": "src/bili_feed_safe.js",
+      "origin": "project-local Codex-assisted r13 maintenance implementation",
+      "license_scope": "MIT only to the extent project contributors hold applicable rights",
+      "changes": "see CONTRIBUTIONS.md and r13 follow-up documentation",
       "attribution_review_date": "2026-10-22"
     },
     {
@@ -383,6 +460,13 @@
       "license_scope": "MIT only to the extent project contributors hold applicable rights",
       "changes": "see CONTRIBUTIONS.md and source-audit documents",
       "previous_public_preview_sha256": "4aedeabc35c7c79f36e2651a871811473e55bb6906104b076e3b3fcb24c2c990",
+      "attribution_review_date": "2026-10-22"
+    },
+    {
+      "path": "tests/test_bili_feed_safe.js",
+      "origin": "Codex-assisted project documentation, synthetic tests or source-facts compilation",
+      "license_scope": "MIT only to the extent project contributors hold applicable rights",
+      "changes": "see CONTRIBUTIONS.md and r13 follow-up documentation",
       "attribution_review_date": "2026-10-22"
     },
     {
@@ -575,21 +659,13 @@
       "license_scope": "MIT only to the extent project contributors hold applicable rights",
       "changes": "see CONTRIBUTIONS.md and source-audit documents",
       "previous_public_preview_sha256": "97eea668105b13fb8bdc1d0a4cd22d4494195b167788400619ffff930a9ef64e",
-      "attribution_review_date": "2026-10-22"
-    },
-    {
-      "path": "data/file-provenance.json",
-      "origin": "generated source/rights scope inventory",
-      "license_scope": "MIT for project-held compilation rights; no grant over linked content",
-      "attribution_review_date": "2026-10-22"
-    },
-    {
-      "path": "PUBLICATION_CHECK.md",
-      "origin": "publication-scope summary from independent local review",
-      "license_scope": "MIT for project-held document rights",
-      "attribution_review_date": "2026-10-22"
+      "attribution_review_date": "2026-10-22",
+      "previous_published_blob": "c14804040817575cf3b8288c7e2b1c263d00b161",
+      "update_summary": "r13 follow-up facts, privacy review, attribution or synthetic regression; see CHANGELOG.md"
     }
   ],
   "scope": "all public export files; no private paths, credentials or raw research source copies",
-  "publication_preparation_date": "2026-10-22"
+  "publication_preparation_date": "2026-10-22",
+  "latest_local_delivery": "20261022-r13",
+  "update_source_record": "data/update-source-attributions.json"
 }

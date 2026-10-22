@@ -57,3 +57,14 @@
 6. **改编样例**：Xray JSON 样例作为参照上游的精简样例，保留署名、来源、改动及 CC BY-SA 4.0 同许可；其余具体文件的范围见 [LICENSE_SCOPE.md](LICENSE_SCOPE.md)。
 
 完整 commit、Git blob、原文哈希与决策见 [审计数据](data/third-party-license-audit.json)。本表完成的是当前公开副本的检查，不是对私有运行包或未来所有分发方式的法律保证。
+
+## r13 更新补充来源（仅引用）
+
+| 来源与作者 | 使用范围 | 本次核对与分发边界 |
+|---|---|---|
+| [gkd-kit/gkd](https://github.com/gkd-kit/gkd) · GKD authors and contributors | 安卓无障碍点击路线与官方文档 | GPL v3；不分发程序、文档正文或 APK |
+| [Lin-arm/GKD_subscription](https://github.com/Lin-arm/GKD_subscription) · Lin-arm 及实际规则贡献者 | 第三方社区订阅入口 | 所查完整树未见标准 LICENSE；不镜像规则，不套用 GKD 程序许可 |
+| [privacy-protection-tools/anti-AD](https://github.com/privacy-protection-tools/anti-AD) · privacy-protection-tools / anti-AD contributors | 已知广告 SDK 域名分类与备用入口交叉核对 | MIT；不分发列表正文；保留链接与所用来源文件哈希 |
+| [AdguardTeam/AdguardFilters](https://github.com/AdguardTeam/AdguardFilters) · AdGuard filter authors and contributors | 中文广告域名分类参考 | GPL v3；不分发过滤器正文 |
+
+已有 domain-list-community 的署名和 MIT 原文继续保留。精确参考版本与来源文件哈希见 [补充记录](data/update-source-attributions.json)。`src/bili_feed_safe.js` 为本地新写的选定 JSON 处理代码；上游模块与保留的其他处理仍归原作者，见 [贡献边界](CONTRIBUTIONS.md)。
