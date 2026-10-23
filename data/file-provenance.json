@@ -1,671 +1,181 @@
 {
-  "review_date": "2026-10-22",
-  "files": [
+  "review_date": "2026-10-23",
+  "scope": "all current public files; production materials and diagnostic wrappers excluded",
+  "project_held_rights": "MIT only to the extent contributors hold applicable rights; see LICENSE_SCOPE.md",
+  "groups": [
     {
-      "path": ".github/ISSUE_TEMPLATE/bug_report.md",
-      "origin": "Codex-assisted project documentation / source-facts organization",
-      "license_scope": "MIT only to the extent project contributors hold applicable rights",
-      "changes": "see CONTRIBUTIONS.md and source-audit documents",
-      "previous_public_preview_sha256": "35bd0a68e9e6dcc8654aba30057178c5caec50445e05df96e661bf0e482cd229",
-      "attribution_review_date": "2026-10-22"
+      "origin": "Codex-assisted project prose, source facts and metadata",
+      "files": [
+        ".github/ISSUE_TEMPLATE/bug_report.md",
+        ".github/pull_request_template.md",
+        ".gitignore",
+        "CHANGELOG.md",
+        "CONTRIBUTING.md",
+        "CONTRIBUTIONS.md",
+        "LICENSE",
+        "LICENSE_SCOPE.md",
+        "PUBLIC_REVIEW.md",
+        "README.md",
+        "SECURITY.md",
+        "THIRD_PARTY_NOTICES.md",
+        "data/file-provenance.json",
+        "data/reference-document-sources.json",
+        "data/runtime-source-attributions.json",
+        "data/third-party-license-audit.json",
+        "data/update-source-attributions.json",
+        "data/upstream-apps.json",
+        "data/validation-status.json",
+        "docs/00-quickstart.md",
+        "docs/01-start-with-codex.md",
+        "docs/02-server-setup.md",
+        "docs/03-routing-and-clients.md",
+        "docs/04-online-updates-and-traffic.md",
+        "docs/05-real-world-fixes.md",
+        "docs/06-adblocking.md",
+        "docs/07-maintenance-and-rollback.md",
+        "docs/08-prompts.md",
+        "docs/09-validation.md",
+        "docs/10-project-story.md",
+        "docs/11-sources-and-licenses.md",
+        "docs/12-editorial-references.md",
+        "docs/13-license-review.md",
+        "docs/14-adblock-followup.md",
+        "docs/15-android-gkd.md",
+        "third_party/README.md"
+      ]
     },
     {
-      "path": ".github/pull_request_template.md",
-      "origin": "Codex-assisted project documentation / source-facts organization",
-      "license_scope": "MIT only to the extent project contributors hold applicable rights",
-      "changes": "see CONTRIBUTIONS.md and source-audit documents",
-      "previous_public_preview_sha256": "ce50219c0fdb892c3b00d72a75abd3a915b5c69676f01203eef14a19ad619bdc",
-      "attribution_review_date": "2026-10-22"
+      "origin": "local maintenance implementation, synthetic tests and public-check tool",
+      "files": [
+        "src/README.md",
+        "src/adblock_access.py",
+        "src/android_access.py",
+        "src/android_setup.html",
+        "src/bili_feed_safe.js",
+        "src/bootstrap_xray.py",
+        "src/traffic_service.py",
+        "tests/test_adblock_access.py",
+        "tests/test_android_access.py",
+        "tests/test_bili_feed_safe.js",
+        "tests/test_meter.py",
+        "tests/test_online_entry.py",
+        "tools/check_public.py"
+      ]
     },
     {
-      "path": ".gitignore",
-      "origin": "Codex-assisted project documentation / source-facts organization",
-      "license_scope": "MIT only to the extent project contributors hold applicable rights",
-      "changes": "see CONTRIBUTIONS.md and source-audit documents",
-      "previous_public_preview_sha256": "80b1fcba02f7ce3976f9647c85354e2d5b55813dd8dc1c9f52b8e6cfb7d3c5e7",
-      "attribution_review_date": "2026-10-22"
-    },
+      "origin": "locally organized examples; protocol/client fields remain upstream concepts",
+      "files": [
+        "examples/README.md",
+        "examples/adblock-module.srmodule.example",
+        "examples/android-registry.json.example",
+        "examples/mihomo.yaml.example",
+        "examples/shadowrocket.conf.example",
+        "examples/traffic-config.json.example"
+      ]
+    }
+  ],
+  "exceptions": [
     {
-      "path": "CHANGELOG.md",
-      "origin": "Codex-assisted project documentation / source-facts organization",
-      "license_scope": "MIT only to the extent project contributors hold applicable rights",
-      "changes": "see CONTRIBUTIONS.md and source-audit documents",
-      "previous_public_preview_sha256": "ca9dc2fdc1a93fa5eb2343ee482c1479f6a138b7c06e5c68fdf293936c00c8a9",
-      "attribution_review_date": "2026-10-22",
-      "previous_published_blob": "bdbded83478d67cfbf99f9868574a842e6ae4e52",
-      "update_summary": "r13 follow-up facts, privacy review, attribution or synthetic regression; see CHANGELOG.md"
-    },
-    {
-      "path": "CONTRIBUTING.md",
-      "origin": "Codex-assisted project documentation / source-facts organization",
-      "license_scope": "MIT only to the extent project contributors hold applicable rights",
-      "changes": "see CONTRIBUTIONS.md and source-audit documents",
-      "previous_public_preview_sha256": "ae62500e492fc530ddb76bdb27ffa888c83a3c1ad11c35395b75f8063da23ecd",
-      "attribution_review_date": "2026-10-22"
-    },
-    {
-      "path": "CONTRIBUTIONS.md",
-      "origin": "Codex-assisted project documentation / source-facts organization",
-      "license_scope": "MIT only to the extent project contributors hold applicable rights",
-      "changes": "see CONTRIBUTIONS.md and source-audit documents",
-      "previous_public_preview_sha256": null,
-      "attribution_review_date": "2026-10-22",
-      "previous_published_blob": "95a0d85a08fd0289b07e5a42fb2653c2e47eed0d",
-      "update_summary": "r13 follow-up facts, privacy review, attribution or synthetic regression; see CHANGELOG.md"
-    },
-    {
-      "path": "LICENSE",
-      "origin": "Codex-assisted project documentation / source-facts organization",
-      "license_scope": "MIT only to the extent project contributors hold applicable rights",
-      "changes": "see CONTRIBUTIONS.md and source-audit documents",
-      "previous_public_preview_sha256": "6864cc44816a9fba7c14045aa88f59a41039d0448cc6d361b6161f045cff6cea",
-      "attribution_review_date": "2026-10-22"
-    },
-    {
-      "path": "LICENSE_SCOPE.md",
-      "origin": "Codex-assisted project documentation / source-facts organization",
-      "license_scope": "MIT only to the extent project contributors hold applicable rights",
-      "changes": "see CONTRIBUTIONS.md and source-audit documents",
-      "previous_public_preview_sha256": null,
-      "attribution_review_date": "2026-10-22",
-      "previous_published_blob": "40af410697fdbf49a7b805db246339ec08c76895",
-      "update_summary": "r13 follow-up facts, privacy review, attribution or synthetic regression; see CHANGELOG.md"
-    },
-    {
-      "path": "PUBLICATION_CHECK.md",
-      "origin": "publication-scope summary from independent local review",
-      "license_scope": "MIT for project-held document rights",
-      "attribution_review_date": "2026-10-22",
-      "previous_published_blob": "b7741d58f5f56b2c629aa914c87d4ae7dd3614aa",
-      "update_summary": "r13 follow-up facts, privacy review, attribution or synthetic regression; see CHANGELOG.md"
-    },
-    {
-      "path": "PUBLIC_REVIEW.md",
-      "origin": "Codex-assisted project documentation / source-facts organization",
-      "license_scope": "MIT only to the extent project contributors hold applicable rights",
-      "changes": "see CONTRIBUTIONS.md and source-audit documents",
-      "previous_public_preview_sha256": "c61e6e2cbb9ae25aecf9d7a28ead568e51e096d9ecdb8aad9219a010dea04687",
-      "attribution_review_date": "2026-10-22",
-      "previous_published_blob": "797f2e114b53223da6a9af0cdba1b1ecb47f72ca",
-      "update_summary": "r13 follow-up facts, privacy review, attribution or synthetic regression; see CHANGELOG.md"
-    },
-    {
-      "path": "README.md",
-      "origin": "Codex-assisted project documentation / source-facts organization",
-      "license_scope": "MIT only to the extent project contributors hold applicable rights",
-      "changes": "see CONTRIBUTIONS.md and source-audit documents",
-      "previous_public_preview_sha256": "f37b92511045a9f17a5a7550fb12a6d57ff184d487d23c7d61aaef9b74ac2fd9",
-      "attribution_review_date": "2026-10-22",
-      "previous_published_blob": "03a19a536ef4ee7ccf0d002c43f31ecd84d04fd8",
-      "update_summary": "r13 follow-up facts, privacy review, attribution or synthetic regression; see CHANGELOG.md"
-    },
-    {
-      "path": "SECURITY.md",
-      "origin": "Codex-assisted project documentation / source-facts organization",
-      "license_scope": "MIT only to the extent project contributors hold applicable rights",
-      "changes": "see CONTRIBUTIONS.md and source-audit documents",
-      "previous_public_preview_sha256": "a589329945dda737cb3c1011dedc80f5097c6d04fa8b901de2de6fa20d9008b0",
-      "attribution_review_date": "2026-10-22"
-    },
-    {
-      "path": "THIRD_PARTY_NOTICES.md",
-      "origin": "Codex-assisted project documentation / source-facts organization",
-      "license_scope": "MIT only to the extent project contributors hold applicable rights",
-      "changes": "see CONTRIBUTIONS.md and source-audit documents",
-      "previous_public_preview_sha256": null,
-      "attribution_review_date": "2026-10-22",
-      "previous_published_blob": "63d3a18566cc94eae688296bf0b96225a7a4ef8a",
-      "update_summary": "r13 follow-up facts, privacy review, attribution or synthetic regression; see CHANGELOG.md"
-    },
-    {
-      "path": "data/file-provenance.json",
-      "origin": "generated source/rights scope inventory",
-      "license_scope": "MIT for project-held compilation rights; no grant over linked content",
-      "attribution_review_date": "2026-10-22"
-    },
-    {
-      "path": "data/latest-results.json",
-      "origin": "Codex-assisted project documentation, synthetic tests or source-facts compilation",
-      "license_scope": "MIT only to the extent project contributors hold applicable rights",
-      "changes": "see CONTRIBUTIONS.md and r13 follow-up documentation",
-      "attribution_review_date": "2026-10-22"
-    },
-    {
-      "path": "data/reference-document-sources.json",
-      "origin": "Codex-assisted project documentation / source-facts organization",
-      "license_scope": "MIT only to the extent project contributors hold applicable rights",
-      "changes": "see CONTRIBUTIONS.md and source-audit documents",
-      "previous_public_preview_sha256": null,
-      "attribution_review_date": "2026-10-22"
-    },
-    {
-      "path": "data/runtime-source-attributions.json",
-      "origin": "Codex-assisted project documentation / source-facts organization",
-      "license_scope": "MIT only to the extent project contributors hold applicable rights",
-      "changes": "see CONTRIBUTIONS.md and source-audit documents",
-      "previous_public_preview_sha256": null,
-      "attribution_review_date": "2026-10-22"
-    },
-    {
-      "path": "data/third-party-license-audit.json",
-      "origin": "Codex-assisted project documentation / source-facts organization",
-      "license_scope": "MIT only to the extent project contributors hold applicable rights",
-      "changes": "see CONTRIBUTIONS.md and source-audit documents",
-      "previous_public_preview_sha256": null,
-      "attribution_review_date": "2026-10-22"
-    },
-    {
-      "path": "data/update-source-attributions.json",
-      "origin": "Codex-assisted project documentation, synthetic tests or source-facts compilation",
-      "license_scope": "MIT only to the extent project contributors hold applicable rights",
-      "changes": "see CONTRIBUTIONS.md and r13 follow-up documentation",
-      "attribution_review_date": "2026-10-22"
-    },
-    {
-      "path": "data/upstream-apps.json",
-      "origin": "Codex-assisted project documentation / source-facts organization",
-      "license_scope": "MIT only to the extent project contributors hold applicable rights",
-      "changes": "see CONTRIBUTIONS.md and source-audit documents",
-      "previous_public_preview_sha256": "31af3bc5140a4ea3b020164f02088b7c20cdfcafaa14c7ca9b44b1aabd30b31a",
-      "attribution_review_date": "2026-10-22"
-    },
-    {
-      "path": "data/validation-status.json",
-      "origin": "Codex-assisted project documentation / source-facts organization",
-      "license_scope": "MIT only to the extent project contributors hold applicable rights",
-      "changes": "see CONTRIBUTIONS.md and source-audit documents",
-      "previous_public_preview_sha256": "c5a206e88847997e0f6492cb694b691f75cfc83e4f173e54e45f477e6e513639",
-      "attribution_review_date": "2026-10-22",
-      "previous_published_blob": "aa1a4b9aa42eda03dbb604aef870aa2ba706c40d",
-      "update_summary": "r13 follow-up facts, privacy review, attribution or synthetic regression; see CHANGELOG.md"
-    },
-    {
-      "path": "docs/00-quickstart.md",
-      "origin": "Codex-assisted project documentation / source-facts organization",
-      "license_scope": "MIT only to the extent project contributors hold applicable rights",
-      "changes": "see CONTRIBUTIONS.md and source-audit documents",
-      "previous_public_preview_sha256": "69eccef4d0b5d796cba5fb1ea96287a777b06c7c61ee4da6400051891240c51a",
-      "attribution_review_date": "2026-10-22",
-      "previous_published_blob": "7f1f37d7c9a2316d2ef8efd06d72a65c2d4eb68c",
-      "update_summary": "r13 follow-up facts, privacy review, attribution or synthetic regression; see CHANGELOG.md"
-    },
-    {
-      "path": "docs/01-start-with-codex.md",
-      "origin": "Codex-assisted project documentation / source-facts organization",
-      "license_scope": "MIT only to the extent project contributors hold applicable rights",
-      "changes": "see CONTRIBUTIONS.md and source-audit documents",
-      "previous_public_preview_sha256": "80146599bfc28db9263162e83e7fe306c62cdbb7a0bccaefae347f004f158e46",
-      "attribution_review_date": "2026-10-22"
-    },
-    {
-      "path": "docs/02-server-setup.md",
-      "origin": "Codex-assisted project documentation / source-facts organization",
-      "license_scope": "MIT only to the extent project contributors hold applicable rights",
-      "changes": "see CONTRIBUTIONS.md and source-audit documents",
-      "previous_public_preview_sha256": "5a0409905f9e1af4697bc8f6b09d5821fad715556fd80f5d00859098f029d484",
-      "attribution_review_date": "2026-10-22"
-    },
-    {
-      "path": "docs/03-routing-and-clients.md",
-      "origin": "Codex-assisted project documentation / source-facts organization",
-      "license_scope": "MIT only to the extent project contributors hold applicable rights",
-      "changes": "see CONTRIBUTIONS.md and source-audit documents",
-      "previous_public_preview_sha256": "11cd6616c18525dd02e537393bb67ef56edc765461ef719fcdc0640e77ffc582",
-      "attribution_review_date": "2026-10-22"
-    },
-    {
-      "path": "docs/04-online-updates-and-traffic.md",
-      "origin": "Codex-assisted project documentation / source-facts organization",
-      "license_scope": "MIT only to the extent project contributors hold applicable rights",
-      "changes": "see CONTRIBUTIONS.md and source-audit documents",
-      "previous_public_preview_sha256": "593ebca439a6f1ef3ee312c5ae01de7243518db99a05f97a77f2f6da3bf17f27",
-      "attribution_review_date": "2026-10-22"
-    },
-    {
-      "path": "docs/05-real-world-fixes.md",
-      "origin": "Codex-assisted project documentation / source-facts organization",
-      "license_scope": "MIT only to the extent project contributors hold applicable rights",
-      "changes": "see CONTRIBUTIONS.md and source-audit documents",
-      "previous_public_preview_sha256": "e0bc4155c3a080d32f9123bb12bc5788ca6388e935ee0eca9772f7f014c5eebe",
-      "attribution_review_date": "2026-10-22"
-    },
-    {
-      "path": "docs/06-adblocking.md",
-      "origin": "Codex-assisted project documentation / source-facts organization",
-      "license_scope": "MIT only to the extent project contributors hold applicable rights",
-      "changes": "see CONTRIBUTIONS.md and source-audit documents",
-      "previous_public_preview_sha256": "e3ff431712eafef16471b2dddf799f5ddd3b5be9dd66d14011d24e1dbd140943",
-      "attribution_review_date": "2026-10-22",
-      "previous_published_blob": "cf7d8e4b589e7ccb955067ca50a7fffa60bf8572",
-      "update_summary": "r13 follow-up facts, privacy review, attribution or synthetic regression; see CHANGELOG.md"
-    },
-    {
-      "path": "docs/07-maintenance-and-rollback.md",
-      "origin": "Codex-assisted project documentation / source-facts organization",
-      "license_scope": "MIT only to the extent project contributors hold applicable rights",
-      "changes": "see CONTRIBUTIONS.md and source-audit documents",
-      "previous_public_preview_sha256": "c1ab536ab56a14a0ea3c3553b2d376df882a9b13b5ca489df3776e3045ccba72",
-      "attribution_review_date": "2026-10-22"
-    },
-    {
-      "path": "docs/08-prompts.md",
-      "origin": "Codex-assisted project documentation / source-facts organization",
-      "license_scope": "MIT only to the extent project contributors hold applicable rights",
-      "changes": "see CONTRIBUTIONS.md and source-audit documents",
-      "previous_public_preview_sha256": "d4ddcc167e85b4069af09dbeb14d731d44114af7bf8acf9e00cfe57ea2052fdb",
-      "attribution_review_date": "2026-10-22"
-    },
-    {
-      "path": "docs/09-validation.md",
-      "origin": "Codex-assisted project documentation / source-facts organization",
-      "license_scope": "MIT only to the extent project contributors hold applicable rights",
-      "changes": "see CONTRIBUTIONS.md and source-audit documents",
-      "previous_public_preview_sha256": "b7cfb0dfd47e27ae0119e1a0692bcb1249795c65bb6b7979310582607b675d0d",
-      "attribution_review_date": "2026-10-22",
-      "previous_published_blob": "a4bd3b1d10114a4869fb1f6cedb037195833e60e",
-      "update_summary": "r13 follow-up facts, privacy review, attribution or synthetic regression; see CHANGELOG.md"
-    },
-    {
-      "path": "docs/10-project-story.md",
-      "origin": "Codex-assisted project documentation / source-facts organization",
-      "license_scope": "MIT only to the extent project contributors hold applicable rights",
-      "changes": "see CONTRIBUTIONS.md and source-audit documents",
-      "previous_public_preview_sha256": "ac8364df831ee9ecf38cdb7977fdd389a289335e378f67a5405ce558903bbe6f",
-      "attribution_review_date": "2026-10-22",
-      "previous_published_blob": "1c9999e9ee0e091bf89efe3ce591f52a072fa7aa",
-      "update_summary": "r13 follow-up facts, privacy review, attribution or synthetic regression; see CHANGELOG.md"
-    },
-    {
-      "path": "docs/11-sources-and-licenses.md",
-      "origin": "Codex-assisted project documentation / source-facts organization",
-      "license_scope": "MIT only to the extent project contributors hold applicable rights",
-      "changes": "see CONTRIBUTIONS.md and source-audit documents",
-      "previous_public_preview_sha256": "d191b64d46ca9e5f9343c081536b7f21bb7df91a13f33108163f13433f71988d",
-      "attribution_review_date": "2026-10-22",
-      "previous_published_blob": "992f142e683c93196f31242e2482a6752c9d86e3",
-      "update_summary": "r13 follow-up facts, privacy review, attribution or synthetic regression; see CHANGELOG.md"
-    },
-    {
-      "path": "docs/12-editorial-references.md",
-      "origin": "Codex-assisted project documentation / source-facts organization",
-      "license_scope": "MIT only to the extent project contributors hold applicable rights",
-      "changes": "see CONTRIBUTIONS.md and source-audit documents",
-      "previous_public_preview_sha256": "a143a212f7476efa3dcb11ac8b6630de66e1db2b873893078d60b4075c7a2fd3",
-      "attribution_review_date": "2026-10-22"
-    },
-    {
-      "path": "docs/13-license-review.md",
-      "origin": "Codex-assisted project documentation / source-facts organization",
-      "license_scope": "MIT only to the extent project contributors hold applicable rights",
-      "changes": "see CONTRIBUTIONS.md and source-audit documents",
-      "previous_public_preview_sha256": null,
-      "attribution_review_date": "2026-10-22",
-      "previous_published_blob": "a4cd0b4080a8e25e5c6a1843c3cf163da01a28ba",
-      "update_summary": "r13 follow-up facts, privacy review, attribution or synthetic regression; see CHANGELOG.md"
-    },
-    {
-      "path": "docs/14-adblock-followup.md",
-      "origin": "Codex-assisted project documentation, synthetic tests or source-facts compilation",
-      "license_scope": "MIT only to the extent project contributors hold applicable rights",
-      "changes": "see CONTRIBUTIONS.md and r13 follow-up documentation",
-      "attribution_review_date": "2026-10-22"
-    },
-    {
-      "path": "docs/15-android-gkd.md",
-      "origin": "Codex-assisted project documentation, synthetic tests or source-facts compilation",
-      "license_scope": "MIT only to the extent project contributors hold applicable rights",
-      "changes": "see CONTRIBUTIONS.md and r13 follow-up documentation",
-      "attribution_review_date": "2026-10-22"
-    },
-    {
-      "path": "examples/README.md",
-      "origin": "project-assembled placeholder example using public protocol/client fields; no exclusive originality claim over field names or syntax",
-      "license_scope": "MIT only to the extent project contributors hold applicable rights",
-      "changes": "see CONTRIBUTIONS.md and source-audit documents",
-      "previous_public_preview_sha256": "2bfbb7eee9bab7223b3704bc8d6f12f1a4a4ae46b3dfde4e67bfd99577674307",
-      "attribution_review_date": "2026-10-22"
-    },
-    {
-      "path": "examples/adblock-module.srmodule.example",
-      "origin": "project-assembled placeholder example using public protocol/client fields; no exclusive originality claim over field names or syntax",
-      "license_scope": "MIT only to the extent project contributors hold applicable rights",
-      "changes": "see CONTRIBUTIONS.md and source-audit documents",
-      "previous_public_preview_sha256": "efac309899feb500d63c6d9bdc4daab19cb2be1482fe69dfde546e1d708e13ce",
-      "attribution_review_date": "2026-10-22"
-    },
-    {
-      "path": "examples/android-registry.json.example",
-      "origin": "project-assembled placeholder example using public protocol/client fields; no exclusive originality claim over field names or syntax",
-      "license_scope": "MIT only to the extent project contributors hold applicable rights",
-      "changes": "see CONTRIBUTIONS.md and source-audit documents",
-      "previous_public_preview_sha256": "a6b5010247c0ca117e3db5cfe63ec571b2fdff625083fde2e799715541fdaaf6",
-      "attribution_review_date": "2026-10-22"
-    },
-    {
-      "path": "examples/mihomo.yaml.example",
-      "origin": "project-assembled placeholder example using public protocol/client fields; no exclusive originality claim over field names or syntax",
-      "license_scope": "MIT only to the extent project contributors hold applicable rights",
-      "changes": "see CONTRIBUTIONS.md and source-audit documents",
-      "previous_public_preview_sha256": "33becc6494000c4a70132c1dfcce3522e10d4a8d7b58a8b1d47489d23d2d980a",
-      "attribution_review_date": "2026-10-22"
-    },
-    {
-      "path": "examples/shadowrocket.conf.example",
-      "origin": "project-assembled placeholder example using public protocol/client fields; no exclusive originality claim over field names or syntax",
-      "license_scope": "MIT only to the extent project contributors hold applicable rights",
-      "changes": "see CONTRIBUTIONS.md and source-audit documents",
-      "previous_public_preview_sha256": "a6d1c339e1117ab17d4c0d46d79c0794f0f0b3c9d106d360a501f9a92e97043e",
-      "attribution_review_date": "2026-10-22"
-    },
-    {
-      "path": "examples/traffic-config.json.example",
-      "origin": "project-assembled placeholder example using public protocol/client fields; no exclusive originality claim over field names or syntax",
-      "license_scope": "MIT only to the extent project contributors hold applicable rights",
-      "changes": "see CONTRIBUTIONS.md and source-audit documents",
-      "previous_public_preview_sha256": "96744be3f2ea55e060a4ceaec30d4ed456d58ae3585d0fa8515c76e789480581",
-      "attribution_review_date": "2026-10-22"
-    },
-    {
-      "path": "examples/xray-server.json.example",
-      "origin": "simplified configuration with credited XTLS references",
-      "license_scope": "CC-BY-SA-4.0",
-      "upstream_repositories": [
-        "XTLS/Xray-examples",
-        "XTLS/Xray-docs-next"
+      "files": [
+        "examples/xray-server.json.example",
+        "examples/xray-server.json.example.license"
       ],
-      "changes": "placeholders, simplification and project-specific field choices; see .license sidecar",
-      "previous_public_preview_sha256": "575edf4a22e9a9e3f12a4a32c3546c9cff4c079ea2ca36c1cb9703c0e9b17852",
-      "attribution_review_date": "2026-10-22"
+      "origin": "adapted XTLS example/documentation structure",
+      "license": "CC-BY-SA-4.0; see sidecar"
     },
     {
-      "path": "examples/xray-server.json.example.license",
-      "origin": "simplified configuration with credited XTLS references",
-      "license_scope": "CC-BY-SA-4.0",
-      "upstream_repositories": [
-        "XTLS/Xray-examples",
-        "XTLS/Xray-docs-next"
+      "files": [
+        "src/bili_feed_safe.js"
       ],
-      "changes": "placeholders, simplification and project-specific field choices; see .license sidecar",
-      "previous_public_preview_sha256": null,
-      "attribution_review_date": "2026-10-22"
-    },
-    {
-      "path": "src/README.md",
-      "origin": "Codex-assisted project documentation / source-facts organization",
-      "license_scope": "MIT only to the extent project contributors hold applicable rights",
-      "changes": "see CONTRIBUTIONS.md and source-audit documents",
-      "previous_public_preview_sha256": "c7a41fdd09d37e94e895999c1775dd26c3c6bb569c2121973409f9596e2ab53b",
-      "attribution_review_date": "2026-10-22",
-      "previous_published_blob": "f94b5d47a7ad89c34dafaa88f560c6302bdad5ce",
-      "update_summary": "r13 follow-up facts, privacy review, attribution or synthetic regression; see CHANGELOG.md"
-    },
-    {
-      "path": "src/adblock_access.py",
-      "origin": "local project maintenance implementation or tests, with Codex assistance; not a copied upstream core or application script",
-      "license_scope": "MIT only to the extent project contributors hold applicable rights",
-      "changes": "see CONTRIBUTIONS.md and source-audit documents",
-      "previous_public_preview_sha256": "73cd4284a179291c670b3c3f17069cd2627d9257d05ef5606ccf4edb7394c208",
-      "attribution_review_date": "2026-10-22"
-    },
-    {
-      "path": "src/android_access.py",
-      "origin": "local project maintenance implementation or tests, with Codex assistance; not a copied upstream core or application script",
-      "license_scope": "MIT only to the extent project contributors hold applicable rights",
-      "changes": "see CONTRIBUTIONS.md and source-audit documents",
-      "previous_public_preview_sha256": "ab4e68913c986b16dd5c6fbba19f5d053768d117507df13267443577ddbe4c8c",
-      "attribution_review_date": "2026-10-22"
-    },
-    {
-      "path": "src/android_setup.html",
-      "origin": "local project maintenance implementation or tests, with Codex assistance; not a copied upstream core or application script",
-      "license_scope": "MIT only to the extent project contributors hold applicable rights",
-      "changes": "see CONTRIBUTIONS.md and source-audit documents",
-      "previous_public_preview_sha256": "59c91d355a188dd11bb3ff302159c8a27951b2160f027446b9f0f9c2eedcc4bf",
-      "attribution_review_date": "2026-10-22"
-    },
-    {
-      "path": "src/bili_feed_safe.js",
-      "origin": "project-local Codex-assisted r13 maintenance implementation",
-      "license_scope": "MIT only to the extent project contributors hold applicable rights",
-      "changes": "see CONTRIBUTIONS.md and r13 follow-up documentation",
-      "attribution_review_date": "2026-10-22"
-    },
-    {
-      "path": "src/bootstrap_xray.py",
-      "origin": "local project maintenance implementation or tests, with Codex assistance; not a copied upstream core or application script",
-      "license_scope": "MIT only to the extent project contributors hold applicable rights",
-      "changes": "parameterized server, release version, archive checksum and TLS target; default no installation; see src/README.md",
-      "previous_public_preview_sha256": "45aa4e1509b17f9eceb50e111f0dfd832d001767699c4f8dc44d6f4358d5318d",
-      "attribution_review_date": "2026-10-22"
-    },
-    {
-      "path": "src/traffic_service.py",
-      "origin": "local project maintenance implementation or tests, with Codex assistance; not a copied upstream core or application script",
-      "license_scope": "MIT only to the extent project contributors hold applicable rights",
-      "changes": "see CONTRIBUTIONS.md and source-audit documents",
-      "previous_public_preview_sha256": "f7d30d03f192f5baf81e3767eb4c58bdd7b964079d21b240f3cbc05fd1c54046",
-      "attribution_review_date": "2026-10-22"
-    },
-    {
-      "path": "tests/test_adblock_access.py",
-      "origin": "local project maintenance implementation or tests, with Codex assistance; not a copied upstream core or application script",
-      "license_scope": "MIT only to the extent project contributors hold applicable rights",
-      "changes": "see CONTRIBUTIONS.md and source-audit documents",
-      "previous_public_preview_sha256": "7334b51263349c3e684cdfb23fed38c5d502c903b3a8d4ae1829fb76ea4f979c",
-      "attribution_review_date": "2026-10-22"
-    },
-    {
-      "path": "tests/test_android_access.py",
-      "origin": "local project maintenance implementation or tests, with Codex assistance; not a copied upstream core or application script",
-      "license_scope": "MIT only to the extent project contributors hold applicable rights",
-      "changes": "see CONTRIBUTIONS.md and source-audit documents",
-      "previous_public_preview_sha256": "4aedeabc35c7c79f36e2651a871811473e55bb6906104b076e3b3fcb24c2c990",
-      "attribution_review_date": "2026-10-22"
-    },
-    {
-      "path": "tests/test_bili_feed_safe.js",
-      "origin": "Codex-assisted project documentation, synthetic tests or source-facts compilation",
-      "license_scope": "MIT only to the extent project contributors hold applicable rights",
-      "changes": "see CONTRIBUTIONS.md and r13 follow-up documentation",
-      "attribution_review_date": "2026-10-22"
-    },
-    {
-      "path": "tests/test_meter.py",
-      "origin": "local project maintenance implementation or tests, with Codex assistance; not a copied upstream core or application script",
-      "license_scope": "MIT only to the extent project contributors hold applicable rights",
-      "changes": "see CONTRIBUTIONS.md and source-audit documents",
-      "previous_public_preview_sha256": "f3ac88fbff5de7327845d135b4fabf68d9b44ce8fb8c13f09d4dd58586ca143a",
-      "attribution_review_date": "2026-10-22"
-    },
-    {
-      "path": "tests/test_online_entry.py",
-      "origin": "local project maintenance implementation or tests, with Codex assistance; not a copied upstream core or application script",
-      "license_scope": "MIT only to the extent project contributors hold applicable rights",
-      "changes": "see CONTRIBUTIONS.md and source-audit documents",
-      "previous_public_preview_sha256": "a85fc8354f43af1cc7ca092a3416893fd4ac1dc20b110e449e032f15bb36f578",
-      "attribution_review_date": "2026-10-22"
-    },
-    {
-      "path": "third_party/README.md",
-      "origin": "Codex-assisted project documentation / source-facts organization",
-      "license_scope": "MIT only to the extent project contributors hold applicable rights",
-      "changes": "see CONTRIBUTIONS.md and source-audit documents",
-      "previous_public_preview_sha256": null,
-      "attribution_review_date": "2026-10-22"
-    },
+      "origin": "local r25 synchronous filter core",
+      "changes": "private diagnostic wrappers and stage recording omitted; filtering behavior retained"
+    }
+  ],
+  "verbatim_legal_files": [
     {
       "path": "third_party/licenses/ACL4SSR__ACL4SSR/LICENCE.txt",
-      "origin": "verbatim upstream license or NOTICE",
       "copyright_holder": "ACL4SSR contributors",
-      "license_scope": "upstream legal text; not project MIT",
-      "upstream_url": "https://github.com/ACL4SSR/ACL4SSR/blob/575637df38884575bfa523e95c17d0ee3be1676c/LICENCE",
-      "changes": "none; exact Git blob bytes retained",
-      "previous_public_preview_sha256": null,
-      "attribution_review_date": "2026-10-22"
+      "upstream_url": "https://github.com/ACL4SSR/ACL4SSR/blob/575637df38884575bfa523e95c17d0ee3be1676c/LICENCE"
     },
     {
       "path": "third_party/licenses/AdguardTeam__AdGuardHome/LICENSE.txt",
-      "origin": "verbatim upstream license or NOTICE",
       "copyright_holder": "AdGuard Software Ltd. / AdGuard Home contributors",
-      "license_scope": "upstream legal text; not project MIT",
-      "upstream_url": "https://github.com/AdguardTeam/AdGuardHome/blob/b13042b071790a3eeb28c73feeb88034801ee1d1/LICENSE.txt",
-      "changes": "none; exact Git blob bytes retained",
-      "previous_public_preview_sha256": null,
-      "attribution_review_date": "2026-10-22"
+      "upstream_url": "https://github.com/AdguardTeam/AdGuardHome/blob/b13042b071790a3eeb28c73feeb88034801ee1d1/LICENSE.txt"
     },
     {
       "path": "third_party/licenses/Biliverse__ADBlock/LICENSE.txt",
-      "origin": "verbatim upstream license or NOTICE",
       "copyright_holder": "Biliverse / ADBlock contributors及其依赖作者",
-      "license_scope": "upstream legal text; not project MIT",
-      "upstream_url": "https://github.com/Biliverse/ADBlock/blob/b0051916843f269d4b377aaf177f0d9e7b12e393/LICENSE",
-      "changes": "none; exact Git blob bytes retained",
-      "previous_public_preview_sha256": null,
-      "attribution_review_date": "2026-10-22"
+      "upstream_url": "https://github.com/Biliverse/ADBlock/blob/b0051916843f269d4b377aaf177f0d9e7b12e393/LICENSE"
     },
     {
       "path": "third_party/licenses/MetaCubeX__ClashMetaForAndroid/LICENSE.txt",
-      "origin": "verbatim upstream license or NOTICE",
       "copyright_holder": "MetaCubeX / ClashMetaForAndroid contributors",
-      "license_scope": "upstream legal text; not project MIT",
-      "upstream_url": "https://github.com/MetaCubeX/ClashMetaForAndroid/blob/a55827bfdd79f69ded8cf75c90293d2b7cb7e5a1/LICENSE",
-      "changes": "none; exact Git blob bytes retained",
-      "previous_public_preview_sha256": null,
-      "attribution_review_date": "2026-10-22"
+      "upstream_url": "https://github.com/MetaCubeX/ClashMetaForAndroid/blob/a55827bfdd79f69ded8cf75c90293d2b7cb7e5a1/LICENSE"
     },
     {
       "path": "third_party/licenses/MetaCubeX__ClashMetaForAndroid/NOTICE.txt",
-      "origin": "verbatim upstream license or NOTICE",
       "copyright_holder": "MetaCubeX / ClashMetaForAndroid contributors",
-      "license_scope": "upstream legal text; not project MIT",
-      "upstream_url": "https://github.com/MetaCubeX/ClashMetaForAndroid/blob/a55827bfdd79f69ded8cf75c90293d2b7cb7e5a1/NOTICE",
-      "changes": "none; exact Git blob bytes retained",
-      "previous_public_preview_sha256": null,
-      "attribution_review_date": "2026-10-22"
+      "upstream_url": "https://github.com/MetaCubeX/ClashMetaForAndroid/blob/a55827bfdd79f69ded8cf75c90293d2b7cb7e5a1/NOTICE"
     },
     {
       "path": "third_party/licenses/MetaCubeX__mihomo/LICENSE.txt",
-      "origin": "verbatim upstream license or NOTICE",
       "copyright_holder": "MetaCubeX / Mihomo kernel contributors",
-      "license_scope": "upstream legal text; not project MIT",
-      "upstream_url": "https://github.com/MetaCubeX/mihomo/blob/88dcbf7f1614a67c3b36b848ee3592dfa92ada36/LICENSE",
-      "changes": "none; exact Git blob bytes retained",
-      "previous_public_preview_sha256": null,
-      "attribution_review_date": "2026-10-22"
+      "upstream_url": "https://github.com/MetaCubeX/mihomo/blob/88dcbf7f1614a67c3b36b848ee3592dfa92ada36/LICENSE"
     },
     {
       "path": "third_party/licenses/XTLS__Xray-core/LICENSE.txt",
-      "origin": "verbatim upstream license or NOTICE",
       "copyright_holder": "XTLS / Xray-core contributors",
-      "license_scope": "upstream legal text; not project MIT",
-      "upstream_url": "https://github.com/XTLS/Xray-core/blob/1b1647cd9ddf0abc34b981d4611fc03bcac1ca74/LICENSE",
-      "changes": "none; exact Git blob bytes retained",
-      "previous_public_preview_sha256": null,
-      "attribution_review_date": "2026-10-22"
+      "upstream_url": "https://github.com/XTLS/Xray-core/blob/1b1647cd9ddf0abc34b981d4611fc03bcac1ca74/LICENSE"
     },
     {
       "path": "third_party/licenses/XTLS__Xray-docs-next/LICENSE.txt",
-      "origin": "verbatim upstream license or NOTICE",
       "copyright_holder": "XTLS documentation contributors",
-      "license_scope": "upstream legal text; not project MIT",
-      "upstream_url": "https://github.com/XTLS/Xray-docs-next/blob/59ab79c7e09112475e7907bf745913ded7ca89a5/LICENSE",
-      "changes": "none; exact Git blob bytes retained",
-      "previous_public_preview_sha256": null,
-      "attribution_review_date": "2026-10-22"
+      "upstream_url": "https://github.com/XTLS/Xray-docs-next/blob/59ab79c7e09112475e7907bf745913ded7ca89a5/LICENSE"
     },
     {
       "path": "third_party/licenses/XTLS__Xray-examples/LICENSE.txt",
-      "origin": "verbatim upstream license or NOTICE",
       "copyright_holder": "XTLS / Xray-examples contributors",
-      "license_scope": "upstream legal text; not project MIT",
-      "upstream_url": "https://github.com/XTLS/Xray-examples/blob/167cded1a33ac7b0ce76fcf00ea2d8fb0604e927/LICENSE",
-      "changes": "none; exact Git blob bytes retained",
-      "previous_public_preview_sha256": null,
-      "attribution_review_date": "2026-10-22"
+      "upstream_url": "https://github.com/XTLS/Xray-examples/blob/167cded1a33ac7b0ce76fcf00ea2d8fb0604e927/LICENSE"
     },
     {
       "path": "third_party/licenses/XTLS__Xray-install/LICENSE.txt",
-      "origin": "verbatim upstream license or NOTICE",
       "copyright_holder": "XTLS / Xray-install contributors",
-      "license_scope": "upstream legal text; not project MIT",
-      "upstream_url": "https://github.com/XTLS/Xray-install/blob/05aa47266c94e6fb5ca48cad96afdb4becb5891f/LICENSE",
-      "changes": "none; exact Git blob bytes retained",
-      "previous_public_preview_sha256": null,
-      "attribution_review_date": "2026-10-22"
+      "upstream_url": "https://github.com/XTLS/Xray-install/blob/05aa47266c94e6fb5ca48cad96afdb4becb5891f/LICENSE"
     },
     {
       "path": "third_party/licenses/app2smile__rules/LICENSE.md.txt",
-      "origin": "verbatim upstream license or NOTICE",
       "copyright_holder": "app2smile 及原文件列出的作者",
-      "license_scope": "upstream legal text; not project MIT",
-      "upstream_url": "https://github.com/app2smile/rules/blob/df6366a7024e0b3f0aa3510c5b791eea6f3cba89/LICENSE.md",
-      "changes": "none; exact Git blob bytes retained",
-      "previous_public_preview_sha256": null,
-      "attribution_review_date": "2026-10-22"
+      "upstream_url": "https://github.com/app2smile/rules/blob/df6366a7024e0b3f0aa3510c5b791eea6f3cba89/LICENSE.md"
     },
     {
       "path": "third_party/licenses/blackmatrix7__ios_rule_script/LICENSE.txt",
-      "origin": "verbatim upstream license or NOTICE",
       "copyright_holder": "blackmatrix7 及原文件列出的作者",
-      "license_scope": "upstream legal text; not project MIT",
-      "upstream_url": "https://github.com/blackmatrix7/ios_rule_script/blob/f9e403a75bbc4bee939c6d8dd766cf78f1b512f3/LICENSE",
-      "changes": "none; exact Git blob bytes retained",
-      "previous_public_preview_sha256": null,
-      "attribution_review_date": "2026-10-22"
+      "upstream_url": "https://github.com/blackmatrix7/ios_rule_script/blob/f9e403a75bbc4bee939c6d8dd766cf78f1b512f3/LICENSE"
     },
     {
       "path": "third_party/licenses/chubin__cheat.sh/LICENSE.txt",
-      "origin": "verbatim upstream license or NOTICE",
       "copyright_holder": "Igor Chubin / cheat.sh contributors",
-      "license_scope": "upstream legal text; not project MIT",
-      "upstream_url": "https://github.com/chubin/cheat.sh/blob/06af0000259bde1a347da368225c5962d7ffed3e/LICENSE",
-      "changes": "none; exact Git blob bytes retained",
-      "previous_public_preview_sha256": null,
-      "attribution_review_date": "2026-10-22"
+      "upstream_url": "https://github.com/chubin/cheat.sh/blob/06af0000259bde1a347da368225c5962d7ffed3e/LICENSE"
     },
     {
       "path": "third_party/licenses/fmz200__wool_scripts/LICENSE.txt",
-      "origin": "verbatim upstream license or NOTICE",
       "copyright_holder": "奶思 / fmz200 及原文件列出的作者",
-      "license_scope": "upstream legal text; not project MIT",
-      "upstream_url": "https://github.com/fmz200/wool_scripts/blob/5d5f63fcf98bc69d5f8f1b1bae6f86a01ee4bb97/LICENSE",
-      "changes": "none; exact Git blob bytes retained",
-      "previous_public_preview_sha256": null,
-      "attribution_review_date": "2026-10-22"
+      "upstream_url": "https://github.com/fmz200/wool_scripts/blob/5d5f63fcf98bc69d5f8f1b1bae6f86a01ee4bb97/LICENSE"
     },
     {
       "path": "third_party/licenses/kokoryh__Sparkle/LICENSE.txt",
-      "origin": "verbatim upstream license or NOTICE",
       "copyright_holder": "kokoryh / Sparkle contributors",
-      "license_scope": "upstream legal text; not project MIT",
-      "upstream_url": "https://github.com/kokoryh/Sparkle/blob/290bcbdd2f158cdd8f7db9c996e90fe63490e16f/LICENSE",
-      "changes": "none; exact Git blob bytes retained",
-      "previous_public_preview_sha256": null,
-      "attribution_review_date": "2026-10-22"
+      "upstream_url": "https://github.com/kokoryh/Sparkle/blob/290bcbdd2f158cdd8f7db9c996e90fe63490e16f/LICENSE"
     },
     {
       "path": "third_party/licenses/v2fly__domain-list-community/LICENSE.txt",
-      "origin": "verbatim upstream license or NOTICE",
       "copyright_holder": "V2Ray / v2fly contributors",
-      "license_scope": "upstream legal text; not project MIT",
-      "upstream_url": "https://github.com/v2fly/domain-list-community/blob/e8f6d1e5c4a01cda943c0784ffa834340eeab5ae/LICENSE",
-      "changes": "none; exact Git blob bytes retained",
-      "previous_public_preview_sha256": null,
-      "attribution_review_date": "2026-10-22"
-    },
-    {
-      "path": "tools/check_public.py",
-      "origin": "Codex-assisted public-preview check utility",
-      "license_scope": "MIT only to the extent project contributors hold applicable rights",
-      "changes": "see CONTRIBUTIONS.md and source-audit documents",
-      "previous_public_preview_sha256": "97eea668105b13fb8bdc1d0a4cd22d4494195b167788400619ffff930a9ef64e",
-      "attribution_review_date": "2026-10-22",
-      "previous_published_blob": "c14804040817575cf3b8288c7e2b1c263d00b161",
-      "update_summary": "r13 follow-up facts, privacy review, attribution or synthetic regression; see CHANGELOG.md"
+      "upstream_url": "https://github.com/v2fly/domain-list-community/blob/e8f6d1e5c4a01cda943c0784ffa834340eeab5ae/LICENSE"
     }
   ],
-  "scope": "all public export files; no private paths, credentials or raw research source copies",
-  "publication_preparation_date": "2026-10-22",
-  "latest_local_delivery": "20261022-r13",
-  "update_source_record": "data/update-source-attributions.json"
+  "third_party_source_records": [
+    "data/third-party-license-audit.json",
+    "data/update-source-attributions.json",
+    "data/runtime-source-attributions.json"
+  ]
 }

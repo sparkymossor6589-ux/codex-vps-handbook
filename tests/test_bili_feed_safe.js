@@ -22,7 +22,7 @@ function run(body, route = '/x/v2/feed/index', headers = {}) {
 }
 const ordinary = [
   { goto: 'av', title: '普通视频🙂' }, { goto: 'vertical_av', id: 2 },
-  { goto: 'live', id: 3 }, { card_type: 'unknown', is_ad: 0 }
+  { goto: 'live', id: 3 }, { card_type: 'unknown', is_ad: 0, ad_info: {}, ad_info_v2: {}, ad_card: {} }
 ];
 const normal = JSON.stringify({ code: 0, data: { items: ordinary, cursor: { next: 17 } } }, null, 2);
 assert.deepEqual(run(normal), {}, 'no ads: preserve original response bytes');
@@ -30,7 +30,9 @@ assert.deepEqual(run(normal), {}, 'no ads: preserve original response bytes');
 for (const route of ['/x/v2/feed/index', '/x/v2/feed/index/story', '/x/v2/feed/index/relate/story']) {
   const mixed = JSON.stringify({ code: 0, data: { items: ordinary.concat([
     { is_ad: 1 }, { is_ad: true }, { is_ad: '1' }, { goto: 'ad' },
-    { card_type: 'cm_banner' }, { card_goto: 'ad_web' }
+    { card_type: 'cm_banner' }, { card_goto: 'ad_web' },
+    { ad_info: { creative: 1 } }, { ad_info_v2: { creative: 2 } },
+    { ad_card: { type: 'commercial' } }, { is_ad_loc: true }, { goto: 'ad_av' }
   ]), cursor: { next: 17 }, unknown: { keep: true } } });
   const out = run(mixed, route, { 'Content-Length': '99', 'content-encoding': 'gzip',
     'Transfer-Encoding': 'chunked', ETag: 'old', 'Content-MD5': 'old', 'Content-Type': 'application/json', 'X-Test': 'keep' });
@@ -40,9 +42,9 @@ for (const route of ['/x/v2/feed/index', '/x/v2/feed/index/story', '/x/v2/feed/i
   assert.deepEqual(result.data.unknown, { keep: true });
   assert.deepEqual(out.headers, { 'Content-Type': 'application/json', 'X-Test': 'keep' });
 }
-const splash = run(JSON.stringify({ code: 0, data: { show: [1], preload: [2], event_list: [3],
+const splash = run(JSON.stringify({ code: 0, data: { list: [9], show: [1], preload: [2], event_list: [3], min_interval: 30,
   account: { keep: true }, unknown: ['keep'] } }), '/x/v2/splash/list');
-assert.deepEqual(JSON.parse(splash.body).data, { account: { keep: true }, unknown: ['keep'] });
+assert.deepEqual(JSON.parse(splash.body).data, { list: [], min_interval: 30, account: { keep: true }, unknown: ['keep'] });
 
 for (const body of ['{broken', '', undefined, new Uint8Array([1, 2]), 'x'.repeat(2097153),
   JSON.stringify({ code: -1, data: { items: [{ is_ad: true }] } }), 'null']) {
@@ -51,4 +53,4 @@ for (const body of ['{broken', '', undefined, new Uint8Array([1, 2]), 'x'.repeat
 assert.deepEqual(run(JSON.stringify({ code: 0, data: { items: [{ is_ad: true }] } }),
   '/x/player/playurl'), {}, 'playback route untouched');
 assert.equal(networkCalls, 0);
-console.log('PASS: normal content, three feed routes, splash, headers, fail-open cases, playback, zero network');
+console.log('PASS: normal content, three feed routes, nested ad markers, splash, headers, fail-open cases, playback, zero network');

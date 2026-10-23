@@ -1,6 +1,5 @@
-// Project-local Codex-assisted r13 compatibility filter; not an upstream bundle.
-// See ../CONTRIBUTIONS.md and ../LICENSE_SCOPE.md for attribution and scope.
-// Public preparation adds this header only; original functional body retained.
+// Local r25 synchronous filter core; private diagnostic wrappers omitted.
+// Project-held rights: MIT; see ../CONTRIBUTIONS.md and ../LICENSE_SCOPE.md.
 // Synchronous response-only filtering. No requests, cache, settings, URL rewriting
 // or protobuf decoding; unrecognized/error responses retain the original bytes.
 (function () {
@@ -14,7 +13,11 @@
     function ad(item) {
       return item && typeof item === 'object' && (
         item.is_ad === true || item.is_ad === 1 || item.is_ad === '1' ||
-        item.goto === 'ad' ||
+        item.is_ad_loc === true || item.is_ad_loc === 1 ||
+        item.ad_info && typeof item.ad_info === 'object' && Object.keys(item.ad_info).length > 0 ||
+        item.ad_info_v2 && typeof item.ad_info_v2 === 'object' && Object.keys(item.ad_info_v2).length > 0 ||
+        item.ad_card && typeof item.ad_card === 'object' && Object.keys(item.ad_card).length > 0 ||
+        typeof item.goto === 'string' && /^ad(?:_|$)/.test(item.goto) ||
         typeof item.card_type === 'string' && /^cm_/.test(item.card_type) ||
         typeof item.card_goto === 'string' && /^ad_/.test(item.card_goto));
     }
@@ -22,6 +25,8 @@
       var keep = obj.data.items.filter(function (item) { return !ad(item); });
       if (keep.length !== obj.data.items.length) { obj.data.items = keep; changed = true; }
     } else if (/^\/x\/v2\/splash\/(?:list|show|brand\/list|event\/list2)\/?$/.test(route)) {
+      // Only known array containers on dedicated splash APIs; retain timing and unknown fields.
+      if (Array.isArray(obj.data.list) && obj.data.list.length) { obj.data.list = []; changed = true; }
       ['show','preload','event_list'].forEach(function (k) {
         if (Object.prototype.hasOwnProperty.call(obj.data,k)) { delete obj.data[k]; changed = true; }
       });

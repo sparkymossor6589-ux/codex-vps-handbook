@@ -1,13 +1,5 @@
 # 编写参考
 
-本地审阅稿于 2026-10-22 参考下列公开项目的 README，采用成熟项目常见的信息顺序，并结合实际记录重新撰写。
+README 结构参考 [AdGuard Home](https://github.com/AdguardTeam/AdGuardHome)、[cheat.sh](https://github.com/chubin/cheat.sh) 和 [Xray-core](https://github.com/XTLS/Xray-core)：用途、开始入口、示例、限制和来源分层。
 
-| 参考 | 采用的组织方式 | 阅读文件的 Git blob SHA |
-|---|---|---|
-| [AdGuard Home](https://github.com/AdguardTeam/AdGuardHome) | 开头说明用途；提供开始入口；单列限制、贡献与来源 | `1cc08d285d91d6e7c3c9993376a1051b015f6314` |
-| [cheat.sh](https://github.com/chubin/cheat.sh) | 从用户能做什么开始；给出直接使用示例与分层目录 | `b28777f36ffc5517212041f900cedfcb01b275dd` |
-| [Xray-core](https://github.com/XTLS/Xray-core) | 将核心项目、文档、安装、示例与客户端来源明确链接 | `d52ca9bb34716dcbb39f0e656758fd98ab9c15ef` |
-
-本项目没有复制上述项目的正文、标志、功能数量、测试徽章、赞助信息或稳定性承诺。“Codex VPS 实战手册”与具体描述根据本项目用途另行拟定。
-
-标题采用“工具名称 + 实际用途”的简洁形式；首页依次说明用途、阅读路径、环境与验证、文件内容、贡献和许可，详细步骤放在 docs 中。项目经过保留在独立页面，使想直接操作和想了解过程的读者都能找到入口。
+文字根据本项目重新编写，未复制上述项目的正文、图像或功能承诺。所读版本与哈希保留在 [参考来源记录](../data/reference-document-sources.json)。

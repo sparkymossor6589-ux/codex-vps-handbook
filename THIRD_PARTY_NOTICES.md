@@ -1,8 +1,6 @@
-# 第三方署名与许可总表
+# 第三方署名与许可
 
-核对日期：**2026-10-22**。本表区分实际随包内容、历史运行来源、文档链接和排版结构参考。
-
-本项目的贡献是实践适配与整理；连接核心、客户端以及应用规则和脚本分别由相应作者开发。根目录 MIT 许可不能替代他们的许可。
+初次审计与后续补充截至 2026-10-23。上游作者、使用范围和未决许可分开记录，根目录 MIT 不覆盖第三方内容。
 
 ## 逐项来源
 
@@ -47,18 +45,7 @@
 | [Python 运行时与标准库](https://docs.python.org/3/license.html) | Python Software Foundation / Python contributors；参考程序使用标准库接口；不打包 Python 运行时或库源码 |
 | [Shadowrocket 客户端](https://apps.apple.com/app/shadowrocket/id932747118) | Shadow Launch Technology Limited；外部客户端；不分发安装包、商标图像或声称为本项目开发；社区手册许可不等于客户端许可 |
 
-## 需要保留的边界
-
-1. **许可不明**：ddgksf2013 两个仓库及 Gist、LOWERTOP 手册、Meta-Docs、zmqcherish 和 meta-rules-dat 不标成“已获自由再分发许可”。核对范围与结果分别记录在机器清单；meta-rules-dat 的判断限定为所查 revision 根目录和来源文件。
-2. **额外声明**：blackmatrix7 的 GPL 文本与 README 转载 / 使用声明、Mihomo README 的下游命名声明分别保留观察，不在这里裁定它们的法律兼容性，也不把它们变成对全部仓库内容的无条件授权。
-3. **混合来源**：fmz200 明确收录其他作者内容，逐脚本版权与许可不能仅凭仓库根许可证覆盖。压缩 bundle 内更深层依赖也未获得再分发核准；当前包不含这些 bundle。
-4. **实际版本**：Mihomo 按网络内核 v1.19.32 核对为 GPL v3；排除了默认分支返回的同名 Python SDK 的 MIT 文本，避免对象混淆。Xray 的历史 26.3.27 也另核对了许可文本。
-5. **Apache NOTICE**：Biliverse 所核对版本完整树未见单独 NOTICE，不编造原文件；ClashMetaForAndroid 实际提供的 NOTICE 已完整保留。以后打包二进制或 bundle 时仍要复查其内嵌第三方材料。
-6. **改编样例**：Xray JSON 样例作为参照上游的精简样例，保留署名、来源、改动及 CC BY-SA 4.0 同许可；其余具体文件的范围见 [LICENSE_SCOPE.md](LICENSE_SCOPE.md)。
-
-完整 commit、Git blob、原文哈希与决策见 [审计数据](data/third-party-license-audit.json)。本表完成的是当前公开副本的检查，不是对私有运行包或未来所有分发方式的法律保证。
-
-## r13 更新补充来源（仅引用）
+## 后续补充（仅引用）
 
 | 来源与作者 | 使用范围 | 本次核对与分发边界 |
 |---|---|---|
@@ -66,5 +53,15 @@
 | [Lin-arm/GKD_subscription](https://github.com/Lin-arm/GKD_subscription) · Lin-arm 及实际规则贡献者 | 第三方社区订阅入口 | 所查完整树未见标准 LICENSE；不镜像规则，不套用 GKD 程序许可 |
 | [privacy-protection-tools/anti-AD](https://github.com/privacy-protection-tools/anti-AD) · privacy-protection-tools / anti-AD contributors | 已知广告 SDK 域名分类与备用入口交叉核对 | MIT；不分发列表正文；保留链接与所用来源文件哈希 |
 | [AdguardTeam/AdguardFilters](https://github.com/AdguardTeam/AdguardFilters) · AdGuard filter authors and contributors | 中文广告域名分类参考 | GPL v3；不分发过滤器正文 |
+| [SukkaLab/ruleset.skk.moe](https://github.com/SukkaLab/ruleset.skk.moe) · Sukka / contributors | 视频服务分类参考 | AGPL v3；仅引用，不分发列表 |
+| [yt-dlp/yt-dlp](https://github.com/yt-dlp/yt-dlp) · yt-dlp authors / contributors | 公开媒体元数据工具 | 源仓库 Unlicense；发布包另含不同许可组件，本仓库不分发 |
+| [AEtso/Loon](https://github.com/AEtso/Loon) · AEtso 及文件所列作者 | 候选广告素材主机参考 | 所查完整树未见标准许可文件；仅引用 |
+| [dalaochai/ss](https://github.com/dalaochai/ss) · dalaochai 及文件所列作者 | 候选广告素材主机参考 | 所查完整树未见标准许可文件；仅引用 |
 
-已有 domain-list-community 的署名和 MIT 原文继续保留。精确参考版本与来源文件哈希见 [补充记录](data/update-source-attributions.json)。`src/bili_feed_safe.js` 为本地新写的选定 JSON 处理代码；上游模块与保留的其他处理仍归原作者，见 [贡献边界](CONTRIBUTIONS.md)。
+## 未决项与分发边界
+
+- LOWERTOP、ddgksf2013 仓库 / Gist、Meta-Docs、zmqcherish、Lin-arm 订阅及新增未明确许可来源不作自由再分发保证；meta-rules-dat 的观察限于所查 revision 根目录。
+- blackmatrix7 的 README 附加声明、Mihomo 下游命名说明、fmz200 混合作者及 bundle 内依赖分别保留；不能用根许可证概括所有文件。Mihomo 按网络内核版本核对，排除同名 SDK。
+- Biliverse 所查树未见独立 NOTICE；ClashMetaForAndroid 的实际 NOTICE 已保留。完整许可原文不改写，Xray 样例的 CC BY-SA 4.0 说明继续保留。
+
+[初次审计数据](data/third-party-license-audit.json) · [后续来源与固定版本](data/update-source-attributions.json) · [本地贡献](CONTRIBUTIONS.md) · [许可范围](LICENSE_SCOPE.md)

@@ -1,6 +1,6 @@
 {
-  "review_date": "2026-10-22",
-  "scope": "Additional reference-only sources for r9-r13 and Android guidance; initial license audit retained separately",
+  "review_date": "2026-10-23",
+  "scope": "Reference-only additions through r25, Android guidance and video routing v5; initial audit retained separately",
   "sources": [
     {
       "name": "gkd-kit/gkd",
@@ -33,6 +33,38 @@
       "license_observation": "GPL-3.0",
       "distribution": "reference only; no upstream code, rule body, screenshot or package redistributed",
       "license_applies_to": "upstream project, not a grant over linked content or other authors' rules"
+    },
+    {
+      "name": "SukkaLab/ruleset.skk.moe",
+      "repository": "https://github.com/SukkaLab/ruleset.skk.moe",
+      "reviewed_ref": "baed488075a44855efdab4237cda1a90a08fdbf7",
+      "license_observation": "AGPL-3.0",
+      "distribution": "Reference only; no upstream source, rule list or binary redistributed",
+      "scope_note": ""
+    },
+    {
+      "name": "yt-dlp/yt-dlp",
+      "repository": "https://github.com/yt-dlp/yt-dlp",
+      "reviewed_ref": "9b58cb33d0cd3e823c8d8732f6adce8faa1f37e3",
+      "license_observation": "Unlicense",
+      "distribution": "Reference only; no upstream source, rule list or binary redistributed",
+      "scope_note": "Source repository Unlicense; release binaries bundle components with separate licenses. No binary distributed."
+    },
+    {
+      "name": "AEtso/Loon",
+      "repository": "https://github.com/AEtso/Loon",
+      "reviewed_ref": "6ff85e3ffa716396584143517311c5e63aeddc6e",
+      "license_observation": "No standard license file in reviewed complete tree",
+      "distribution": "Reference only; no upstream source, rule list or binary redistributed",
+      "scope_note": ""
+    },
+    {
+      "name": "dalaochai/ss",
+      "repository": "https://github.com/dalaochai/ss",
+      "reviewed_ref": "23d865df59b1e1401fca3e1339ed4d10804ffc03",
+      "license_observation": "No standard license file in reviewed complete tree",
+      "distribution": "Reference only; no upstream source, rule list or binary redistributed",
+      "scope_note": ""
     }
   ],
   "public_documentation": [
@@ -50,14 +82,28 @@
       "url": "https://raw.githubusercontent.com/v2ray/domain-list-community/master/data/bytedance-ads",
       "sha256": "f0286aee70b49fdb598c2f4c8dd6015807c7ca3b81e9216e4a2a93f2eec7066a",
       "usage": "ad category cross-check; existing domain-list-community attribution and MIT license retained; no list body"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Shadowrocket/Dailymotion/Dailymotion.list",
+      "sha256": "7dac1624b3a50d4d2b110d3d3d30d94c578ab8294275b4279d36b1174a8377af",
+      "usage": "video service classification reference only; list body not distributed"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/SukkaLab/ruleset.skk.moe/master/List/non_ip/stream.conf",
+      "sha256": "e35f4e37b3e1a39c6c2a1c09750299c4318feb72b65a6e79a18b4a2b39f44ce6",
+      "usage": "video service classification reference only; list body not distributed"
     }
   ],
   "selected_local_code": {
     "path": "src/bili_feed_safe.js",
-    "origin": "Project-local Codex-assisted r13 synchronous JSON compatibility implementation",
-    "public_changes": "Attribution header only; functional body retained from project file",
+    "origin": "Project-local r25 synchronous JSON filter core",
+    "public_changes": "Extracted local filtering core; omitted private diagnostic wrappers and stage-recording calls; preserved filtering and fail-open behavior",
     "upstream_boundary": "Not a copied Biliverse bundle; upstream retained handlers are not redistributed",
     "license": "MIT only for rights held by project contributors"
   },
-  "limits": "License observation concerns the reviewed reference. No new third-party rule body, upstream implementation, APK, screenshot or documentation text is redistributed."
+  "limits": "License observation concerns the reviewed reference. No new third-party rule body, upstream implementation, APK, screenshot or documentation text is redistributed.",
+  "candidate_host_references": [
+    "https://raw.githubusercontent.com/AEtso/Loon/master/Plugins/myblockads.plugin",
+    "https://raw.githubusercontent.com/dalaochai/ss/main/AD.sgmodule"
+  ]
 }
