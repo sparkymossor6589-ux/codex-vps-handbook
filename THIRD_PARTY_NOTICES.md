@@ -1,6 +1,6 @@
 # 第三方署名与许可
 
-初次审计与后续补充截至 2026-10-23。上游作者、使用范围和未决许可分开记录，根目录 MIT 不覆盖第三方内容。
+初次审计与后续补充截至 2026-10-25。上游作者、使用范围和未决许可分开记录，根目录 MIT 不覆盖第三方内容。
 
 ## 逐项来源
 
@@ -57,6 +57,16 @@
 | [yt-dlp/yt-dlp](https://github.com/yt-dlp/yt-dlp) · yt-dlp authors / contributors | 公开媒体元数据工具 | 源仓库 Unlicense；发布包另含不同许可组件，本仓库不分发 |
 | [AEtso/Loon](https://github.com/AEtso/Loon) · AEtso 及文件所列作者 | 候选广告素材主机参考 | 所查完整树未见标准许可文件；仅引用 |
 | [dalaochai/ss](https://github.com/dalaochai/ss) · dalaochai 及文件所列作者 | 候选广告素材主机参考 | 所查完整树未见标准许可文件；仅引用 |
+
+| [NanmiCoder/MediaCrawler](https://github.com/NanmiCoder/MediaCrawler) · NanmiCoder 及文件所列作者 | 评论接口路径参考 | 非商业学习许可 1.1；仅引用 |
+| [zly2006/zhurl](https://github.com/zly2006/zhurl) · zly2006 及文件所列作者 | 评论接口路径参考 | 所查根目录未见标准许可文件；仅引用 |
+| [cinit/QAuxiliary](https://github.com/cinit/QAuxiliary) · cinit 及文件所列作者 | 安卓 QQ 界面研究，不作为 iOS 实现交付 | 自定义通用许可 v2，含非商业条件；仅引用 |
+| [wxs0625/loon-plugins](https://github.com/wxs0625/loon-plugins) · wxs0625 及文件所列作者 | 应用规则与接口参考 | 所查根目录未见标准许可文件；仅引用 |
+| [zirawell/R-Store](https://github.com/zirawell/R-Store) · zirawell 及文件所列作者 | 应用规则与接口参考 | GPL v3；不分发规则 / 脚本 |
+| [letswish/Shadowrocket-Module](https://github.com/letswish/Shadowrocket-Module) · letswish 及文件所列作者 | 应用规则与接口参考 | 所查根目录未见标准许可文件；仅引用 |
+| [skernelx/SurgeScripts](https://github.com/skernelx/SurgeScripts) · skernelx 及文件所列作者 | 应用规则与接口参考 | 所查根目录未见标准许可文件；仅引用 |
+| [Thelongdarkorg/loon-plugins](https://github.com/Thelongdarkorg/loon-plugins) · Thelongdarkorg 及文件所列作者 | 应用规则与接口参考 | 所查根目录未见标准许可文件；仅引用 |
+| [Johnshall/Shadowrocket-ADBlock-Rules-Forever](https://github.com/Johnshall/Shadowrocket-ADBlock-Rules-Forever) · Johnshall 及文件所列作者 | 公开广告域名规则参考 | CC-BY-SA-4.0；不分发列表 |
 
 ## 未决项与分发边界
 

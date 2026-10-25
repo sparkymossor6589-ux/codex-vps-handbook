@@ -1,67 +1,73 @@
 {
-  "as_of": "2026-10-23T16:36:18+08:00",
-  "latest_local_delivery": "20261023-r25",
+  "as_of": "2026-10-25T19:02:54+08:00",
+  "latest_local_delivery": "20261025-r39",
   "routing_version": "v5",
-  "basis": "Retained local delivery/tests and explicit user feedback; this publication does not repeat production or phone acceptance",
+  "basis": "retained deployment/check records and user feedback; no new production or phone acceptance for this publication",
   "checks": [
     {
       "id": "iphone_chatgpt_text",
       "status": "user_confirmed",
-      "scope": "Wi-Fi and cellular text only; uploads, voice, background/recovery unverified"
-    },
-    {
-      "id": "mac_basic_and_routing",
-      "status": "technical_record",
-      "scope": "Selected domain hits and web functions; not all app operations"
-    },
-    {
-      "id": "android_ipad_other_devices",
-      "status": "not_verified",
-      "scope": "Some delivery/parser checks; real-device business and Android GKD not accepted"
-    },
-    {
-      "id": "music_and_steam",
-      "status": "partial_technical_record",
-      "scope": "Rules and selected endpoints; mobile music recovery and full game download unverified"
+      "scope": "Wi-Fi and cellular text; voice/uploads/background/recovery not accepted"
     },
     {
       "id": "dailymotion_v5",
       "status": "partial_technical_record",
-      "scope": "Two public samples: manifest and high-quality media ranges through physical egress and installed Mac client; not complete viewing or phone acceptance",
-      "added_rules": 4,
-      "effective_rules_before": 405,
-      "effective_rules_after": 409
+      "scope": "Two Mac public manifest/media-range samples; complete viewing and phone acceptance pending"
     },
     {
-      "id": "video_candidates_not_adopted",
-      "status": "not_verified_or_failed",
-      "scope": "Vimeo/Twitch direct checks failed; TED trial reverted; YouTube/Reddit anonymous media comparison incomplete; original policies retained"
+      "id": "zhihu_reading_r37",
+      "status": "partial_technical_record",
+      "replayed_requests": 311,
+      "restored_requests": 15,
+      "commercial_requests_still_blocked_in_replay": 9,
+      "scope": "Mac requests no longer replaced by local gate rejection; anonymous upstream 403/400 does not confirm logged-in phone reading or comments"
     },
     {
-      "id": "adblock_r25_delivery",
+      "id": "raw_ip_rejection_r39",
+      "status": "partial_technical_record",
+      "target_count": 3,
+      "configured_scope": "all ports and TCP/UDP; no-resolve",
+      "tcp_connect_before": 200,
+      "tcp_connect_after": 404,
+      "udp_hit_verified": false,
+      "scope": "Mac TCP probes rejected; actual IPs intentionally omitted",
+      "risk": "normal bare-IP connections to these same shared targets are also blocked"
+    },
+    {
+      "id": "r39_regression_samples",
       "status": "technical_record",
-      "assets_verified": 62,
-      "scope": "Publication readback, filter behavior, Mac normal feed/playurl and 206/1024-byte media range; not phone acceptance"
+      "scope": "named image config, basic connectivity and Bili API/media range sample passed; another image-host root returned 567 after CONNECT, not an image-display test"
     },
     {
-      "id": "phone_r25_update_and_effect",
+      "id": "phone_r39_reading_and_ads",
       "status": "not_verified",
-      "scope": "No completed r25 phone update/effect acceptance; latest feedback partial success/failure, Zhihu resume fullscreen ad persists"
+      "scope": "phone module update, reading/comments/images and ad display not accepted"
     },
     {
-      "id": "r25_candidate_material_host",
-      "status": "hypothesis_under_test",
-      "scope": "ossgw.alicdn.com rejected on Mac; specific displayed creative and sole causation not established"
+      "id": "other_app_rules",
+      "status": "partial_technical_record",
+      "scope": "Bili, Xianyu, Taobao/Eleme and QQ experiments have selected technical checks; no full app/ad acceptance"
     },
     {
-      "id": "historical_phone_results",
+      "id": "historical_regressions",
       "status": "mixed",
-      "scope": "r8 corresponding Bili ad slots gone; r12 feed/playback regression; r14 empty-array execution observed but ads still displayed; r24 phone version not independently confirmed"
+      "scope": "r26 phone ads persisted; r28 shared-IP rejection had normal-path collateral risk, r30 removed five rules; r37 restored reading paths omitted by strict gate"
     },
     {
-      "id": "all_apps_and_long_term",
+      "id": "android_and_long_term",
       "status": "not_verified",
-      "scope": "No complete 14-app functional or long-term acceptance"
+      "scope": "Android/GKD, other-device business and long-term recovery not fully accepted"
+    },
+    {
+      "id": "phone_post_release_review",
+      "status": "partial_log_observation",
+      "partial_domain_rejections_observed": true,
+      "new_raw_ip_rejection_hits_observed": false,
+      "raw_ip_absence_predates_publication": true,
+      "phone_r39_load_confirmed": false,
+      "reading_and_comment_requests_observed": true,
+      "ui_acceptance": false,
+      "scope": "Post-publication timestamps do not establish phone module reload. Request/policy records do not contain response bodies or UI results."
     }
   ]
 }

@@ -6,7 +6,7 @@
 | traffic_service.py | 节点 / 流量订阅与在线配置入口 |
 | android_access.py + android_setup.html | 安卓授权、配置与安装包交付 |
 | adblock_access.py | 白名单和哈希约束的版本化资源交付 |
-| bili_feed_safe.js | 本地 r25 同步 JSON 过滤核心，移除诊断封装 |
+| bili_feed_safe.js | 本地同步 JSON 过滤核心，移除诊断封装 |
 
 这是选定参考实现，不是私人服务的全量镜像；真实配置、上游 bundle 和安装包不分发。[归属与许可](../CONTRIBUTIONS.md)
 

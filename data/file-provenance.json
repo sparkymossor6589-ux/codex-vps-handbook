@@ -1,5 +1,5 @@
 {
-  "review_date": "2026-10-23",
+  "review_date": "2026-10-25",
   "scope": "all current public files; production materials and diagnostic wrappers excluded",
   "project_held_rights": "MIT only to the extent contributors hold applicable rights; see LICENSE_SCOPE.md",
   "groups": [
@@ -14,7 +14,6 @@
         "CONTRIBUTIONS.md",
         "LICENSE",
         "LICENSE_SCOPE.md",
-        "PUBLIC_REVIEW.md",
         "README.md",
         "SECURITY.md",
         "THIRD_PARTY_NOTICES.md",

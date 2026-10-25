@@ -11,4 +11,4 @@ node tests/test_bili_feed_safe.js
 python3 tools/check_public.py .
 ```
 
-服务测试只使用临时文件和回环端口；手机效果单独记录。新增第三方内容需保留作者及许可，见 [许可范围](LICENSE_SCOPE.md)。
+服务测试使用临时文件和回环端口。提交前另查敏感内容、Git 历史和提交身份；设备结果单独记录。新增第三方内容需保留作者与许可，见 [许可范围](LICENSE_SCOPE.md)。

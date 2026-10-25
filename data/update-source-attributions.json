@@ -1,6 +1,6 @@
 {
-  "review_date": "2026-10-23",
-  "scope": "Reference-only additions through r25, Android guidance and video routing v5; initial audit retained separately",
+  "review_date": "2026-10-25",
+  "scope": "Reference-only additions through r39 application diagnosis, Android guidance and video routing v5; initial audit retained separately",
   "sources": [
     {
       "name": "gkd-kit/gkd",
@@ -65,6 +65,133 @@
       "license_observation": "No standard license file in reviewed complete tree",
       "distribution": "Reference only; no upstream source, rule list or binary redistributed",
       "scope_note": ""
+    },
+    {
+      "name": "NanmiCoder/MediaCrawler",
+      "repository": "https://github.com/NanmiCoder/MediaCrawler",
+      "reviewed_ref": "8f583999006d5b692272c608440e193ca282e73b",
+      "review_date": "2026-10-25",
+      "metadata_spdx": "NOASSERTION",
+      "license_observation": "Non-Commercial Learning License 1.1",
+      "use": "Comment endpoint references",
+      "legal_files": [
+        {
+          "name": "LICENSE",
+          "path": "LICENSE",
+          "sha": "78408f6201d46f746850c039ae5754b8fcc4b6c1",
+          "url": "https://github.com/NanmiCoder/MediaCrawler/blob/8f583999006d5b692272c608440e193ca282e73b/LICENSE"
+        }
+      ],
+      "distribution": "Reference only; no executable code, rule body, binary or screenshot redistributed"
+    },
+    {
+      "name": "zly2006/zhurl",
+      "repository": "https://github.com/zly2006/zhurl",
+      "reviewed_ref": "ce5b8ce6076ec4c0f79c9b20d4b94545a4575f1c",
+      "review_date": "2026-10-25",
+      "metadata_spdx": null,
+      "license_observation": "No standard license identified in root listing",
+      "use": "Comment endpoint references",
+      "legal_files": [],
+      "distribution": "Reference only; no executable code, rule body, binary or screenshot redistributed"
+    },
+    {
+      "name": "cinit/QAuxiliary",
+      "repository": "https://github.com/cinit/QAuxiliary",
+      "reviewed_ref": "4791fc9615b766808aae31b28d67854d02f5fac5",
+      "review_date": "2026-10-25",
+      "metadata_spdx": "NOASSERTION",
+      "license_observation": "Custom General License v2; includes non-commercial conditions",
+      "use": "Android QQ UI research only",
+      "legal_files": [
+        {
+          "name": "LICENSE.md",
+          "path": "LICENSE.md",
+          "sha": "23b13fc95ae76bcb051d4d492553d0dea76e6ab8",
+          "url": "https://github.com/cinit/QAuxiliary/blob/4791fc9615b766808aae31b28d67854d02f5fac5/LICENSE.md"
+        }
+      ],
+      "distribution": "Reference only; no executable code, rule body, binary or screenshot redistributed"
+    },
+    {
+      "name": "wxs0625/loon-plugins",
+      "repository": "https://github.com/wxs0625/loon-plugins",
+      "reviewed_ref": "941e1e757bca2c16d7b1754023e0134c52093aba",
+      "review_date": "2026-10-25",
+      "metadata_spdx": null,
+      "license_observation": "No standard license identified in root listing",
+      "use": "Application rule/endpoint reference",
+      "legal_files": [],
+      "distribution": "Reference only; no executable code, rule body, binary or screenshot redistributed"
+    },
+    {
+      "name": "zirawell/R-Store",
+      "repository": "https://github.com/zirawell/R-Store",
+      "reviewed_ref": "02451c1fb536296842c950f94479141f08c30a03",
+      "review_date": "2026-10-25",
+      "metadata_spdx": "GPL-3.0",
+      "license_observation": "GPL-3.0",
+      "use": "Rule and endpoint reference",
+      "legal_files": [
+        {
+          "name": "LICENSE",
+          "path": "LICENSE",
+          "sha": "f288702d2fa16d3cdf0035b15a9fcbc552cd88e7",
+          "url": "https://github.com/zirawell/R-Store/blob/02451c1fb536296842c950f94479141f08c30a03/LICENSE"
+        }
+      ],
+      "distribution": "Reference only; no executable code, rule body, binary or screenshot redistributed"
+    },
+    {
+      "name": "letswish/Shadowrocket-Module",
+      "repository": "https://github.com/letswish/Shadowrocket-Module",
+      "reviewed_ref": "f693a8c83c254ac9937f4b78e96180ef82869328",
+      "review_date": "2026-10-25",
+      "metadata_spdx": null,
+      "license_observation": "No standard license identified in root listing",
+      "use": "Application rule/endpoint reference",
+      "legal_files": [],
+      "distribution": "Reference only; no executable code, rule body, binary or screenshot redistributed"
+    },
+    {
+      "name": "skernelx/SurgeScripts",
+      "repository": "https://github.com/skernelx/SurgeScripts",
+      "reviewed_ref": "406d5947e76299206ad0007cfc913f6ad6c95f0d",
+      "review_date": "2026-10-25",
+      "metadata_spdx": null,
+      "license_observation": "No standard license identified in root listing",
+      "use": "Application rule/endpoint reference",
+      "legal_files": [],
+      "distribution": "Reference only; no executable code, rule body, binary or screenshot redistributed"
+    },
+    {
+      "name": "Thelongdarkorg/loon-plugins",
+      "repository": "https://github.com/Thelongdarkorg/loon-plugins",
+      "reviewed_ref": "424f05ff0781b7a2b3effa6079ea891f9a8ed709",
+      "review_date": "2026-10-25",
+      "metadata_spdx": null,
+      "license_observation": "No standard license identified in root listing",
+      "use": "Application rule/endpoint reference",
+      "legal_files": [],
+      "distribution": "Reference only; no executable code, rule body, binary or screenshot redistributed"
+    },
+    {
+      "name": "Johnshall/Shadowrocket-ADBlock-Rules-Forever",
+      "repository": "https://github.com/Johnshall/Shadowrocket-ADBlock-Rules-Forever",
+      "reviewed_ref": "13a0de3b73929e67dbb5c2b4825a28b54c392e9f",
+      "review_date": "2026-10-25",
+      "metadata_spdx": "NOASSERTION",
+      "license_observation": "CC-BY-SA-4.0",
+      "use": "Public advertising domain-rule reference",
+      "legal_files": [
+        {
+          "name": "LICENSE",
+          "path": "LICENSE",
+          "sha": "a39cb308645246eb14b64520d8bc2561853fcdfe",
+          "url": "https://github.com/Johnshall/Shadowrocket-ADBlock-Rules-Forever/blob/13a0de3b73929e67dbb5c2b4825a28b54c392e9f/LICENSE"
+        }
+      ],
+      "distribution": "Reference only; no executable code, rule body, binary or screenshot redistributed"
     }
   ],
   "public_documentation": [

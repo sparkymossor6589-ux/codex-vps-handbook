@@ -19,4 +19,4 @@
 
 ## 署名与许可
 
-Xray 服务端样例参照 XTLS 示例与文档精简，来源、改动及 CC BY-SA 4.0 见 [同名许可说明](xray-server.json.example.license)。其他文件展示客户端字段约定与本项目编排，不主张协议、客户端或语法由本项目发明。完整范围见 [LICENSE_SCOPE.md](../LICENSE_SCOPE.md)。
+Xray 样例按 CC BY-SA 4.0 提供，来源和改动见 [许可说明](xray-server.json.example.license)。其余文件的授权见 [LICENSE_SCOPE.md](../LICENSE_SCOPE.md)。
