@@ -1,5 +1,5 @@
 {
-  "review_date": "2026-10-22",
+  "review_date": "2026-10-25",
   "sources": [
     {
       "name": "OpenAI 官方 Codex 文档",
@@ -48,6 +48,51 @@
       "usage": "外部客户端；不分发安装包、商标图像或声称为本项目开发；社区手册许可不等于客户端许可",
       "redistributed": false,
       "license_inferred_from_public_access": false
+    },
+    {
+      "name": "AWS Free Tier 账户计划",
+      "credit": "Amazon Web Services",
+      "url": "https://docs.aws.amazon.com/awsaccountbilling/latest/aboutv2/free-tier-plans.html",
+      "usage": "新用户注册赠金、免费与付费计划差异的事实参考；仅概括与链接，不转载正文",
+      "redistributed": false,
+      "license_inferred_from_public_access": false,
+      "checked_on": "2026-10-25"
+    },
+    {
+      "name": "AWS Free Tier FAQ",
+      "credit": "Amazon Web Services",
+      "url": "https://aws.amazon.com/free/free-tier-faqs/",
+      "usage": "赠金有效期、升级和抵扣条件的事实参考；仅概括与链接，不转载正文",
+      "redistributed": false,
+      "license_inferred_from_public_access": false,
+      "checked_on": "2026-10-25"
+    },
+    {
+      "name": "Amazon Lightsail 免费额度",
+      "credit": "Amazon Web Services",
+      "url": "https://aws.amazon.com/free/compute/lightsail/",
+      "usage": "Lightsail 赠金适用范围的事实参考；仅概括与链接，不转载正文",
+      "redistributed": false,
+      "license_inferred_from_public_access": false,
+      "checked_on": "2026-10-25"
+    },
+    {
+      "name": "Amazon Lightsail 定价",
+      "credit": "Amazon Web Services",
+      "url": "https://aws.amazon.com/lightsail/pricing/",
+      "usage": "带公网 IPv4 的 Linux 套餐价格与规格参考；仅概括与链接，不转载正文",
+      "redistributed": false,
+      "license_inferred_from_public_access": false,
+      "checked_on": "2026-10-25"
+    },
+    {
+      "name": "Amazon Lightsail 计费说明",
+      "credit": "Amazon Web Services",
+      "url": "https://docs.aws.amazon.com/lightsail/latest/userguide/amazon-lightsail-frequently-asked-questions-faq-billing-and-account-management.html",
+      "usage": "计费与停止实例仍计费的事实参考；仅概括与链接，不转载正文",
+      "redistributed": false,
+      "license_inferred_from_public_access": false,
+      "checked_on": "2026-10-25"
     }
   ]
 }

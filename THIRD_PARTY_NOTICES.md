@@ -45,6 +45,8 @@
 | [Python 运行时与标准库](https://docs.python.org/3/license.html) | Python Software Foundation / Python contributors；参考程序使用标准库接口；不打包 Python 运行时或库源码 |
 | [Shadowrocket 客户端](https://apps.apple.com/app/shadowrocket/id932747118) | Shadow Launch Technology Limited；外部客户端；不分发安装包、商标图像或声称为本项目开发；社区手册许可不等于客户端许可 |
 
+本次费用部分另核对 AWS 的[账户计划](https://docs.aws.amazon.com/awsaccountbilling/latest/aboutv2/free-tier-plans.html)、[Free Tier FAQ](https://aws.amazon.com/free/free-tier-faqs/)、[Lightsail 赠金范围](https://aws.amazon.com/free/compute/lightsail/)、[套餐价格](https://aws.amazon.com/lightsail/pricing/)及[计费说明](https://docs.aws.amazon.com/lightsail/latest/userguide/amazon-lightsail-frequently-asked-questions-faq-billing-and-account-management.html)。署名 Amazon Web Services，仅作事实概括与链接，不转载正文；核对日期 2026-10-25。
+
 ## 后续补充（仅引用）
 
 | 来源与作者 | 使用范围 | 本次核对与分发边界 |

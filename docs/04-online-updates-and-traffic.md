@@ -14,4 +14,4 @@
 
 源码读取服务器网卡收发计数，显示月度估算，**不是云账单**。首次采样纳入本次启动以来的计数；迁移到运行已久的机器前需核对初始化口径。跨月间隔新增量记入采样月份，UTC 月初重置（北京时间 1 日 08:00）。
 
-配额为本地显示参数，计费以 [Lightsail 实际规则](https://docs.aws.amazon.com/lightsail/latest/userguide/amazon-lightsail-faq-data-transfer-allowance.html)和账单为准。
+订阅显示的剩余流量与 AWS 赠金余额是两回事；赠金需在账单控制台查看，见[预算说明](01-start-with-codex.md)。配额为本地显示参数，计费以 [Lightsail 实际规则](https://docs.aws.amazon.com/lightsail/latest/userguide/amazon-lightsail-faq-data-transfer-allowance.html)和账单为准。
